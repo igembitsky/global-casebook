@@ -1,0 +1,416 @@
+{
+ "cureus-kenya-shock-case1-diarrhea": {
+  "ok": true,
+  "official_title": "International Pediatric Emergency Medicine and Critical Care Fellow Education: Utilizing Virtual Resuscitation Simulation in Settings With Differing Resources.",
+  "date": "2022 Feb",
+  "first_author": "Maloney CE"
+ },
+ "cureus-kenya-shock-case2-electrolytes": {
+  "ok": true,
+  "official_title": "International Pediatric Emergency Medicine and Critical Care Fellow Education: Utilizing Virtual Resuscitation Simulation in Settings With Differing Resources.",
+  "date": "2022 Feb",
+  "first_author": "Maloney CE"
+ },
+ "cureus-kenya-shock-case3-septic": {
+  "ok": true,
+  "official_title": "International Pediatric Emergency Medicine and Critical Care Fellow Education: Utilizing Virtual Resuscitation Simulation in Settings With Differing Resources.",
+  "date": "2022 Feb",
+  "first_author": "Maloney CE"
+ },
+ "cureus-malawi-young-infant-resus": {
+  "ok": true,
+  "official_title": "A Simulation Scenario Focused on Resuscitation of a Young Infant (Neonate) for Nurses and Midwives in Malawi, a Limited Resource Country.",
+  "date": "2018 May 22",
+  "first_author": "Chimbe Phiri E"
+ },
+ "cureus-postpartum-magnesium-overdose": {
+  "ok": true,
+  "official_title": "Postpartum Magnesium Sulfate Overdose: A Multidisciplinary and Interprofessional Simulation Scenario.",
+  "date": "2018 Apr 7",
+  "first_author": "Garber A"
+ },
+ "cureus-eclampsia-india-rct": {
+  "ok": true,
+  "official_title": "Effectiveness of Simulation-Based Training of Undergraduate Medical Students Regarding the Management of Eclampsia: A Randomized Controlled Educational Trial.",
+  "date": "2024 Apr",
+  "first_author": "Mangla M"
+ },
+ "cureus-obstetric-emergencies-midwifery-india": {
+  "ok": true,
+  "official_title": "Impact of an Obstetrical Emergency Simulation Learning Module on Midwifery Students' Competency: A Non-randomized Control Study.",
+  "date": "2025 Mar",
+  "first_author": "Kannappan S"
+ },
+ "cureus-pediatric-rattlesnake-envenomation": {
+  "ok": true,
+  "official_title": "Pediatric Rattlesnake Envenomation: A Simulation Scenario With Optional Health Equity, Virtual Facilitation, and Senior Learner Modifications.",
+  "date": "2021 Sep",
+  "first_author": "Joseph MN"
+ },
+ "cureus-pediatric-pedestrian-mva": {
+  "ok": true,
+  "official_title": "Pediatric Motor Vehicle-Pedestrian Accident: a Simulation Scenario for Emergency Medicine Trainees.",
+  "date": "2017 Feb 23",
+  "first_author": "Mathieson S"
+ },
+ "cureus-prehospital-rural-trauma": {
+  "ok": true,
+  "official_title": "Prehospital Trauma Care: A Simulation Scenario for Rural-Based Healthcare Providers.",
+  "date": "2020 Jun 25",
+  "first_author": "McCarthy R"
+ },
+ "cureus-fall-from-height-polytrauma": {
+  "ok": true,
+  "official_title": "Initial Resuscitation of a Multisystem Trauma Patient Following a Fall From Height: A Complete Simulation Scenario for Medical Students.",
+  "date": "2021 Jan 30",
+  "first_author": "Grcevich LO"
+ },
+ "cureus-dka-em-scenario": {
+  "ok": true,
+  "official_title": "Diabetic Ketoacidosis: An Emergency Medicine Simulation Scenario.",
+  "date": "2017 May 29",
+  "first_author": "Addison R"
+ },
+ "cureus-adolescent-alcohol-toxicity": {
+  "ok": true,
+  "official_title": "Two Simulation Cases to Prepare for a Public Festival: Pediatric Methylenedioxymethamphetamine (MDMA) Ingestion and Alcohol Toxicity.",
+  "date": "2018 Feb 21",
+  "first_author": "Roben EZ"
+ },
+ "cureus-chest-pain-ward-cardiogenic-shock": {
+  "ok": true,
+  "official_title": "Chest Pain on the Ward: A Simulation Scenario for Rural Family and Emergency Medicine Trainees.",
+  "date": "2020 Jun 28",
+  "first_author": "Williams KL"
+ },
+ "cureus-inferior-stemi": {
+  "ok": true,
+  "official_title": "Diagnosis and Management of an Inferior ST-elevation Myocardial Infarction: A Simulation Scenario.",
+  "date": "2019 Feb 1",
+  "first_author": "Whalen D"
+ },
+ "cureus-necrotizing-fasciitis": {
+  "ok": true,
+  "official_title": "Necrotizing Fasciitis: An Emergency Medicine Simulation Scenario.",
+  "date": "2016 Aug 31",
+  "first_author": "Galust H"
+ },
+ "cureus-neonatal-nec-sepsis": {
+  "ok": true,
+  "official_title": "Simulation of an Atypical Presentation of Necrotizing Enterocolitis in the Emergency Department.",
+  "date": "2021 Jan 10",
+  "first_author": "Simpson J"
+ },
+ "cureus-asthma-exacerbation": {
+  "ok": true,
+  "official_title": "Asthma Exacerbation: An Emergency Medicine Simulation Scenario.",
+  "date": "2015 Mar",
+  "first_author": "Angus K"
+ },
+ "nwaneli-2022-congenital-cerebral-malaria-nigeria": {
+  "ok": true,
+  "official_title": "Congenital cerebral malaria: a masquerader in a neonate.",
+  "date": "2022 Feb 5",
+  "first_author": "Nwaneli EI"
+ },
+ "phyo-2018-severe-malaria-artesunate-thai-myanmar": {
+  "ok": true,
+  "official_title": "Poor response to artesunate treatment in two patients with severe malaria on the Thai-Myanmar border.",
+  "date": "2018 Jan 15",
+  "first_author": "Phyo AP"
+ },
+ "goldman-2012-duodenal-perforation-severe-malaria-ghana": {
+  "ok": true,
+  "official_title": "Duodenal perforation in a 12-month old child with severe malaria.",
+  "date": "2012",
+  "first_author": "Goldman N"
+ },
+ "maude-2009-retinal-whitening-cerebral-malaria": {
+  "ok": true,
+  "official_title": "Severe retinal whitening in an adult with cerebral malaria.",
+  "date": "2009 Jun",
+  "first_author": "Maude RJ"
+ },
+ "mukhtar-2019-vivax-cerebral-malaria-sudan": {
+  "ok": true,
+  "official_title": "Plasmodium vivax cerebral malaria in an adult patient in Sudan.",
+  "date": "2019 Sep 18",
+  "first_author": "Mukhtar MM"
+ },
+ "sharifi-2024-infant-tb-meningitis": {
+  "ok": true,
+  "official_title": "An 11-month-old boy with tuberculous meningitis presenting as progressive limb weakness, fever, developmental retardation, and loss of consciousness: a case report.",
+  "date": "2024 Apr 27",
+  "first_author": "Sharifi G"
+ },
+ "poudel-2021-xpert-negative-tb-meningitis-nepal": {
+  "ok": true,
+  "official_title": "Use of alternative cerebrospinal fluid-based biomarkers to help diagnose Xpert-negative tuberculous meningitis: A case report.",
+  "date": "2021 Jul",
+  "first_author": "Poudel D"
+ },
+ "satti-2013-dr-tb-hiv-lesotho": {
+  "ok": true,
+  "official_title": "Drug-resistant tuberculosis treatment complicated by antiretroviral resistance in HIV coinfected patients: a report of six cases in Lesotho.",
+  "date": "2013 Jul",
+  "first_author": "Satti H"
+ },
+ "bollineni-2024-mdr-tb-lung-abscess-india": {
+  "ok": true,
+  "official_title": "Lung abscess complicating a case of multidrug-resistant tuberculosis.",
+  "date": "2024",
+  "first_author": "Bollineni S"
+ },
+ "ellis-2018-cryptococcal-iris-stroke-malawi": {
+  "ok": true,
+  "official_title": "Ischemic stroke as a complication of cryptococcal meningitis and immune reconstitution inflammatory syndrome: a case report.",
+  "date": "2018 Oct 16",
+  "first_author": "Ellis JP"
+ },
+ "otto-2020-pediatric-cryptococcal-iris-uganda": {
+  "ok": true,
+  "official_title": "Cryptococcal meningitis and immune reconstitution inflammatory syndrome in a pediatric patient with HIV after switching to second line antiretroviral therapy: a case report.",
+  "date": "2020 Jan 21",
+  "first_author": "Otto SBJ"
+ },
+ "more-2016-postpartum-vision-loss-cryptococcal-india": {
+  "ok": true,
+  "official_title": "Acute vision loss in post-partum period as presenting symptom of HIV-associated cryptococcal meningitis-an unusual case report.",
+  "date": "2016 Oct 19",
+  "first_author": "More A"
+ },
+ "gunda-2015-pulmonary-cryptococcosis-new-hiv-tanzania": {
+  "ok": true,
+  "official_title": "Pulmonary cryptococcosis presenting as acute severe respiratory distress in a newly diagnosed HIV patient in Tanzania: a case report.",
+  "date": "2015 Sep",
+  "first_author": "Gunda DW"
+ },
+ "samarasekara-2018-dengue-shock-sri-lanka": {
+  "ok": true,
+  "official_title": "Dengue shock syndrome complicated with acute liver failure and kidney injury, infective endocarditis, and deep vein thrombosis: a case report.",
+  "date": "2018 Oct 30",
+  "first_author": "Samarasekara K"
+ },
+ "thadchanamoorthy-2022-expanded-dengue-child-sri-lanka": {
+  "ok": true,
+  "official_title": "Expanded dengue syndrome presenting with acute liver failure, acute kidney injury, pancreatic involvement, coagulopathy, and multiple intracranial hemorrhages in a young child: a case report.",
+  "date": "2022 Mar 29",
+  "first_author": "Thadchanamoorthy V"
+ },
+ "yadav-2024-dengue-acute-liver-failure-india": {
+  "ok": true,
+  "official_title": "Case Report: Dengue Fever Progressing to Acute Liver Failure and Hepatic Encephalopathy.",
+  "date": "2024 Sep 4",
+  "first_author": "Yadav V"
+ },
+ "khanam-2021-typhoid-ileal-perforation-dhaka": {
+  "ok": true,
+  "official_title": "Case Report: Typhoid Fever Complicated by Ileal Perforation in an Urban Slum of Dhaka, Bangladesh.",
+  "date": "2021 Mar 22",
+  "first_author": "Khanam F"
+ },
+ "al-reesi-2016-child-typhoid-thrombocytopenia": {
+  "ok": true,
+  "official_title": "Severe thrombocytopenia in a child with typhoid fever: a case report.",
+  "date": "2016 Nov 30",
+  "first_author": "Al Reesi M"
+ },
+ "afsar-2025-typhoid-neurological-bangladesh": {
+  "ok": true,
+  "official_title": "A case of typhoid fever with neurological presentation.",
+  "date": "2025",
+  "first_author": "Afsar NS"
+ },
+ "bhandari-2024-meningococcal-child-bhutan": {
+  "ok": true,
+  "official_title": "Fatal case of meningococcal meningitis in a child from rural Bhutan: A case report.",
+  "date": "2024 Sep",
+  "first_author": "Bhandari P"
+ },
+ "ayen-2026-meningococcal-waterhouse-friderichsen-ethiopia": {
+  "ok": true,
+  "official_title": "Presumed Meningococcal meningitis with Waterhouse-Friderichsen syndrome from a rural Ethiopia: a fatal case report and literature review.",
+  "date": "2026 Jun",
+  "first_author": "Ayen AA"
+ },
+ "mohapatra-2024-disseminated-melioidosis-india": {
+  "ok": true,
+  "official_title": "Disseminated melioidosis-challenge to routine antibiotic therapy: a case report.",
+  "date": "2024 Oct 9",
+  "first_author": "Mohapatra A"
+ },
+ "dal-canto-2023-sam-amoebic-dysentery-shock-sudan": {
+  "ok": true,
+  "official_title": "Amoebic Dysentery Complicated by Hypovolemic Shock and Sepsis in an Infant with Severe Acute Malnutrition: A Case Report.",
+  "date": "2023 Jan 8",
+  "first_author": "Dal Canto G"
+ },
+ "sharif-2024-russells-viper-bangladesh": {
+  "ok": true,
+  "official_title": "Optimizing survival in Russell's viper bite cases in low-resource setting: two case reports.",
+  "date": "2024 Feb 15",
+  "first_author": "Sharif M"
+ },
+ "dalugama-2017-ceylon-krait-sri-lanka": {
+  "ok": true,
+  "official_title": "Confirmed Ceylon krait (Bungarus ceylonicus) envenoming in Sri Lanka resulting in neuromuscular paralysis: a case report.",
+  "date": "2017 Nov 24",
+  "first_author": "Dalugama C"
+ },
+ "senthilkumaran-2021-russells-viper-priapism-india": {
+  "ok": true,
+  "official_title": "Priapism following a juvenile Russell's viper bite: An unusual case report.",
+  "date": "2021 Mar",
+  "first_author": "Senthilkumaran S"
+ },
+ "nguyen-2025-cobra-bite-vibrio-sepsis-vietnam": {
+  "ok": true,
+  "official_title": "Vibrio vulnificus sepsis following Naja atra Snakebite: A rare case report from Vietnam.",
+  "date": "2025",
+  "first_author": "Nguyen DD"
+ },
+ "tianyi-2017-snakebite-face-child-cameroon": {
+  "ok": true,
+  "official_title": "Shortcomings in snake bite management in rural Cameroon: a case report.",
+  "date": "2017 Jun 8",
+  "first_author": "Tianyi FL"
+ },
+ "erulu-2018-black-mamba-kenya": {
+  "ok": true,
+  "official_title": "Revered but Poorly Understood: A Case Report of Dendroaspis polylepis (Black Mamba) Envenomation in Watamu, Malindi Kenya, and a Review of the Literature.",
+  "date": "2018 Sep 19",
+  "first_author": "Erulu VE"
+ },
+ "adewole-2017-snakebite-pregnancy-nigeria": {
+  "ok": true,
+  "official_title": "Snake bite in third trimester of pregnancy with systemic envenomation and delivery of a live baby in a low resource setting: A case report.",
+  "date": "2017 Oct",
+  "first_author": "Adewole AA"
+ },
+ "olum-2021-orbital-compression-sickle-cell-uganda": {
+  "ok": true,
+  "official_title": "Orbital compression syndrome in a Ugandan child with sickle cell disease: A case report.",
+  "date": "2021 Sep",
+  "first_author": "Olum R"
+ },
+ "ogwang-2022-sickle-cell-stroke-uganda": {
+  "ok": true,
+  "official_title": "Hair-on-End Sign in a 9-Year-Old Girl Presenting with Acute Stroke in Sickle Cell Disease.",
+  "date": "2022",
+  "first_author": "Ogwang E"
+ },
+ "okema-2026-sickle-cell-mimicking-severe-malaria-uganda": {
+  "ok": true,
+  "official_title": "Orbital Compression Syndrome Mimicking Severe Malaria in a Child with Sickle Cell Disease in a Ugandan Refugee Settlement: A Case Report.",
+  "date": "2026",
+  "first_author": "Okema JN"
+ },
+ "ibrahim-2019-sickle-cell-dka-nigeria": {
+  "ok": true,
+  "official_title": "Diabetic-ketoacidosis in a nine-year-old child with homozygous sickle cell anaemia: a rare case report.",
+  "date": "2019",
+  "first_author": "Ibrahim N"
+ },
+ "tih-2023-sickle-cell-crisis-twin-pregnancy-cameroon": {
+  "ok": true,
+  "official_title": "Preterm management of sickle cell crisis in a twin pregnancy with suboptimal antenatal care in a primary healthcare facility: A case report from Cameroon and literature review.",
+  "date": "2023 Oct",
+  "first_author": "Tih WN"
+ },
+ "ziruma-2017-rhd-pregnancy-zimbabwe": {
+  "ok": true,
+  "official_title": "Rheumatic heart disease in pregnancy: a report of 2 cases.",
+  "date": "2017",
+  "first_author": "Ziruma A"
+ },
+ "sharma-2026-ortner-syndrome-rhd-nepal": {
+  "ok": true,
+  "official_title": "Reversible Ortner's syndrome in a woman with decompensated rheumatic heart disease: a case report.",
+  "date": "2026 Jul 2",
+  "first_author": "Sharma P"
+ },
+ "shrestha-2024-rhd-atrial-fibrillation-stroke-nepal": {
+  "ok": true,
+  "official_title": "Lateral medullary syndrome resulting from atrial fibrillation due to rheumatic heart disease: A case report and literature review.",
+  "date": "2024 Jul",
+  "first_author": "Shrestha S"
+ },
+ "vijayasankar-2021-flaky-paint-dermatosis-kwashiorkor-india": {
+  "ok": true,
+  "official_title": "Flaky Paint Dermatosis in Kwashiorkor.",
+  "date": "2021 Oct 4",
+  "first_author": "Vijayasankar P"
+ },
+ "kamaruzaman-2020-infant-kwashiorkor-malaysia": {
+  "ok": true,
+  "official_title": "An infant with kwashiorkor: The forgotten disease.",
+  "date": "2020",
+  "first_author": "Kamaruzaman NA"
+ },
+ "alemayehu-2019-child-hcc-hbv-ethiopia": {
+  "ok": true,
+  "official_title": "Hepatocellular carcinoma with vertebral metastasis in a child with hepatitis B virus infection: a case report.",
+  "date": "2019 May 27",
+  "first_author": "Alemayehu T"
+ },
+ "danso-2022-teen-hcc-hbv-ghana": {
+  "ok": true,
+  "official_title": "A case report of a teenager with hepatitis B surface antigen-positive multifocal hepatocellular carcinoma in a noncirrhotic liver.",
+  "date": "2022 Mar",
+  "first_author": "Danso KA"
+ },
+ "rashid-2013-hbv-screening-family-nigeria": {
+  "ok": true,
+  "official_title": "Hepatitis B virus screening and vaccination in a family from Nigeria.",
+  "date": "2013 Nov 5",
+  "first_author": "Rashid M"
+ },
+ "gurunathan-2022-verrucous-carcinoma-buccal-india": {
+  "ok": true,
+  "official_title": "Verrucous carcinoma of buccal mucosa in female - a rare case scenario.",
+  "date": "2022",
+  "first_author": "Gurunathan N"
+ },
+ "chaurasia-2025-oscc-oral-submucous-fibrosis-india": {
+  "ok": true,
+  "official_title": "HPV-Negative Oral Squamous Cell Carcinoma Arising from Oral Submucous Fibrosis with p16INK4A Positivity and Cellular Senescence: A Case Report.",
+  "date": "2025 Apr",
+  "first_author": "Chaurasia A"
+ },
+ "ngalla-2024-cervical-cancer-cameroon": {
+  "ok": true,
+  "official_title": "Challenges faced in managing cervical cancer patients who present post-operatively with more advanced disease in LMICs: Case studies from Cameroon.",
+  "date": "2024 Oct",
+  "first_author": "Ngalla C"
+ },
+ "abasiattai-2022-cervical-tb-mimicking-cancer-nigeria": {
+  "ok": true,
+  "official_title": "Tuberculosis of the Cervix Mimicking Cervical Carcinoma: A Case Report.",
+  "date": "2022 Jul-Aug",
+  "first_author": "Abasiattai AM"
+ },
+ "chowdhury-2010-severe-watery-diarrhea-dhaka": {
+  "ok": true,
+  "official_title": "Severe, acute watery diarrhea in an adult.",
+  "date": "2010 Nov 30",
+  "first_author": "Chowdhury F"
+ },
+ "ivers-2012-first-cholera-case-haiti": {
+  "ok": true,
+  "official_title": "The \"first\" case of cholera in Haiti: lessons for global health.",
+  "date": "2012 Jan",
+  "first_author": "Ivers LC"
+ },
+ "wilson-2017-speed-adolescent-hiv-sp": {
+  "ok": true,
+  "official_title": "Simulated patient encounters to improve adolescent retention in HIV care in Kenya: study protocol of a stepped-wedge randomized controlled trial.",
+  "date": "2017 Dec 28",
+  "first_author": "Wilson KS"
+ },
+ "polivka-2024-breaking-bad-news-breast-cancer": {
+  "ok": false,
+  "official_title": "Breaking bad news: an active learning method for medical students.",
+  "date": "2024 Sep 12",
+  "first_author": "Polivka L"
+ }
+}

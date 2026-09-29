@@ -1,0 +1,203 @@
+[
+ {
+  "id": "gha-site",
+  "group": "Partner countries",
+  "name": "Global Health Academy website",
+  "publisher": "Majid Sadigh MD Global Health Academy",
+  "url": "https://www.theglobalhealthacademy.org",
+  "brief": "The list of the ten international partner countries and the domestic partners.",
+  "authority": "The Academy's own public website is the primary record of its partnerships.",
+  "used_for": "The eleven countries in this library."
+ },
+ {
+  "id": "who-ghe",
+  "group": "Top conditions per country",
+  "name": "WHO Global Health Estimates 2021",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/data/global-health-estimates",
+  "brief": "WHO's estimates of deaths and disability-adjusted life years (DALYs) for every cause, country, age and sex. We used the 2021 country data for all ages and both sexes.",
+  "authority": "The official WHO estimates that ministries of health and the UN use to compare countries. One method for all countries, so the ranks are comparable.",
+  "used_for": "The ten ranked conditions for each country, with their DALY rate, share and death rank.",
+  "api": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD"
+ },
+ {
+  "id": "who-country",
+  "group": "Top conditions per country",
+  "name": "WHO country data pages",
+  "publisher": "World Health Organization",
+  "url": "https://data.who.int/countries/",
+  "brief": "The public WHO page for each country. It shows the same Global Health Estimates in charts.",
+  "authority": "Published by WHO from the same data set as above.",
+  "used_for": "The source link for each country in the country view."
+ },
+ {
+  "id": "who-gho-htn",
+  "group": "Local priority conditions",
+  "name": "WHO Global Health Observatory: hypertension",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure",
+  "brief": "The share of adults aged 30 to 79 with high blood pressure, and the share who have it under control, by country (2019).",
+  "authority": "WHO estimates from the NCD Risk Factor Collaboration, based on national population surveys.",
+  "used_for": "Hypertension as a local priority."
+ },
+ {
+  "id": "who-mmeig",
+  "group": "Local priority conditions",
+  "name": "Maternal mortality estimates (WHO/UN MMEIG)",
+  "publisher": "WHO, UNICEF, UNFPA, World Bank and UN Population Division",
+  "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)",
+  "brief": "Deaths of mothers per 100,000 live births, by country (2023).",
+  "authority": "The joint UN estimates used to track Sustainable Development Goal 3.1.",
+  "used_for": "Maternal conditions as a local priority."
+ },
+ {
+  "id": "who-tb",
+  "group": "Local priority conditions",
+  "name": "WHO Global Tuberculosis Programme data",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/data",
+  "brief": "WHO's yearly estimates of new TB cases by country, and the list of high TB burden countries.",
+  "authority": "The source for the WHO Global Tuberculosis Report, built with national TB programs.",
+  "used_for": "TB figures and TB as a local priority."
+ },
+ {
+  "id": "who-hiv",
+  "group": "Local priority conditions",
+  "name": "WHO Global Health Observatory: HIV",
+  "publisher": "World Health Organization with UNAIDS",
+  "url": "https://www.who.int/data/gho/data/themes/hiv-aids",
+  "brief": "Estimates of people living with HIV, new infections and treatment coverage by country.",
+  "authority": "Joint WHO and UNAIDS estimates, built from national HIV program data.",
+  "used_for": "HIV figures and HIV as a local priority."
+ },
+ {
+  "id": "who-malaria",
+  "group": "Local priority conditions",
+  "name": "WHO malaria case estimates",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases",
+  "brief": "Estimated malaria cases per country and year.",
+  "authority": "The data behind the WHO World Malaria Report.",
+  "used_for": "Malaria figures and malaria as a local priority."
+ },
+ {
+  "id": "who-don",
+  "group": "Local priority conditions",
+  "name": "WHO Disease Outbreak News: dengue, global situation (2023)",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498",
+  "brief": "WHO's report on the 2023 dengue season, with cases and deaths reported by each country.",
+  "authority": "Official WHO outbreak report, based on numbers that countries report to WHO.",
+  "used_for": "Dengue as a local priority in the Philippines, Thailand and Vietnam."
+ },
+ {
+  "id": "paho-dengue",
+  "group": "Local priority conditions",
+  "name": "PAHO epidemiological alert: dengue (October 2024)",
+  "publisher": "Pan American Health Organization",
+  "url": "https://www.paho.org/sites/default/files/2024-10/2024-oct-07-phe-epi-alert-dengue-final.pdf",
+  "brief": "Dengue cases, severe cases and deaths reported in the Americas in 2024.",
+  "authority": "PAHO is the WHO regional office for the Americas. The numbers come from national surveillance.",
+  "used_for": "Dengue as a local priority in the Dominican Republic."
+ },
+ {
+  "id": "cdc-mmwr-dengue",
+  "group": "Local priority conditions",
+  "name": "CDC MMWR: dengue in Puerto Rico, 2024",
+  "publisher": "US Centers for Disease Control and Prevention",
+  "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7405a1.htm",
+  "brief": "The CDC report on the 2024 dengue emergency in Puerto Rico.",
+  "authority": "MMWR is the CDC's official weekly report, reviewed by CDC scientists.",
+  "used_for": "Dengue as a local priority for Puerto Rico."
+ },
+ {
+  "id": "cdc-nchs",
+  "group": "Local priority conditions",
+  "name": "CDC National Center for Health Statistics: suicide",
+  "publisher": "US Centers for Disease Control and Prevention",
+  "url": "https://www.cdc.gov/nchs/fastats/suicide.htm",
+  "brief": "The official count of suicide deaths in the United States.",
+  "authority": "NCHS is the US federal statistics agency for death certificates.",
+  "used_for": "Self-harm and suicide as a local priority for the United States."
+ },
+ {
+  "id": "iarc-globocan",
+  "group": "Local priority conditions",
+  "name": "IARC GLOBOCAN cancer fact sheets",
+  "publisher": "International Agency for Research on Cancer (WHO)",
+  "url": "https://gco.iarc.who.int/today",
+  "brief": "New cancer cases and cancer deaths by type, for each country.",
+  "authority": "IARC is the WHO cancer agency. GLOBOCAN is the standard source for national cancer statistics.",
+  "used_for": "Cervical cancer (Botswana, Zimbabwe) and prostate cancer (Jamaica)."
+ },
+ {
+  "id": "mds-snakebite",
+  "group": "Local priority conditions",
+  "name": "Million Death Study: snakebite deaths in India",
+  "publisher": "Suraweera et al., eLife 2020, reported by WHO",
+  "url": "https://www.who.int/news/item/10-07-2020-study-estimates-more-than-one-million-indians-died-from-snakebite-envenoming-over-past-two-decades",
+  "brief": "A national study of causes of death in India. It estimates about 58,000 snakebite deaths each year.",
+  "authority": "Peer-reviewed study, with WHO as a partner, based on a nationally representative death survey.",
+  "used_for": "Snakebite as a local priority in India."
+ },
+ {
+  "id": "us3-uganda",
+  "group": "Local priority conditions",
+  "name": "Uganda Sickle Surveillance Study",
+  "publisher": "Ndeezi et al., Lancet Global Health 2016",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/26833239/",
+  "brief": "A national survey of 97,631 infants (tested through the HIV early infant diagnosis program) for sickle cell trait and disease in Uganda.",
+  "authority": "Peer-reviewed national survey, done with the Uganda Ministry of Health.",
+  "used_for": "Sickle cell disease as a local priority in Uganda."
+ },
+ {
+  "id": "jam-nbs",
+  "group": "Local priority conditions",
+  "name": "Jamaica newborn sickle cell screening",
+  "publisher": "Serjeant et al., Journal of Community Genetics 2017",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/27796853/",
+  "brief": "Results of newborn screening for sickle cell disease in Jamaica.",
+  "authority": "Peer-reviewed study of a screening program run with the Jamaica Ministry of Health.",
+  "used_for": "Sickle cell disease as a local priority in Jamaica."
+ },
+ {
+  "id": "who-wpro-hep",
+  "group": "Local priority conditions",
+  "name": "WHO Western Pacific: hepatitis in Viet Nam",
+  "publisher": "WHO Regional Office for the Western Pacific",
+  "url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/don-t-wait-for-symptoms---get-checked-for-hepatitis--say-liver-cancer-patient-and-experts-in-viet-nam-ahead-of-world-hepatitis-day",
+  "brief": "WHO's 2025 report on hepatitis B and C in Viet Nam and their link to liver cancer.",
+  "authority": "Published by the WHO regional office with the Viet Nam Ministry of Health.",
+  "used_for": "Chronic hepatitis as a local priority in Vietnam."
+ },
+ {
+  "id": "crossref",
+  "group": "Case catalog",
+  "name": "Crossref",
+  "publisher": "Crossref (DOI registration agency)",
+  "url": "https://www.crossref.org",
+  "brief": "The registry where MedEdPORTAL records each publication's DOI, title and authors.",
+  "authority": "Crossref holds the publisher's own record for each DOI. We used it to check every title in this library.",
+  "used_for": "Checking that each MedEdPORTAL case is real and that its title is correct."
+ },
+ {
+  "id": "openalex",
+  "group": "Case catalog",
+  "name": "OpenAlex",
+  "publisher": "OurResearch (nonprofit)",
+  "url": "https://openalex.org",
+  "brief": "An open index of scholarly works. It gave us the title, authors and abstract of every MedEdPORTAL publication.",
+  "authority": "A free, open catalog built from Crossref, PubMed and publisher data, widely used in research on publications.",
+  "used_for": "Reading all 3,346 MedEdPORTAL abstracts to find the usable cases."
+ },
+ {
+  "id": "doi-org",
+  "group": "Case catalog",
+  "name": "DOI resolver (doi.org)",
+  "publisher": "International DOI Foundation",
+  "url": "https://www.doi.org",
+  "brief": "The service that sends a DOI to the publisher's page.",
+  "authority": "The official resolver for all DOIs.",
+  "used_for": "Checking that every MedEdPORTAL link opens the right publication."
+ }
+]

@@ -1,0 +1,2509 @@
+[
+ {
+  "url": "https://www.theglobalhealthacademy.org",
+  "status": 200,
+  "final": "https://www.theglobalhealthacademy.org"
+ },
+ {
+  "url": "https://www.who.int/data/global-health-estimates",
+  "status": 200,
+  "final": "https://www.who.int/data/global-health-estimates"
+ },
+ {
+  "url": "https://data.who.int/countries/",
+  "status": 200,
+  "final": "https://data.who.int/countries/"
+ },
+ {
+  "url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure",
+  "status": 200,
+  "final": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+ },
+ {
+  "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)",
+  "status": 200,
+  "final": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)"
+ },
+ {
+  "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/data",
+  "status": 200,
+  "final": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/data"
+ },
+ {
+  "url": "https://www.who.int/data/gho/data/themes/hiv-aids",
+  "status": 200,
+  "final": "https://www.who.int/data/gho/data/themes/hiv-aids"
+ },
+ {
+  "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases",
+  "status": 200,
+  "final": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases"
+ },
+ {
+  "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498",
+  "status": 200,
+  "final": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498"
+ },
+ {
+  "url": "https://www.paho.org/sites/default/files/2024-10/2024-oct-07-phe-epi-alert-dengue-final.pdf",
+  "status": 200,
+  "final": "https://www.paho.org/sites/default/files/2024-10/2024-oct-07-phe-epi-alert-dengue-final.pdf"
+ },
+ {
+  "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7405a1.htm",
+  "status": 403,
+  "final": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7405a1.htm"
+ },
+ {
+  "url": "https://www.cdc.gov/nchs/fastats/suicide.htm",
+  "status": 403,
+  "final": "https://www.cdc.gov/nchs/fastats/suicide.htm"
+ },
+ {
+  "url": "https://gco.iarc.who.int/today",
+  "status": 200,
+  "final": "https://gco.iarc.who.int/today/"
+ },
+ {
+  "url": "https://www.who.int/news/item/10-07-2020-study-estimates-more-than-one-million-indians-died-from-snakebite-envenoming-over-past-two-decades",
+  "status": 200,
+  "final": "https://www.who.int/news/item/10-07-2020-study-estimates-more-than-one-million-indians-died-from-snakebite-envenoming-over-past-two-decades"
+ },
+ {
+  "url": "https://pubmed.ncbi.nlm.nih.gov/26833239/",
+  "status": 203,
+  "final": "https://pubmed.ncbi.nlm.nih.gov/26833239/"
+ },
+ {
+  "url": "https://pubmed.ncbi.nlm.nih.gov/27796853/",
+  "status": 203,
+  "final": "https://pubmed.ncbi.nlm.nih.gov/27796853/"
+ },
+ {
+  "url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/don-t-wait-for-symptoms---get-checked-for-hepatitis--say-liver-cancer-patient-and-experts-in-viet-nam-ahead-of-world-hepatitis-day",
+  "status": 200,
+  "final": "https://www.who.int/westernpacific/newsroom/feature-stories/item/don-t-wait-for-symptoms---get-checked-for-hepatitis--say-liver-cancer-patient-and-experts-in-viet-nam-ahead-of-world-hepatitis-day"
+ },
+ {
+  "url": "https://www.crossref.org",
+  "status": 200,
+  "final": "https://www.crossref.org"
+ },
+ {
+  "url": "https://openalex.org",
+  "status": 403,
+  "final": "https://openalex.org"
+ },
+ {
+  "url": "https://www.doi.org",
+  "status": 200,
+  "final": "https://www.doi.org"
+ },
+ {
+  "url": "https://emsimcases.com/",
+  "status": 200,
+  "final": "https://emsimcases.com/"
+ },
+ {
+  "url": "https://www.cureus.com/",
+  "status": 200,
+  "final": "https://www.cureus.com/"
+ },
+ {
+  "url": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/",
+  "status": 200,
+  "final": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/"
+ },
+ {
+  "url": "https://www.emergencysimbox.com/",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/"
+ },
+ {
+  "url": "https://simulationcanada.ca/resources/scenario-exchange/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/resources/scenario-exchange/"
+ },
+ {
+  "url": "https://www.cdc.gov/tb/hcp/education/self-study-modules-on-tuberculosis.html",
+  "status": 403,
+  "final": "https://www.cdc.gov/tb/hcp/education/self-study-modules-on-tuberculosis.html"
+ },
+ {
+  "url": "https://www.currytbcenter.ucsf.edu/products",
+  "status": 200,
+  "final": "https://www.currytbcenter.ucsf.edu/products"
+ },
+ {
+  "url": "https://globaltb.njms.rutgers.edu/educationalmaterials/productlist.php",
+  "status": 200,
+  "final": "https://globaltb.njms.rutgers.edu/educationalmaterials/productlist.php"
+ },
+ {
+  "url": "https://www.hiv.uw.edu/podcast",
+  "status": 200,
+  "final": "https://www.hiv.uw.edu/podcast"
+ },
+ {
+  "url": "https://www.hepatitisb.uw.edu/",
+  "status": 200,
+  "final": "https://www.hepatitisb.uw.edu/"
+ },
+ {
+  "url": "https://www.hepatitisc.uw.edu/page/challenges/expert-opinions/cases/1",
+  "status": 200,
+  "final": "https://www.hepatitisc.uw.edu/page/challenges/expert-opinions/cases/1"
+ },
+ {
+  "url": "https://www.uab.edu/medicine/gorgas/cases-blog",
+  "status": 200,
+  "final": "https://www.uab.edu/medicine/gorgas/cases-blog"
+ },
+ {
+  "url": "https://www.ajtmh.org/",
+  "status": 200,
+  "final": "https://www.ajtmh.org/"
+ },
+ {
+  "url": "https://journals.plos.org/plosntds/",
+  "status": 200,
+  "final": "https://journals.plos.org/plosntds/"
+ },
+ {
+  "url": "https://link.springer.com/journal/12936",
+  "status": 200,
+  "final": "https://link.springer.com/journal/12936?error=cookies_not_supported&code=3430ca31-ee7e-4b9e-afcb-fe27b26eafde"
+ },
+ {
+  "url": "https://link.springer.com/journal/13256",
+  "status": 200,
+  "final": "https://link.springer.com/journal/13256?error=cookies_not_supported&code=1671ee7b-068e-404e-a568-c4e30be2d32e"
+ },
+ {
+  "url": "https://www.panafrican-med-journal.com/",
+  "status": 200,
+  "final": "https://www.panafrican-med-journal.com/"
+ },
+ {
+  "url": "https://www.sciencedirect.com/journal/idcases",
+  "status": 403,
+  "final": "https://www.sciencedirect.com/journal/idcases"
+ },
+ {
+  "url": "https://onlinelibrary.wiley.com/journal/20500904",
+  "status": 403,
+  "final": "https://onlinelibrary.wiley.com/journal/20500904"
+ },
+ {
+  "url": "https://link.springer.com/journal/12879",
+  "status": 200,
+  "final": "https://link.springer.com/journal/12879?error=cookies_not_supported&code=2909fae3-ef14-4037-af88-d150afcc9d04"
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/"
+ },
+ {
+  "url": "https://openi.nlm.nih.gov/",
+  "status": 0,
+  "final": "https://openi.nlm.nih.gov/"
+ },
+ {
+  "url": "https://jetem.org/category/simulation/",
+  "status": 200,
+  "final": "https://jetem.org/category/simulation/"
+ },
+ {
+  "url": "https://www.saem.org/about-saem/academies-interest-groups-affiliates2/simulation",
+  "status": 200,
+  "final": "https://www.saem.org/about-saem/academies-interest-groups-affiliates2/simulation"
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/advancing-care-excellence",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/advancing-care-excellence"
+ },
+ {
+  "url": "https://can-sim.ca/virtual-simulation-games-open-source/",
+  "status": 200,
+  "final": "https://can-sim.ca/virtual-simulation-games-open-source/"
+ },
+ {
+  "url": "https://support.skillscommons.org/showcases/open-courseware/healthcare/augment-reality/",
+  "status": 0,
+  "final": "https://support.skillscommons.org/showcases/open-courseware/healthcare/augment-reality/"
+ },
+ {
+  "url": "https://www.wistechopen.org/open-rn-virtual-simulations",
+  "status": 200,
+  "final": "https://www.wistechopen.org/open-rn-virtual-simulations"
+ },
+ {
+  "url": "https://scenariocloud.laerdal.com/",
+  "status": 200,
+  "final": "https://scenariocloud.laerdal.com/"
+ },
+ {
+  "url": "https://mcc.ca/free-resources/free-nac-examination-resources/",
+  "status": 200,
+  "final": "https://mcc.ca/free-resources/free-nac-examination-resources/"
+ },
+ {
+  "url": "https://www.usmle.org/work-relaunch-usmle-step-2-cs-discontinued",
+  "status": 200,
+  "final": "https://www.usmle.org/work-relaunch-usmle-step-2-cs-discontinued"
+ },
+ {
+  "url": "https://www.aspeducators.org/",
+  "status": 200,
+  "final": "https://www.aspeducators.org/"
+ },
+ {
+  "url": "https://advancesinsimulation.biomedcentral.com/",
+  "status": 200,
+  "final": "https://link.springer.com/journal/41077?error=cookies_not_supported&code=a9737091-b958-4c1b-ad5d-289c7b6644fe"
+ },
+ {
+  "url": "https://archive.johs.org.uk/",
+  "status": 200,
+  "final": "https://archive.johs.org.uk/"
+ },
+ {
+  "url": "https://mededpublish.org/",
+  "status": 200,
+  "final": "https://mededpublish.org/"
+ },
+ {
+  "url": "https://demo.openlabyrinth.ca/",
+  "status": 200,
+  "final": "https://demo.openlabyrinth.ca/"
+ },
+ {
+  "url": "https://virtualpatients.eu/referatory/",
+  "status": 200,
+  "final": "https://virtualpatients.eu/referatory/"
+ },
+ {
+  "url": "https://aquifer.org/institutional-pricing",
+  "status": 200,
+  "final": "https://aquifer.org/institutional-pricing"
+ },
+ {
+  "url": "https://www.openpediatrics.org/",
+  "status": 200,
+  "final": "https://www.openpediatrics.org/"
+ },
+ {
+  "url": "https://www.who.int/publications/i/item/WHO-MSD-MER-17.6",
+  "status": 200,
+  "final": "https://www.who.int/publications/i/item/WHO-MSD-MER-17.6"
+ },
+ {
+  "url": "https://equipcompetency.org/en-gb/resources",
+  "status": 200,
+  "final": "https://equipcompetency.org/en-gb/resources"
+ },
+ {
+  "url": "https://bmcmededuc.biomedcentral.com/",
+  "status": 200,
+  "final": "https://link.springer.com/journal/12909?error=cookies_not_supported&code=ead008ab-8a2a-4b2f-b9e9-c4c98af0dbfc"
+ },
+ {
+  "url": "https://journals.plos.org/plosmedicine/",
+  "status": 200,
+  "final": "https://journals.plos.org/plosmedicine/"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386"
+ },
+ {
+  "url": "https://kenyapaediatric.org/etat-course/",
+  "status": 200,
+  "final": "https://kenyapaediatric.org/etat-course/"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/352677",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/352677"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/76887",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/76887"
+ },
+ {
+  "url": "https://campus.paho.org/en/course/self-learning-course-clinical-diagnosis-and-management-dengue/",
+  "status": 200,
+  "final": "https://campus.paho.org/en/course/clinical-diagnosis_dengue-management"
+ },
+ {
+  "url": "https://www.cdc.gov/dengue/hcp/trainings/clinical-management.html",
+  "status": 403,
+  "final": "https://www.cdc.gov/dengue/hcp/trainings/clinical-management.html"
+ },
+ {
+  "url": "https://www.who.int/tools/essential-newborn-care-course",
+  "status": 200,
+  "final": "https://www.who.int/tools/essential-newborn-care-course"
+ },
+ {
+  "url": "https://www.aap.org/en/aap-global/helping-babies-survive/trainer-tools/course-materials/",
+  "status": 200,
+  "final": "https://www.aap.org/en/aap-global/helping-babies-survive/trainer-tools/course-materials/"
+ },
+ {
+  "url": "https://jhpiego.org/areas-of-expertise/helping-mothers-survive/",
+  "status": 200,
+  "final": "https://jhpiego.org/areas-of-expertise/helping-mothers-survive/"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/382922",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/382922"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260"
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/339277",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/339277"
+ },
+ {
+  "url": "https://www.primarytraumacare.org/courses/ptc-foundation-course",
+  "status": 200,
+  "final": "https://www.primarytraumacare.org/courses/ptc-foundation-course"
+ },
+ {
+  "url": "https://www.maternity.dk/safe-delivery-app/",
+  "status": 200,
+  "final": "https://www.maternity.dk/safe-delivery-app/"
+ },
+ {
+  "url": "https://globalhealthmedia.org/",
+  "status": 200,
+  "final": "https://globalhealthmedia.org/"
+ },
+ {
+  "url": "https://afem.africa/resources/",
+  "status": 200,
+  "final": "https://afem.africa/resources/"
+ },
+ {
+  "url": "https://www.who.int/publications/i/item/hearts-technical-package",
+  "status": 200,
+  "final": "https://www.who.int/publications/i/item/hearts-technical-package"
+ },
+ {
+  "url": "https://screening.iarc.fr/atlascolpo.php",
+  "status": 200,
+  "final": "https://screening.iarc.fr/atlascolpo.php"
+ },
+ {
+  "url": "https://rhdaustralia.org.au/continuing-professional-development/",
+  "status": 200,
+  "final": "https://rhdaustralia.org.au/continuing-professional-development/"
+ },
+ {
+  "url": "https://emsimcases.com/2015/05/26/massive-variceal-bleed/",
+  "status": 200,
+  "final": "https://emsimcases.com/2015/05/26/massive-variceal-bleed/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2020/09/08/tb-pericarditis/",
+  "status": 200,
+  "final": "https://emsimcases.com/2020/09/08/tb-pericarditis/",
+  "title_words": 1,
+  "title_hits": 1
+ },
+ {
+  "url": "https://emsimcases.com/2017/10/24/newborn-resuscitation/",
+  "status": 200,
+  "final": "https://emsimcases.com/2017/10/24/newborn-resuscitation/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2017/04/11/newborn-sepsis-with-apneas/",
+  "status": 200,
+  "final": "https://emsimcases.com/2017/04/11/newborn-sepsis-with-apneas/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2017/04/25/breech-delivery-nrp/",
+  "status": 200,
+  "final": "https://emsimcases.com/2017/04/25/breech-delivery-nrp/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2016/11/22/postpartum-hemorrhage-and-nrp/",
+  "status": 200,
+  "final": "https://emsimcases.com/2016/11/22/postpartum-hemorrhage-and-nrp/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2015/06/09/eclampsia-with-apnea-secondary-to-magnesium-sulfate-administration/",
+  "status": 200,
+  "final": "https://emsimcases.com/2015/06/09/eclampsia-with-apnea-secondary-to-magnesium-sulfate-administration/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://emsimcases.com/2021/03/30/late-post-partum-pre-eclampsia/",
+  "status": 200,
+  "final": "https://emsimcases.com/2021/03/30/late-post-partum-pre-eclampsia/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://emsimcases.com/2016/08/02/acute-chest-syndrome/",
+  "status": 200,
+  "final": "https://emsimcases.com/2016/08/02/acute-chest-syndrome/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2017/07/18/pediatric-dka/",
+  "status": 200,
+  "final": "https://emsimcases.com/2017/07/18/pediatric-dka/",
+  "title_words": 1,
+  "title_hits": 1
+ },
+ {
+  "url": "https://emsimcases.com/2015/11/24/dka/",
+  "status": 200,
+  "final": "https://emsimcases.com/2015/11/24/dka/",
+  "title_words": 0,
+  "title_hits": 0
+ },
+ {
+  "url": "https://emsimcases.com/2015/08/18/dysrhythmia-secondary-to-hyperkalemia/",
+  "status": 200,
+  "final": "https://emsimcases.com/2015/08/18/dysrhythmia-secondary-to-hyperkalemia/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2019/12/17/nightmares-case-5-pulmonary-edema/",
+  "status": 200,
+  "final": "https://emsimcases.com/2019/12/17/nightmares-case-5-pulmonary-edema/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2017/08/01/aortic-stenosis-with-a-fib-and-chf/",
+  "status": 200,
+  "final": "https://emsimcases.com/2017/08/01/aortic-stenosis-with-a-fib-and-chf/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2021/12/07/nightmares-case-12-hypertensive-encephalopathy/",
+  "status": 200,
+  "final": "https://emsimcases.com/2021/12/07/nightmares-case-12-hypertensive-encephalopathy/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2020/09/22/copde-with-pneumothorax/",
+  "status": 200,
+  "final": "https://emsimcases.com/2020/09/22/copde-with-pneumothorax/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2017/02/28/pediatric-septic-shock/",
+  "status": 200,
+  "final": "https://emsimcases.com/2017/02/28/pediatric-septic-shock/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2020/08/25/urologic-sepsis/",
+  "status": 200,
+  "final": "https://emsimcases.com/2020/08/25/urologic-sepsis/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2015/09/29/intra-abdominal-sepsis/",
+  "status": 200,
+  "final": "https://emsimcases.com/2015/09/29/intra-abdominal-sepsis/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2019/11/05/nightmares-case-2-pneumonia/",
+  "status": 200,
+  "final": "https://emsimcases.com/2019/11/05/nightmares-case-2-pneumonia/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2022/10/19/bronchiolitis/",
+  "status": 200,
+  "final": "https://emsimcases.com/2022/10/19/bronchiolitis/",
+  "title_words": 1,
+  "title_hits": 1
+ },
+ {
+  "url": "https://emsimcases.com/2023/08/08/alcohol-and-opioid-use/",
+  "status": 200,
+  "final": "https://emsimcases.com/2023/08/08/alcohol-and-opioid-use/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2023/11/14/acetaminophen-overdose-with-an-uncooperative-patient/",
+  "status": 200,
+  "final": "https://emsimcases.com/2023/11/14/acetaminophen-overdose-with-an-uncooperative-patient/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://emsimcases.com/2015/05/12/tricyclic-antidepressant-overdose/",
+  "status": 200,
+  "final": "https://emsimcases.com/2015/05/12/tricyclic-antidepressant-overdose/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://emsimcases.com/2017/09/26/mvc-with-tension-pneumothorax/",
+  "status": 200,
+  "final": "https://emsimcases.com/2017/09/26/mvc-with-tension-pneumothorax/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2020/12/01/pediatric-polytrauma/",
+  "status": 200,
+  "final": "https://emsimcases.com/2020/12/01/pediatric-polytrauma/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2021/06/01/pediatric-traumatic-brain-injury/",
+  "status": 200,
+  "final": "https://emsimcases.com/2021/06/01/pediatric-traumatic-brain-injury/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://emsimcases.com/2024/06/11/organophosphate-poisoning/",
+  "status": 200,
+  "final": "https://emsimcases.com/2024/06/11/organophosphate-poisoning/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2015/03/31/subarachnoid-hemorrhage-with-increased-intracranial-pressure/",
+  "status": 200,
+  "final": "https://emsimcases.com/2015/03/31/subarachnoid-hemorrhage-with-increased-intracranial-pressure/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://emsimcases.com/2016/02/02/ruptured-ectopic/",
+  "status": 200,
+  "final": "https://emsimcases.com/2016/02/02/ruptured-ectopic/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://emsimcases.com/2018/06/05/pregnant-cardiomyopathy/",
+  "status": 200,
+  "final": "https://emsimcases.com/2018/06/05/pregnant-cardiomyopathy/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906565/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906565/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906565/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906565/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906565/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906565/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6054361/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6054361/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5991930/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5991930/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11116925/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11116925/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12043380/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12043380/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8525906/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8525906/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5364092/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5364092/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7384714/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7384714/",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7920395/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7920395/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5491337/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5491337/",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5910007/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5910007/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388803/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388803/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6443514/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6443514/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5045325/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5045325/",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7872491/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7872491/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4494542/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4494542/",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-5-diabetic-ketoacidosis/",
+  "status": 200,
+  "final": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-5-diabetic-ketoacidosis/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-13-pneumonia-septic-shock/",
+  "status": 200,
+  "final": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-13-pneumonia-septic-shock/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-9-neonatal-delivery/",
+  "status": 200,
+  "final": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-9-neonatal-delivery/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-7-multisystem-trauma/",
+  "status": 200,
+  "final": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-7-multisystem-trauma/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-14-status-asthmaticus/",
+  "status": 200,
+  "final": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-14-status-asthmaticus/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.emergencysimbox.com/a-postpartum-complication",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/a-postpartum-complication",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.emergencysimbox.com/newborn-rescusitation",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/newborn-rescusitation",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.emergencysimbox.com/a-sick-neonate",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/a-sick-neonate",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://www.emergencysimbox.com/respiratory-distress",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/respiratory-distress",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://www.emergencysimbox.com/diabetic-ketoacidosis-dka",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/diabetic-ketoacidosis-dka",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.emergencysimbox.com/suicide-risk-assessment",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/suicide-risk-assessment",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.emergencysimbox.com/suicide-screen-nursing",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/suicide-screen-nursing",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.emergencysimbox.com/severe-head-injury",
+  "status": 200,
+  "final": "https://www.emergencysimbox.com/severe-head-injury",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/copd-exacerbation-assessment-and-intervention/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/copd-exacerbation-assessment-and-intervention/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/acute-depression/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/acute-depression/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/assessing-suicide-risk-responding/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/assessing-suicide-risk-responding/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/pediatric-sepsis-harper-peterson/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/pediatric-sepsis-harper-peterson/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8817602/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8817602/",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5769511/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5769511/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3396855/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3396855/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2843443/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2843443/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6751804/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6751804/",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://www.uab.edu/medicine/gorgas/cases-blog/2025/2025-case9",
+  "status": 200,
+  "final": "https://www.uab.edu/medicine/gorgas/cases-blog/2025/2025-case9",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11055343/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11055343/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299261/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299261/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748478/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748478/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11453112/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11453112/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://www.uab.edu/medicine/gorgas/cases-blog/2026/2026-case11",
+  "status": 200,
+  "final": "https://www.uab.edu/medicine/gorgas/cases-blog/2026/2026-case11",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_4_Treatment_of_Latent_TB_Infection_and_TB_Disease.pdf",
+  "status": 403,
+  "final": "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_4_Treatment_of_Latent_TB_Infection_and_TB_Disease.pdf"
+ },
+ {
+  "url": "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_6_Managing_Tuberculosis_Patients_and_Improving_Adherence.pdf",
+  "status": 403,
+  "final": "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_6_Managing_Tuberculosis_Patients_and_Improving_Adherence.pdf"
+ },
+ {
+  "url": "https://www.currytbcenter.ucsf.edu/product/guide/tuberculosis-radiology-practice-cases",
+  "status": 200,
+  "final": "https://www.currytbcenter.ucsf.edu/product/guide/tuberculosis-radiology-practice-cases",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.hiv.uw.edu/podcast/episode/case-discussions/evaluation-headache-advanced-hiv",
+  "status": 200,
+  "final": "https://www.hiv.uw.edu/podcast/episode/case-discussions/evaluation-headache-advanced-hiv",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://www.hiv.uw.edu/podcast/episode/case-discussions/evaluation-focal-neurological-symptoms-patient-advanced-hiv",
+  "status": 200,
+  "final": "https://www.hiv.uw.edu/podcast/episode/case-discussions/evaluation-focal-neurological-symptoms-patient-advanced-hiv",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6192067/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6192067/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6974974/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6974974/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5070136/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5070136/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4574791/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4574791/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://www.uab.edu/medicine/gorgas/cases-blog/2023/2023-case4",
+  "status": 200,
+  "final": "https://www.uab.edu/medicine/gorgas/cases-blog/2023/2023-case4",
+  "title_words": 7,
+  "title_hits": 7
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6206890/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6206890/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8961966/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8961966/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11376176/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11376176/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8103489/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8103489/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5134245/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5134245/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11986221/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11986221/",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11358032/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11358032/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13236375/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13236375/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462815/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462815/",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865698/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865698/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10868078/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10868078/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5701456/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5701456/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7993604/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7993604/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12670876/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12670876/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465594/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465594/",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6161185/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6161185/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5842965/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5842965/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://www.uab.edu/medicine/gorgas/cases-blog/2022/2022-case4",
+  "status": 200,
+  "final": "https://www.uab.edu/medicine/gorgas/cases-blog/2022/2022-case4",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8435225/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8435225/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885120/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885120/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13426365/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13426365/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6607464/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6607464/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10551101/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10551101/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5927558/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5927558/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13595733/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13595733/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213685/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213685/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8733483/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8733483/",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430309/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430309/",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6535836/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6535836/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8935124/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8935124/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3826346/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3826346/",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9046855/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9046855/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077832/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077832/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11378922/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11378922/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11163261/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11163261/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2994913/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2994913/",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247106/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247106/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://jetem.org/eclampsia_sim/",
+  "status": 200,
+  "final": "https://jetem.org/eclampsia_sim/",
+  "title_words": 1,
+  "title_hits": 1
+ },
+ {
+  "url": "https://jetem.org/eclampsia/",
+  "status": 200,
+  "final": "https://jetem.org/eclampsia/",
+  "title_words": 1,
+  "title_hits": 1
+ },
+ {
+  "url": "https://jetem.org/cdm_eclampsia/",
+  "status": 200,
+  "final": "https://jetem.org/cdm_eclampsia/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/pres_eclampsia/",
+  "status": 200,
+  "final": "https://jetem.org/pres_eclampsia/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/newborn-resuscitation/",
+  "status": 200,
+  "final": "https://jetem.org/newborn-resuscitation/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/precipitous_birth/",
+  "status": 200,
+  "final": "https://jetem.org/precipitous_birth/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://jetem.org/shoulder_dystocia/",
+  "status": 200,
+  "final": "https://jetem.org/shoulder_dystocia/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/peripartum_cardiomyopathy/",
+  "status": 200,
+  "final": "https://jetem.org/peripartum_cardiomyopathy/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://jetem.org/spontaneous-abortion-hemorrhage/",
+  "status": 200,
+  "final": "https://jetem.org/spontaneous-abortion-hemorrhage/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/septic_abortion_dic/",
+  "status": 200,
+  "final": "https://jetem.org/septic_abortion_dic/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/post-termination_hemorrhage/",
+  "status": 200,
+  "final": "https://jetem.org/post-termination_hemorrhage/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/blunt_polytrauma_preg/",
+  "status": 200,
+  "final": "https://jetem.org/blunt_polytrauma_preg/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/ms-ptx/",
+  "status": 200,
+  "final": "https://jetem.org/ms-ptx/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/in-situ-trauma/",
+  "status": 200,
+  "final": "https://jetem.org/in-situ-trauma/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/acute-ischemic-stroke/",
+  "status": 200,
+  "final": "https://jetem.org/acute-ischemic-stroke/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/cdm-acute-ischemic-stroke/",
+  "status": 200,
+  "final": "https://jetem.org/cdm-acute-ischemic-stroke/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/acute_copd_sim/",
+  "status": 200,
+  "final": "https://jetem.org/acute_copd_sim/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/adolescent_dka/",
+  "status": 200,
+  "final": "https://jetem.org/adolescent_dka/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/dka_nsti/",
+  "status": 200,
+  "final": "https://jetem.org/dka_nsti/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/hypoglycemia_sim/",
+  "status": 200,
+  "final": "https://jetem.org/hypoglycemia_sim/",
+  "title_words": 7,
+  "title_hits": 7
+ },
+ {
+  "url": "https://jetem.org/pres/",
+  "status": 200,
+  "final": "https://jetem.org/pres/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/telemedicine_scape/",
+  "status": 200,
+  "final": "https://jetem.org/telemedicine_scape/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/ob_pulm_edema/",
+  "status": 200,
+  "final": "https://jetem.org/ob_pulm_edema/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://jetem.org/pulm_edema_reassessment/",
+  "status": 200,
+  "final": "https://jetem.org/pulm_edema_reassessment/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/dt_sim/",
+  "status": 200,
+  "final": "https://jetem.org/dt_sim/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://jetem.org/ob_alcohol_withdrawal/",
+  "status": 200,
+  "final": "https://jetem.org/ob_alcohol_withdrawal/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://jetem.org/altered-mental-status/",
+  "status": 200,
+  "final": "https://jetem.org/altered-mental-status/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/opioid_od_ms/",
+  "status": 200,
+  "final": "https://jetem.org/opioid_od_ms/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/tca_overdose/",
+  "status": 200,
+  "final": "https://jetem.org/tca_overdose/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/beta-blocker-toxicity/",
+  "status": 200,
+  "final": "https://jetem.org/beta-blocker-toxicity/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/agitated-psych/",
+  "status": 200,
+  "final": "https://jetem.org/agitated-psych/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/managing_conflict_psych_admit/",
+  "status": 200,
+  "final": "https://jetem.org/managing_conflict_psych_admit/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/waterhouse-freidrichson/",
+  "status": 200,
+  "final": "https://jetem.org/waterhouse-freidrichson/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/sepsis_sim/",
+  "status": 200,
+  "final": "https://jetem.org/sepsis_sim/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/sepsis_afib_sim/",
+  "status": 200,
+  "final": "https://jetem.org/sepsis_afib_sim/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/pediatric_sepsis_sim/",
+  "status": 200,
+  "final": "https://jetem.org/pediatric_sepsis_sim/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://jetem.org/peds_tss/",
+  "status": 200,
+  "final": "https://jetem.org/peds_tss/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://jetem.org/cdm_febrile_infant/",
+  "status": 200,
+  "final": "https://jetem.org/cdm_febrile_infant/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/neonatal_lp/",
+  "status": 200,
+  "final": "https://jetem.org/neonatal_lp/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://jetem.org/acs/",
+  "status": 200,
+  "final": "https://jetem.org/acs/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/massive-upper-gastrointestinal-bleeding/",
+  "status": 200,
+  "final": "https://jetem.org/massive-upper-gastrointestinal-bleeding/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://jetem.org/status-asthmaticus/",
+  "status": 200,
+  "final": "https://jetem.org/status-asthmaticus/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://jetem.org/measles_sim/",
+  "status": 200,
+  "final": "https://jetem.org/measles_sim/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://jetem.org/febrile_seizure_sim/",
+  "status": 200,
+  "final": "https://jetem.org/febrile_seizure_sim/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://jetem.org/rural_stemi/",
+  "status": 200,
+  "final": "https://jetem.org/rural_stemi/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/chest-pain_sim/",
+  "status": 200,
+  "final": "https://jetem.org/chest-pain_sim/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/prioritization_acs_sepsis_penetrating/",
+  "status": 200,
+  "final": "https://jetem.org/prioritization_acs_sepsis_penetrating/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/peds_sim/",
+  "status": 200,
+  "final": "https://jetem.org/peds_sim/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://jetem.org/peds_gi_curr/",
+  "status": 200,
+  "final": "https://jetem.org/peds_gi_curr/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/peds_resp/",
+  "status": 200,
+  "final": "https://jetem.org/peds_resp/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/developing-ems/",
+  "status": 200,
+  "final": "https://jetem.org/developing-ems/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/cdm_nat/",
+  "status": 200,
+  "final": "https://jetem.org/cdm_nat/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/human-trafficking-sim/",
+  "status": 200,
+  "final": "https://jetem.org/human-trafficking-sim/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://jetem.org/humantraffickingsim/",
+  "status": 200,
+  "final": "https://jetem.org/humantraffickingsim/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/pcc_miscarriage/",
+  "status": 200,
+  "final": "https://jetem.org/pcc_miscarriage/",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://jetem.org/severe_hyperkalemia/",
+  "status": 200,
+  "final": "https://jetem.org/severe_hyperkalemia/",
+  "title_words": 2,
+  "title_hits": 2
+ },
+ {
+  "url": "https://jetem.org/infant_tb/",
+  "status": 200,
+  "final": "https://jetem.org/infant_tb/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://jetem.org/miliary_tb/",
+  "status": 200,
+  "final": "https://jetem.org/miliary_tb/",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://www.saem.org/docs/default-source/simulation/chf/chf-exacerbation---case-summary.pdf?sfvrsn=a9080ffd_2",
+  "status": 200,
+  "final": "https://www.saem.org/docs/default-source/simulation/chf/chf-exacerbation---case-summary.pdf?sfvrsn=a9080ffd_2",
+  "title_words": 1,
+  "title_hits": 1
+ },
+ {
+  "url": "https://www.saem.org/docs/default-source/simulation/stemi-with-vt---case-summary.pdf?sfvrsn=17020ffd_2",
+  "status": 200,
+  "final": "https://www.saem.org/docs/default-source/simulation/stemi-with-vt---case-summary.pdf?sfvrsn=17020ffd_2",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.saem.org/docs/default-source/simulation/peds-status-asthmaticus-with-autopeep---case-summary.pdf?sfvrsn=d1040ffd_2",
+  "status": 200,
+  "final": "https://www.saem.org/docs/default-source/simulation/peds-status-asthmaticus-with-autopeep---case-summary.pdf?sfvrsn=d1040ffd_2",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/henry-and-ertha-williams-5330c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/henry-and-ertha-williams-5330c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/julia-morales-and-lucy-grey-0631c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/julia-morales-and-lucy-grey-0631c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/millie-larsen-a22fc65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/millie-larsen-a22fc65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/red-yoder-6121c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/red-yoder-6121c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 3,
+  "title_hits": 2
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/ertha-williams-1d2bc65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/ertha-williams-1d2bc65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/george-palo-f832c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/george-palo-f832c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/judy-and-karen-jones-0b34c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/judy-and-karen-jones-0b34c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 5,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/butch-sampson-b128c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/butch-sampson-b128c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/eugene-shaw-c031c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/eugene-shaw-c031c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/jenny-brown-5432c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/jenny-brown-5432c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/randy-adams-3328c65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/randy-adams-3328c65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 3
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-d/unfolding-cases/patrick-and-gloria-lake-4b1dc65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-d/unfolding-cases/patrick-and-gloria-lake-4b1dc65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-d/unfolding-cases/mary-lou-and-rob-brady-c72ec65c-7836-6c70-9642-ff00005f0421",
+  "status": 200,
+  "final": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-d/unfolding-cases/mary-lou-and-rob-brady-c72ec65c-7836-6c70-9642-ff00005f0421",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dep_supporting_material.pdf",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dep_supporting_material.pdf",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/sui_supporting_material.pdf",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/sui_supporting_material.pdf",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/sub_supporting_material.pdf",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/sub_supporting_material.pdf",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dem_supporting_material.pdf",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dem_supporting_material.pdf",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://mcc.ca/wp-content/uploads/NAC-Examination-sample-case-study-Mortensen.pdf",
+  "status": 200,
+  "final": "https://mcc.ca/wp-content/uploads/NAC-Examination-sample-case-study-Mortensen.pdf",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://mcc.ca/wp-content/uploads/NAC-Examination-sample-case-study-Thomas.pdf",
+  "status": 200,
+  "final": "https://mcc.ca/wp-content/uploads/NAC-Examination-sample-case-study-Thomas.pdf",
+  "title_words": 5,
+  "title_hits": 4
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/assessing-suicide-risk-responding/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/assessing-suicide-risk-responding/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/acute-stroke-assessment/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/acute-stroke-assessment/",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/neonatal-resuscitation-and-surfactant-administration/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/neonatal-resuscitation-and-surfactant-administration/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://simulationcanada.ca/scenario/delirium/",
+  "status": 200,
+  "final": "https://simulationcanada.ca/scenario/delirium/",
+  "title_words": 1,
+  "title_hits": 1
+ },
+ {
+  "url": "https://can-sim.ca/2025/02/13/post-partum-mental-health/",
+  "status": 200,
+  "final": "https://can-sim.ca/2025/02/13/post-partum-mental-health/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://can-sim.ca/2025/02/13/interprofessional-collaboration-delirium-dementia-and-decision-makingia/",
+  "status": 200,
+  "final": "https://can-sim.ca/2025/02/13/interprofessional-collaboration-delirium-dementia-and-decision-makingia/",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://can-sim.ca/2026/04/15/deteriorating-patient-septic-shock/",
+  "status": 200,
+  "final": "https://can-sim.ca/2026/04/15/deteriorating-patient-septic-shock/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://can-sim.ca/2021/12/01/care-of-the-older-adult-with-urosepsis-presimulation-preparation/",
+  "status": 200,
+  "final": "https://can-sim.ca/2021/12/01/care-of-the-older-adult-with-urosepsis-presimulation-preparation/",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://cvtc.h5p.com/content/1291461853824143238",
+  "status": 200,
+  "final": "https://cvtc.h5p.com/content/1291461853824143238",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://h5p.org/node/757010",
+  "status": 200,
+  "final": "https://h5p.org/node/757010",
+  "title_words": 7,
+  "title_hits": 2
+ },
+ {
+  "url": "https://cvtc.h5p.com/content/1290969436167864468",
+  "status": 200,
+  "final": "https://cvtc.h5p.com/content/1290969436167864468",
+  "title_words": 4,
+  "title_hits": 3
+ },
+ {
+  "url": "https://cvtc.h5p.com/content/1291147520201847858",
+  "status": 200,
+  "final": "https://cvtc.h5p.com/content/1291147520201847858",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://cvtc.h5p.com/content/1290968736222220868",
+  "status": 200,
+  "final": "https://cvtc.h5p.com/content/1290968736222220868",
+  "title_words": 4,
+  "title_hits": 1
+ },
+ {
+  "url": "https://cvtc.h5p.com/content/1290997239414872788",
+  "status": 200,
+  "final": "https://cvtc.h5p.com/content/1290997239414872788",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://cvtc.h5p.com/content/1291009481822683388",
+  "status": 200,
+  "final": "https://cvtc.h5p.com/content/1291009481822683388",
+  "title_words": 3,
+  "title_hits": 3
+ },
+ {
+  "url": "https://virtualpatients.eu/referatory/?vpId=evip:vp:1000529",
+  "status": 200,
+  "final": "https://virtualpatients.eu/referatory/?vpId=evip:vp:1000529",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://virtualpatients.eu/referatory/?vpId=evip:vp:1000598",
+  "status": 200,
+  "final": "https://virtualpatients.eu/referatory/?vpId=evip:vp:1000598",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002653",
+  "status": 200,
+  "final": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002653",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5745919/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5745919/",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11391681/",
+  "status": 200,
+  "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11391681/",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 4,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 3,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/275635",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/275635",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/43386",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/43386",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/104772",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/104772",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/259161",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/259161",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/76887",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/76887",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/76887",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/76887",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/76887",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/76887",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/76887",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/76887",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/352677",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/352677",
+  "title_words": 5,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/352677",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/352677",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/352677",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/352677",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3",
+  "title_words": 4,
+  "title_hits": 4
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-2---simulation-practice-cards---may-2024.pdf?sfvrsn=24f5af0b_3",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-2---simulation-practice-cards---may-2024.pdf?sfvrsn=24f5af0b_3",
+  "title_words": 5,
+  "title_hits": 5
+ },
+ {
+  "url": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-2---simulation-practice-cards---may-2024.pdf?sfvrsn=24f5af0b_3",
+  "status": 200,
+  "final": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-2---simulation-practice-cards---may-2024.pdf?sfvrsn=24f5af0b_3",
+  "title_words": 6,
+  "title_hits": 6
+ },
+ {
+  "url": "https://downloads.aap.org/AAP/PDF/OSCEs-AandB-HBB-2nd-Edition.pdf",
+  "status": 200,
+  "final": "https://downloads.aap.org/AAP/PDF/OSCEs-AandB-HBB-2nd-Edition.pdf",
+  "title_words": 7,
+  "title_hits": 6
+ },
+ {
+  "url": "https://downloads.aap.org/AAP/PDF/OSCEs-AandB-HBB-2nd-Edition.pdf",
+  "status": 200,
+  "final": "https://downloads.aap.org/AAP/PDF/OSCEs-AandB-HBB-2nd-Edition.pdf",
+  "title_words": 6,
+  "title_hits": 5
+ },
+ {
+  "url": "https://downloads.aap.org/AAP/PDF/hbs_eceb_osces.pdf",
+  "status": 200,
+  "final": "https://downloads.aap.org/AAP/PDF/hbs_eceb_osces.pdf",
+  "title_words": 7,
+  "title_hits": 6
+ },
+ {
+  "url": "https://api.jhpiego.org/wp-content/uploads/2026/06/Pre-Eclampsia-and-Eclampsia-Facilitator-Flip-Chart_ENGLISH_2026.09.17.pdf",
+  "status": 200,
+  "final": "https://api.jhpiego.org/wp-content/uploads/2026/06/Pre-Eclampsia-and-Eclampsia-Facilitator-Flip-Chart_ENGLISH_2026.09.17.pdf",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://api.jhpiego.org/wp-content/uploads/2026/06/Pre-Eclampsia-and-Eclampsia-Facilitator-Flip-Chart_ENGLISH_2026.09.17.pdf",
+  "status": 200,
+  "final": "https://api.jhpiego.org/wp-content/uploads/2026/06/Pre-Eclampsia-and-Eclampsia-Facilitator-Flip-Chart_ENGLISH_2026.09.17.pdf",
+  "title_words": 8,
+  "title_hits": 7
+ },
+ {
+  "url": "https://api.jhpiego.org/wp-content/uploads/2026/06/Pre-Eclampsia-and-Eclampsia-Facilitator-Flip-Chart_ENGLISH_2026.09.17.pdf",
+  "status": 200,
+  "final": "https://api.jhpiego.org/wp-content/uploads/2026/06/Pre-Eclampsia-and-Eclampsia-Facilitator-Flip-Chart_ENGLISH_2026.09.17.pdf",
+  "title_words": 8,
+  "title_hits": 8
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/382922",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/382922",
+  "title_words": 6,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/382922",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/382922",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/382922",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/382922",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/382922",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/382922",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/382922",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/382922",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 7,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/274260",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/274260",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/339277",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/339277",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://iris.who.int/handle/10665/339277",
+  "status": 200,
+  "final": "https://iris.who.int/handle/10665/339277",
+  "title_words": 8,
+  "title_hits": 0
+ },
+ {
+  "url": "https://rhdaustralia.org.au/michaels-story/",
+  "status": 200,
+  "final": "https://rhdaustralia.org.au/michaels-story/",
+  "title_words": 4,
+  "title_hits": 3
+ }
+]

@@ -1,0 +1,604 @@
+[
+ {
+  "id": "bec-m1-adult-abcde",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.41 (printed 33): \"CASE #1: ADULT ABCDE ... 70-year-old man ... brought in by taxi ... respiratory rate of 3 breaths per minute\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m1-child-abcde",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.42 (34): \"CASE #2: PAEDIATRIC ABCDE ... 2-year-old son ... fever for 3 days ... today will not eat or drink\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m2-adult-crash",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.79 (71): \"CASE #1: ADULT TRAUMA ... 30-year-old male ... jeans are soaked with blood, with bone sticking out of the right thigh\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m2-child-burn",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.79-80 (71-72): \"CASE #2: PAEDIATRIC TRAUMA A 5-year-old boy pulled a pan of boiling water ... mother does not know how much the child weighs\"",
+  "note": "Doc says right palm; brief says right hand."
+ },
+ {
+  "id": "bec-m3-adult-stab",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.100 (92): \"CASE #1: ADULT WITH DIFFICULTY IN BREATHING A 22-year-old man ... stabbed in the left chest\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m3-child-noisy-breathing",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.101 (93): \"CASE #2 ... 6-year-old son ... makes funny noises when he breathes\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m4-adult-gi-bleed",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.122 (114): \"CASE #1: ADULT SHOCK A 48-year-old male with a history of alcohol abuse ... very dark stools for the past 2 days\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m4-child-diarrhoea-shock",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.123 (115): \"CASE #2: PAEDIATRIC SHOCK ... 4-year-old girl ... almost constant diarrhoea for the past 3 days ... no signs of malnutrition\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m5-adult-confused",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.145 (137): \"CASE #1: ADULT WITH ALTERED MENTAL STATUS A 42-year-old man ... slumped over at a bus stop\"",
+  "note": ""
+ },
+ {
+  "id": "bec-m5-child-fever-seizures",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "verified",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.146 (138): \"CASE #2 ... 3-year-old child ... two seizures/convulsions today ... wrapped in multiple blankets\"",
+  "note": ""
+ },
+ {
+  "id": "bec-handover-chest-pain",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "verdict": "fixed",
+  "evidence": "BEC participant workbook 9789241513081-eng.pdf PDF p.208-209 (200-201), Skills: Handover (SBAR), \"Examples: ... Case 3: A 75-year-old man had chest pain while walking home from the market\"",
+  "note": "Brief rewritten: the case is a worked SBAR handover example (model summary given), not a scored practice scenario; added \"walking home\"."
+ },
+ {
+  "id": "etat-s5-bicycle-trauma",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "verdict": "verified",
+  "evidence": "ETAT Facilitator Guide 9241546883_eng.pdf, Module Six case management scenarios table B, PDF p.51 (printed 46): \"SCENARIO 5 4-year-old boy hit by bicycle. Carried in on blanket.\"",
+  "note": ""
+ },
+ {
+  "id": "etat-s7-pneumonia-shock",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "verdict": "verified",
+  "evidence": "ETAT Facilitator Guide 9241546883_eng.pdf, Module Six case management scenarios table B, PDF p.52 (47): \"SCENARIO 7 ... 3-year-old boy ... pale, floppy ... If no oxygen is given the child worsens to respiratory arrest\"",
+  "note": "Doc: intercostal recession and tracheal tug; \"Pneumonia and shock\" (sepsis tag is an inference)."
+ },
+ {
+  "id": "etat-s8-infant-shock-hypoglycaemia",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "verdict": "verified",
+  "evidence": "ETAT Facilitator Guide 9241546883_eng.pdf, Module Six case management scenarios table B, PDF p.53 (48): \"SCENARIO 8 A 4 months old baby ... fever, rapid breathing and refusing to breast-feed ... Weight 5 kg\"",
+  "note": ""
+ },
+ {
+  "id": "etat-s9-diarrhoea-shock",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "verdict": "verified",
+  "evidence": "ETAT Facilitator Guide 9241546883_eng.pdf, Module Six case management scenarios table B, PDF p.54 (49): \"SCENARIO 9 A 10 months old baby ... 24 hours of vomiting and diarrhoea. Weight 8 kg ... Blood glucose 1.5mmols/L ... Plan C\"",
+  "note": ""
+ },
+ {
+  "id": "etat-s11-pneumonia-convulsion",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "verdict": "verified",
+  "evidence": "ETAT Facilitator Guide 9241546883_eng.pdf, Module Six case management scenarios table B, PDF p.56 (51): \"SCENARIO 11 An 18 month old boy ... feverish for 2 days ... abdominal pain ... If given glucose stops seizure\"",
+  "note": ""
+ },
+ {
+  "id": "etat-s12-young-infant-meningitis",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "verdict": "fixed",
+  "evidence": "ETAT Facilitator Guide 9241546883_eng.pdf, Module Six case management scenarios table B, PDF p.56 (51): \"SCENARIO 12 A 10-week-old baby ... will not suckle today ... Diagnosis meningitis with hypoglycaemia\"",
+  "note": "Removed condition neonatal-sepsis: a 10-week-old is past the neonatal period and past the IMCI young-infant range (0 to 2 months); doc gives meningitis only."
+ },
+ {
+  "id": "etat-s13-severe-dehydration",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "verdict": "verified",
+  "evidence": "ETAT Facilitator Guide 9241546883_eng.pdf, Module Six case management scenarios table B, PDF p.57 (52): \"SCENARIO 13 1-year-old baby girl with a 2-day history of diarrhoea and vomiting. Weight 10 kg ... Plan C\"",
+  "note": ""
+ },
+ {
+  "id": "imci-m2-mimi-young-infant",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "verdict": "verified",
+  "evidence": "IMCI distance learning course Module 2 PDF p.12: \"OPENING CASE - MIMI ... Biya ... Mimi was born 6 weeks ago\"; p.18: \"3.1 kg ... birth weight was 3.5 kg ... 34.7 degrees Celsius\"",
+  "note": ""
+ },
+ {
+  "id": "imci-m2-sashi-skin-pustules",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "verdict": "verified",
+  "evidence": "IMCI distance learning course Module 2 PDF p.29 exercise: \"2. SASHI. Sashi is 1 week old ... red rash with a few skin pustules on her buttocks\"",
+  "note": ""
+ },
+ {
+  "id": "imci-m3-jacob-pneumonia",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "verdict": "verified",
+  "evidence": "IMCI distance learning course Module 3 PDF p.7: \"OPENING CASE STUDY - JACOB Amira lives in a village two hours walk away\"; p.27: \"classified Jacob's problem as PNEUMONIA ... amoxicillin\"",
+  "note": ""
+ },
+ {
+  "id": "imci-m4-mary-diarrhoea",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "verdict": "verified",
+  "evidence": "IMCI distance learning course Module 4 PDF p.8: \"OPENING CASE STUDY - MARY ... Ana tried giving more porridge ... feeling guilty that she did not come to the clinic sooner\"",
+  "note": ""
+ },
+ {
+  "id": "imci-m5-sami-fever",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "verdict": "verified",
+  "evidence": "IMCI distance learning course Module 5 PDF p.8: \"OPENING CASE STUDY - SAMI\"; p.20: \"live in a high risk malaria area ... feeling hot, and Miriam says 2 days\"; p.24: classified MALARIA after positive RDT",
+  "note": ""
+ },
+ {
+  "id": "imci-m6-noah-malnutrition-anaemia",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "verdict": "verified",
+  "evidence": "IMCI distance learning course Module 6 PDF p.8: \"OPENING CASE STUDY - NOAH ... Rachel ... wait for a bus ... palm ... very pale\"; p.26: MUAC 116, WFH below -3 Z",
+  "note": "MUAC 116 mm is below 125 (low) but above the 115 SAM cutoff; SAM is by weight-for-height."
+ },
+ {
+  "id": "imci-m8-peter-hiv-exposed",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "verdict": "verified",
+  "evidence": "IMCI distance learning course Module 8 PDF p.17: \"OPENING CASE STUDY - PETER Peter is 6 months old ... cough for the last 3 days ... breathes 54 per minute ... She was recently told she has HIV\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-dep-rp1-assessment",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.474-476: \"DEP role plays Role play 1: Assessment ... feeling this way for two months ... worried that you will lose your job\"; extended options: mania, thyroid",
+  "note": ""
+ },
+ {
+  "id": "mhgap-dep-rp2-psychosocial",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "fixed",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.477-479: \"Role play 2: Psychosocial interventions ... 27-year-old ... One year ago you were employed in a busy bank ... your fiancee left you ... fired\"",
+  "note": "Brief said he is a bank employee; per doc he was fired a year ago and is unemployed, isolated, with money problems. Brief corrected."
+ },
+ {
+  "id": "mhgap-dep-rp3-sarah-antidepressant",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.480-481: \"Role play 3: Pharmacology ... Your name is Sarah ... moderate-severe depression ... nervous about taking medication\"; extended option: history of mania",
+  "note": ""
+ },
+ {
+  "id": "mhgap-dep-rp4-javier-adolescent",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.483: \"Role play 4: Psychoeducation and psychosocial stressors ... Javier is a 17-year-old ... feeling sad for three months ... bully ... football\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-psy-rp1-mr-fadel",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.493: \"PSY role plays Role play 1: Assessment ... You are Mr Fadel, a man who is homeless ... drink excessive amounts of alcohol ... tell the voice to shut up\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-epi-rp3-nikolaj",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.516: \"Role play 3: Emergency management ... You are Nikolaj, a 17-year-old boy ... funny smell ... told not to come back\"; p.520 RP4 management, p.522 RP5 six-month follow-up",
+  "note": ""
+ },
+ {
+  "id": "mhgap-sub-rp1-alcohol-dependence",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.590: \"SUB ... Role play 1: Assessment ... second visit ... diagnosed with hypertension ... 10 to 12 drinks ... factory was closed\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-sub-rp3-mr-sana-mi",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.595-597: \"Role play 3: Psychosocial intervention ... You are Mr Sana ... seven to nine drinks in one night ... wife has told you that you often come home and fight\"; p.598 RP4 follow-up",
+  "note": ""
+ },
+ {
+  "id": "mhgap-sub-er1-koya-opioid-overdose",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.606: \"SUB emergency presentations role play 1 ... You are Koya, a 28-year-old mother of three ... inject it daily ... opioid overdose\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-sui-rp1-exam-motorcycle",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.625: \"Role play 1: Assessment ... hit the curb ... upset about your results in an exam ... driving off the bridge\"; family as protective factor",
+  "note": ""
+ },
+ {
+  "id": "mhgap-sui-rp2-pesticide-postnatal",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.627-629: \"Role play 2: Management ... 30-year-old woman ... drunk a bottle of pesticide ... baby was born less than one month ago\"; p.630 RP3 follow-up",
+  "note": ""
+ },
+ {
+  "id": "mhgap-sui-rp4-anika-self-cutting",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.632: \"Role play 4: Assessment and management ... 18-year-old woman called Anika ... cuts to your arms after an argument with your father ... do not want to stay in hospital\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-oth-rp1-intimate-partner-violence",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.639: \"OTH role plays Role play 1: Assessment ... 35-year-old woman with three children ... He would beat you ... he takes all the money\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-dem-rp1-ingrid",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "verdict": "verified",
+  "evidence": "mhGAP training manuals WHO-MSD-MER-17.6-eng.pdf PDF p.563-564: \"Role play 1: Assessment ... You are Farah ... brought your mother Ingrid, 73\"; p.566 RP2 follow-up: wandering, fell over furniture",
+  "note": ""
+ },
+ {
+  "id": "dengue-cs1-adult-profound-shock",
+  "url": "https://iris.who.int/handle/10665/76887",
+  "verdict": "verified",
+  "evidence": "WHO Handbook for clinical management of dengue 9789241504713_eng.pdf PDF p.93 (printed 83): \"4.1 Case study one ... previously well 32-year-old male ... PR 165/min, BP 110/95\"; p.97: \"need for urgent transfusion with fresh whole blood\"",
+  "note": ""
+ },
+ {
+  "id": "dengue-cs2-child-haematocrit",
+  "url": "https://iris.who.int/handle/10665/76887",
+  "verdict": "verified",
+  "evidence": "WHO Handbook for clinical management of dengue 9789241504713_eng.pdf PDF p.97-100 (87-90): \"4.2 Case study two ... previously well 7-year-old girl ... cough and running nose\"; lesson: \"consider the patient's haemodynamic state rather than the laboratory value exclusively\"",
+  "note": "Brief omits the initial URTI misdiagnosis and hypotensive shock; not wrong."
+ },
+ {
+  "id": "dengue-cs3-infant-seizures",
+  "url": "https://iris.who.int/handle/10665/76887",
+  "verdict": "verified",
+  "evidence": "WHO Handbook for clinical management of dengue 9789241504713_eng.pdf PDF p.103 (93): \"4.3 Case study three ... previously well 10-month-old girl ... generalized seizures during the preceding 30 minutes\"",
+  "note": ""
+ },
+ {
+  "id": "dengue-cs4-adult-jaundice",
+  "url": "https://iris.who.int/handle/10665/76887",
+  "verdict": "verified",
+  "evidence": "WHO Handbook for clinical management of dengue 9789241504713_eng.pdf PDF p.108-110 (98-100): \"4.4 Case study four ... 24-year-old female ... possible hepatitis A ... triage rating of three (not urgent)\"; later acute cholecystitis",
+  "note": ""
+ },
+ {
+  "id": "sam-m3-ram",
+  "url": "https://iris.who.int/handle/10665/352677",
+  "verdict": "verified",
+  "evidence": "SAM course Module 3 9789240029873-eng.pdf PDF p.45 (printed 29): \"Case 2: Ram ... 9-month-old boy ... not feeding well in the last 3 weeks ... 4.4 kg and length is 64 cm\"",
+  "note": ""
+ },
+ {
+  "id": "sam-m3-irena",
+  "url": "https://iris.who.int/handle/10665/352677",
+  "verdict": "verified",
+  "evidence": "SAM course Module 3 9789240029873-eng.pdf PDF p.47 (31): \"Case 3: Irena ... 25-month-old girl ... diarrhoea and vomiting for 10 days ... 6.1 kg ... This case will be done as a group\"",
+  "note": "Sepsis tag is an inference; doc lists shock signs and says treat for septic shock if no response to IV fluids."
+ },
+ {
+  "id": "sam-m3-john",
+  "url": "https://iris.who.int/handle/10665/352677",
+  "verdict": "verified",
+  "evidence": "SAM course Module 3 9789240029873-eng.pdf PDF p.39-40 (23-24): \"Case 3: John ... 15-month-old boy ... unwell since the rains fell 5 weeks ago ... temperature does not record on a standard thermometer\"",
+  "note": ""
+ },
+ {
+  "id": "bab-sp1-pph-prevention",
+  "url": "https://iris.who.int/handle/10665/382922",
+  "verdict": "verified",
+  "evidence": "Bleeding after birth course 9789240115835-eng.pdf PDF p.36-37 (17, 17b): \"Scenario practice 1 PPH prevention ... Check for 2nd baby, Give uterotonic within one min ... Check BP, pulse and SI\"",
+  "note": ""
+ },
+ {
+  "id": "bab-sp2-early-pph",
+  "url": "https://iris.who.int/handle/10665/382922",
+  "verdict": "verified",
+  "evidence": "Bleeding after birth course 9789240115835-eng.pdf PDF p.50-51 (24, 24b): \"Scenario practice 2 ... 500 mL or more blood in measuring tool ... uterus soft ... Communicate using SBAR\"",
+  "note": ""
+ },
+ {
+  "id": "bab-sp3-warning-signs",
+  "url": "https://iris.who.int/handle/10665/382922",
+  "verdict": "verified",
+  "evidence": "Bleeding after birth course 9789240115835-eng.pdf PDF p.52-53 (25, 25b): \"Scenario practice 3 15 min after birth ... Blood loss: less than 500 mL ... Pulse: 110 bpm BP: 90/64\"",
+  "note": ""
+ },
+ {
+  "id": "bab-sp4-retained-placenta",
+  "url": "https://iris.who.int/handle/10665/382922",
+  "verdict": "verified",
+  "evidence": "Bleeding after birth course 9789240115835-eng.pdf PDF p.54-55 (26, 26b): \"Scenario practice 4 Retained placenta ... heavy blood flow ... Manually remove the placenta\"",
+  "note": ""
+ },
+ {
+  "id": "bab-sp5-persistent-bleeding",
+  "url": "https://iris.who.int/handle/10665/382922",
+  "verdict": "verified",
+  "evidence": "Bleeding after birth course 9789240115835-eng.pdf PDF p.68-69 (33, 33b): \"Scenario practice 5 Assessing after the PPH bundle ... Pulse: 112 bpm BP: 94/60 mmHg\"",
+  "note": ""
+ },
+ {
+  "id": "pen-diabetes-cs2-hypoglycaemia",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.282-283 (272-273): \"Case study 2 A 68-year-old lady with diabetes for 3 years ... random blood sugar of 50 mg/dL\"; answer: sweet drink or 50% glucose IV",
+  "note": ""
+ },
+ {
+  "id": "pen-htn-case1-screening",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.251 (241): \"Case 1. A 45-year-old man comes to the clinic for screening. He is a smoker ... 145/80 mmHg\"",
+  "note": ""
+ },
+ {
+  "id": "pen-stroke-scenario1",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.313 (303): \"Scenario 1: A 60-year-old male smoker ... weakness in the left side ... two hours ago\"; PDF p.317: \"role play the FAST tool ... stroke awareness in a community\"",
+  "note": ""
+ },
+ {
+  "id": "pen-stroke-scenario2-tia",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.313 (303): \"Scenario 2: A 50-year-old diabetic female ... sudden onset weakness of left arm with slurring of speech three days ago\"",
+  "note": ""
+ },
+ {
+  "id": "pen-copd-cs4-smoker",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.379 (369): \"Case study 4 ... 55-year-old male smoker smoking 12 hand-rolled cigarettes per day for the past 23 years\"; Case study 5: cowdung cake fuel, non-smoker",
+  "note": ""
+ },
+ {
+  "id": "pen-oral-case1-mr-raj",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.397 (387): \"Case 1. Mr Raj, 35 years old ... betel nut user for the past 5 years ... Probable submucous fibrosis ... 5A's\"",
+  "note": ""
+ },
+ {
+  "id": "pen-oral-case2-ms-rani",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.397 (387): \"Case 2. Ms Rani, 45-year-old female ... non-healing ulcer for the past 2 weeks ... erythroplakia ... biopsy\"",
+  "note": ""
+ },
+ {
+  "id": "pen-rhd-role-plays",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.337-338 (327-328): \"Activity 5. Patient communication ... Role play 1 ... sore throat ... Role play 4: Diagnosed RF/RHD patient counselling for regular secondary prophylaxis\"",
+  "note": ""
+ },
+ {
+  "id": "pen-alcohol-mahesh-babu",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "verdict": "verified",
+  "evidence": "PEN training modules 9789290226666-eng.pdf PDF p.134 (124): \"Activity 6. Role play using the 5A's and 5R's brief intervention ... Mahesh Babu is the 35-year-old father of three children. He has a government job\"",
+  "note": ""
+ },
+ {
+  "id": "imai-tbhiv-john-cough",
+  "url": "https://iris.who.int/handle/10665/339277",
+  "verdict": "verified",
+  "evidence": "IMAI TB-HIV participant's manual 9789241596978-eng.pdf PDF p.14, Chapter 3: \"John is a 25-year-old married man who has two children ... Four weeks ago he started coughing ... yellow mucus\"; John returns p.21, 34-35, 41+",
+  "note": ""
+ },
+ {
+  "id": "imai-tbhiv-mugisha-very-ill",
+  "url": "https://iris.who.int/handle/10665/339277",
+  "verdict": "verified",
+  "evidence": "IMAI TB-HIV participant's manual 9789241596978-eng.pdf PDF p.26-27, Chapter 4 exercise: \"about to close the clinic when a family arrives with Mugisha who is a very ill 34-year-old, very thin ... coughing ... 2 months ... HIV status is not known\"",
+  "note": ""
+ },
+ {
+  "id": "cdc-tb-module4-case-studies",
+  "url": "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_4_Treatment_of_Latent_TB_Infection_and_TB_Disease.pdf",
+  "verdict": "verified",
+  "evidence": "CDC TB Self-Study Module 4 PDF (fetched via WebFetch; cover year 2019): p.21 \"Case Study 4.1 ... wife and his 1-year-old daughter\"; p.25 \"4.2 ... drinks a six-pack of beer every day\" (isoniazid); p.33 \"4.3 An 18-month-old girl ... TB meningitis\"; p.38 \"4.5 Ms. Young ... urine has changed to an odd color\"",
+  "note": "Direct curl returns 403; WebFetch retrieved the PDF. Seven case studies 4.1 to 4.7 present."
+ },
+ {
+  "id": "cdc-tb-module6-adherence-case-studies",
+  "url": "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_6_Managing_Tuberculosis_Patients_and_Improving_Adherence.pdf",
+  "verdict": "verified",
+  "evidence": "CDC TB Self-Study Module 6 PDF (cover year 2014): p.28 \"Case Study 6.1 Thanh is a cook at a local restaurant ... sputum smears were positive\"; p.56 \"Case Study 6.3 Mr. Sivaraman is a recent immigrant from India ... missed two appointments\"",
+  "note": "Six case studies 6.1 to 6.6 present. Curl 403; WebFetch OK."
+ },
+ {
+  "id": "cdc-tb",
+  "url": "https://www.cdc.gov/tb/hcp/education/self-study-modules-on-tuberculosis.html",
+  "verdict": "verified",
+  "evidence": "WebFetch of CDC page: \"Self-Study Modules on Tuberculosis\", Last Updated March 3, 2025; lists Modules 1 to 9 with PDF links for Modules 4 and 6 matching the case URLs",
+  "note": "alt_sources.json entry"
+ },
+ {
+  "id": "cdc-dengue",
+  "url": "https://www.cdc.gov/dengue/hcp/trainings/clinical-management.html",
+  "verdict": "verified",
+  "evidence": "WebFetch of CDC page (last updated Sept 3, 2026): WB4945 \"An Integrated Approach to Optimize Outcomes in Dengue\", WB4963 \"Face the Case: Dengue Management\", WB4964 \"Virtual Practice in Dengue Management Through Simulated Scenarios\"; all free on CDC TRAIN with CE",
+  "note": "alt_sources.json entry"
+ },
+ {
+  "id": "idcases",
+  "url": "https://www.sciencedirect.com/journal/idcases",
+  "verdict": "verified",
+  "evidence": "Publisher page returns 403 to scripts and WebFetch. Web search confirms: IDCases, Elsevier, ISSN 2214-2509, open access since 2014, CC BY, CC BY-NC or CC BY-NC-ND (Elsevier OA page, DOAJ, ISSN portal)",
+  "note": "alt_sources.json entry; confirmed by search only"
+ },
+ {
+  "id": "clinical-case-reports",
+  "url": "https://onlinelibrary.wiley.com/journal/20500904",
+  "verdict": "verified",
+  "evidence": "Publisher page returns 403 to scripts and WebFetch. Web search confirms: Clinical Case Reports, Wiley, online ISSN 2050-0904, fully open access, published since 2013 (Wiley and ISSN portal listings)",
+  "note": "alt_sources.json entry; confirmed by search only"
+ },
+ {
+  "id": "open-i",
+  "url": "https://openi.nlm.nih.gov/",
+  "verdict": "verified",
+  "evidence": "https://openi.nlm.nih.gov/ returns 200 (NLM app); API /api/search?query=malaria smear returns 4310 figure hits from PMC articles",
+  "note": "alt_sources.json entry"
+ },
+ {
+  "id": "wtcs-sim",
+  "url": "https://support.skillscommons.org/showcases/open-courseware/healthcare/augment-reality/",
+  "verdict": "verified",
+  "evidence": "Showcase page returns 200, title \"Augmented Reality Healthcare Scenarios - SkillsCommons Support\": \"ARIS app ... is no longer being supported ... ARISE ... 150 enhanced scenarios ... begin with a patient storyline\"; WTCS TAACCCT IV consortium authorship and CC BY 4.0 confirmed via WisTech Open and CAN-Sim pages",
+  "note": "alt_sources.json entry; showcase page itself does not name Wisconsin"
+ },
+ {
+  "id": "polivka-2024-breaking-bad-news-breast-cancer",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11391681/",
+  "verdict": "verified",
+  "evidence": "PMC11391681 (BioC full text): \"We developed a summative OSCE station on breaking bad news based on the announcement of a diagnosis of breast cancer (Additional file 1)\"; \"15-item grid\"; \"standardized female patients\"; fifth-year students; CC BY-NC-ND 4.0; 2024; first author Laura Polivka",
+  "note": ""
+ },
+ {
+  "id": "jetem-measles-sim",
+  "url": "https://jetem.org/measles_sim/",
+  "verdict": "verified",
+  "evidence": "JETem page: \"Primary Measles Encephalitis\", Milap Mehta, Maegan Reynolds, Jennifer Yee; Issue 5:2 (2020); objectives: immunization status and travel history, empiric antibiotics and antiviral; \"airborne precautions ... transfer to a PICU\"",
+  "note": ""
+ },
+ {
+  "id": "jetem-hypoglycemia-sim",
+  "url": "https://jetem.org/hypoglycemia_sim/",
+  "verdict": "verified",
+  "evidence": "JETem page: \"In-Flight Emergency: Altered Mental Status Secondary to Hypoglycemia\", Nichole Niknafs, Robert Katzer, Alisa Wray; Issue 3:3 (2018); hypoglycemia in insulin dependent diabetic passengers",
+  "note": ""
+ },
+ {
+  "id": "jetem-infant-tb",
+  "url": "https://jetem.org/infant_tb/",
+  "verdict": "verified",
+  "evidence": "JETem page: Audra N Iness et al., Issue 8:1 (2023), Visual EM: \"presented with respiratory distress at seven weeks ... failing multiple courses of treatment for community-acquired pneumonia and developing growth faltering ... miliary TB\"; \"brain imaging should be performed\"",
+  "note": ""
+ },
+ {
+  "id": "jetem-precipitous-birth",
+  "url": "https://jetem.org/precipitous_birth/",
+  "verdict": "verified",
+  "evidence": "JETem page: \"Precipitous Birth\", Jennifer Yee and Andrew King, Issue 2:4 (2017); objectives include recognize impending delivery, postpartum bleeding, neonatal resuscitation",
+  "note": ""
+ },
+ {
+  "id": "jetem-neonatal-lp",
+  "url": "https://jetem.org/neonatal_lp/",
+  "verdict": "verified",
+  "evidence": "JETem page: \"Procedural Case: Neonatal Lumbar Puncture\", Charles Lei et al., Issue 10:5 (2025): \"LP ... in febrile neonates ... perform a neonatal LP on a procedural task trainer\"",
+  "note": ""
+ },
+ {
+  "id": "jetem-dt-sim",
+  "url": "https://jetem.org/dt_sim/",
+  "verdict": "verified",
+  "evidence": "JETem page: \"Alcohol Withdrawal with Delirium Tremens\", Courtney Schwebach and Amrita Vempati, Issue 8:3 (2023); objectives: CIWA scoring, benzodiazepine treatment",
+  "note": ""
+ },
+ {
+  "id": "emsim-urologic-sepsis",
+  "url": "https://emsimcases.com/2020/08/25/urologic-sepsis/",
+  "verdict": "verified",
+  "evidence": "emsimcases.com 2020/08/25: \"written by Drs. Johnny Huang, Krista Dowhos and Lorraine Colpitts\"; \"Denise is a 59-year-old female ... 7-day history of urinary symptoms, fever, and left flank pain ... STEMI 5 years ago with chronic left-sided heart failure\"",
+  "note": "Source of sepsis is an infected ureteric stone (not in brief)."
+ },
+ {
+  "id": "emsim-newborn-resuscitation",
+  "url": "https://emsimcases.com/2017/10/24/newborn-resuscitation/",
+  "verdict": "verified",
+  "evidence": "emsimcases.com 2017/10/24: \"written by Dr. Kyla Caners\"; \"no prenatal care and is an iv drug user. The baby will be flat\"",
+  "note": ""
+ },
+ {
+  "id": "simbox-newborn-rescusitation",
+  "url": "https://www.emergencysimbox.com/newborn-rescusitation",
+  "verdict": "fixed",
+  "evidence": "emergencysimbox.com page: \"Posted: April 2023 ... Authors: Sofia Athanasopoulou, MD, Maybelle Kou, MD\"; case booklet PDF: \"coming in with a 16 year old in active labor ... not aware of her pregnancy until earlier today\"; equipment \"Mannequin\"",
+  "note": "Year was null and authors empty; set year 2023 and authors \"Athanasopoulou S, Kou M\". Brief correct."
+ },
+ {
+  "id": "nln-ace-millie-larsen",
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/millie-larsen-a22fc65c-7836-6c70-9642-ff00005f0421",
+  "verdict": "verified",
+  "evidence": "NLN ACE.S page: \"Millie Larsen is an 84-year-old female who lives alone\"; Scenario 1 SPICES and CAM, \"blood pressure is very elevated\"; Scenario 2 fall risk and conflict with daughter; \"Cynthia Reese ... reviewed in 2024\"; Sim 1 template: \"Primary Medical Diagnosis: Dehydration, Rule out urinary tract infection\"",
+  "note": ""
+ },
+ {
+  "id": "nln-ace-butch-sampson",
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/butch-sampson-b128c65c-7836-6c70-9642-ff00005f0421",
+  "verdict": "verified",
+  "evidence": "NLN ACE.V page: \"Butch Sampson, age 68 ... Chronically without stable housing ... Type 2 diabetes ... cellulitis of the right great toe and had a surgical debridement\"; \"Janet K. Willhaus ... reviewed in 2024\"",
+  "note": ""
+ },
+ {
+  "id": "nln-ace-mary-lou-rob-brady",
+  "url": "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-d/unfolding-cases/mary-lou-and-rob-brady-c72ec65c-7836-6c70-9642-ff00005f0421",
+  "verdict": "verified",
+  "evidence": "NLN ACE.D page: \"Mary Lou Brady is a 20-year-old female who had a right-sided stroke\"; \"now 26 ... 28 weeks pregnant\"; \"C-Section ... preparing for discharge\"; authors Meakim, Mariani, Meyers, Smeltzer; \"reviewed in 2023\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-dementia-role-plays",
+  "url": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dem_supporting_material.pdf",
+  "verdict": "verified",
+  "evidence": "cdn.who.int dem_supporting_material.pdf (2017, 24 pages): Role play 1 Assessment and Role play 2 Follow-up with Farah and Ingrid; \"wandering around the house. One night last week she fell over a piece of furniture\"",
+  "note": ""
+ },
+ {
+  "id": "mhgap-depression-role-plays",
+  "url": "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dep_supporting_material.pdf",
+  "verdict": "fixed",
+  "evidence": "cdn.who.int dep_supporting_material.pdf (2017, 21 pages): Role plays 1 to 4 (Assessment, Psychosocial interventions, Pharmacology, Psychoeducation); extended options mania and thyroid",
+  "note": "Brief called the RP2 man a \"bank worker\"; he was fired a year ago. Changed to \"a 27-year-old who lost his bank job after a broken engagement\"."
+ },
+ {
+  "id": "enc1-case4-ventilate",
+  "url": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3",
+  "verdict": "verified",
+  "evidence": "WHO ENC 1 simulation practice cards (WHO/UHL/MCA/NBH/2024.3): PDF p.14 \"CASE 4: The Golden Minute Ventilate ... Show how you will care for the baby who is NOT crying or breathing well\"; mother prompts; \"Discuss together\" debrief",
+  "note": ""
+ }
+]

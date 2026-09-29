@@ -1,0 +1,1217 @@
+{
+  "source_primary": {
+    "name": "WHO Global Health Estimates 2021: disease burden (DALYs) by cause and country",
+    "year": 2021,
+    "url": "https://www.who.int/data/global-health-estimates",
+    "metric": "DALYs",
+    "notes": "Pulled from the WHO public API (https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD), all ages, both sexes, the same data behind data.who.int country pages. Ranked items are WHO 'rankable' causes ordered by total DALYs. COVID-19 is excluded as a ranked item because 2021 is pandemic-distorted. Low-acuity, disability-only causes (back and neck pain, hearing loss, skin diseases, refractive errors, oral conditions, gynecological diseases, migraine, anxiety) are skipped so the list holds serious conditions; depression and self-harm are kept. Priority items come from WHO TB, malaria, HIV, hypertension and maternal mortality series (WHO GHO API and the WHO Global TB Programme estimates), IARC GLOBOCAN, PAHO, CDC and national surveys; each carries its own source_url. Known conflict: WHO GHE assigns dengue very few DALYs (rank 59 or lower in PHL, VNM, THA, DOM), while national surveillance shows very large case and hospital loads, so dengue is added as a priority item where surveillance supports it. Supplementary series use later years (TB 2024, malaria 2024, HIV 2025 (Philippines trend to 2024), maternal mortality 2023, hypertension 2019) than GHE 2021. IHME GBD 2021 was not used; its cause list and methods differ, so ranks can differ from these. Ranked items whose 'why' adds a TB, HIV or malaria figure draw it from https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/data, https://www.who.int/data/gho/data/themes/hiv-aids and https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases."
+  },
+  "countries": [
+    {
+      "iso3": "ARM",
+      "name": "Armenia",
+      "flag": "🇦🇲",
+      "region": "Europe and Central Asia",
+      "source_url": "https://data.who.int/countries/051",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #2 by DALYs, 15.3% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#3), hearing loss (#9), migraine (#10). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (7,113 per 100,000; 18.1% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (1,910 per 100,000; 4.9% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "lung-cancer",
+          "name": "Lung cancer",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (1,087 per 100,000; 2.8% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (867 per 100,000; 2.2% of all DALYs); 14th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "depression",
+          "name": "Depressive disorders",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (757 per 100,000; 1.9% of all DALYs)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (713 per 100,000; 1.8% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (699 per 100,000; 1.8% of all DALYs); 12th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "hypertensive-heart-disease",
+          "name": "Hypertensive heart disease",
+          "kind": "ranked",
+          "why": "11th leading cause of DALYs in 2021 (557 per 100,000; 1.4% of all DALYs); 5th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "breast-cancer",
+          "name": "Breast cancer",
+          "kind": "ranked",
+          "why": "12th leading cause of DALYs in 2021 (535 per 100,000; 1.4% of all DALYs); 8th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "copd",
+          "name": "Chronic obstructive pulmonary disease (COPD)",
+          "kind": "ranked",
+          "why": "14th leading cause of DALYs in 2021 (494 per 100,000; 1.3% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ARM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "hypertension",
+          "name": "Hypertension",
+          "kind": "priority",
+          "why": "47.3% of adults aged 30 to 79 have hypertension and only 8.8% have it controlled (2019, WHO age-standardized estimate); hypertensive heart disease is already the 8th item above",
+          "source_url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+        }
+      ]
+    },
+    {
+      "iso3": "BWA",
+      "name": "Botswana",
+      "flag": "🇧🇼",
+      "region": "Sub-Saharan Africa",
+      "source_url": "https://data.who.int/countries/072",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #2 by DALYs, 12.6% of all DALYs). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "hiv-aids",
+          "name": "HIV/AIDS",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (8,245 per 100,000; 16.3% of all DALYs); 1st cause of death; about 350,000 people living with HIV in 2025, >98% on antiretroviral therapy (WHO/UNAIDS estimates)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "tuberculosis",
+          "name": "Tuberculosis",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (3,606 per 100,000; 7.1% of all DALYs); 2nd cause of death; WHO estimates 143 new TB cases per 100,000 in 2024, 44% of them in people with HIV",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (2,525 per 100,000; 5.0% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (2,001 per 100,000; 4.0% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "diarrheal-disease",
+          "name": "Diarrheal disease",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,458 per 100,000; 2.9% of all DALYs); 8th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "congenital-anomalies",
+          "name": "Congenital anomalies",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,254 per 100,000; 2.5% of all DALYs); 14th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "neonatal-encephalopathy-asphyxia",
+          "name": "Birth asphyxia and birth trauma",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (1,234 per 100,000; 2.4% of all DALYs); 15th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (1,221 per 100,000; 2.4% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (1,046 per 100,000; 2.1% of all DALYs); 10th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (1,039 per 100,000; 2.1% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27BWA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "cervical-cancer",
+          "name": "Cervical cancer",
+          "kind": "priority",
+          "why": "Most common cancer and leading cause of cancer death: 502 new cases (17.3% of all cancers) and 331 deaths in 2024 (IARC GLOBOCAN), strongly linked to HIV",
+          "source_url": "https://gco.iarc.who.int/media/globocan/factsheets/populations/72-botswana-fact-sheet.pdf"
+        },
+        {
+          "rank": 12,
+          "key": "maternal-conditions",
+          "name": "Maternal complications of pregnancy and childbirth",
+          "kind": "priority",
+          "why": "Maternal mortality ratio of 155 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+          "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)"
+        },
+        {
+          "rank": 13,
+          "key": "hypertension",
+          "name": "Hypertension",
+          "kind": "priority",
+          "why": "44.1% of adults aged 30 to 79 have hypertension and only 18.8% have it controlled (2019, WHO age-standardized estimate)",
+          "source_url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+        }
+      ]
+    },
+    {
+      "iso3": "DOM",
+      "name": "Dominican Republic",
+      "flag": "🇩🇴",
+      "region": "Latin America and Caribbean",
+      "source_url": "https://data.who.int/countries/214",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #6 by DALYs, 3.8% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#9). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (2,511 per 100,000; 7.7% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (1,876 per 100,000; 5.8% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (1,564 per 100,000; 4.8% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (1,390 per 100,000; 4.3% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,359 per 100,000; 4.2% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "interpersonal-violence",
+          "name": "Interpersonal violence (assault and homicide)",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,219 per 100,000; 3.8% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "neonatal-encephalopathy-asphyxia",
+          "name": "Birth asphyxia and birth trauma",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (980 per 100,000; 3.0% of all DALYs); 16th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "hiv-aids",
+          "name": "HIV/AIDS",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (954 per 100,000; 2.9% of all DALYs); 10th cause of death; about 88,000 people living with HIV in 2025, 65% on antiretroviral therapy (WHO/UNAIDS estimates)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (851 per 100,000; 2.6% of all DALYs); 9th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "congenital-anomalies",
+          "name": "Congenital anomalies",
+          "kind": "ranked",
+          "why": "11th leading cause of DALYs in 2021 (800 per 100,000; 2.5% of all DALYs); 18th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27DOM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "dengue",
+          "name": "Dengue",
+          "kind": "priority",
+          "why": "9,153 suspected cases in epidemiological weeks 1 to 34 of 2024 (83 per 100,000), 65 severe and 9 deaths (PAHO); WHO GHE ranks dengue only 101st by DALYs",
+          "source_url": "https://www.paho.org/sites/default/files/2024-10/2024-oct-07-phe-epi-alert-dengue-final.pdf"
+        },
+        {
+          "rank": 12,
+          "key": "maternal-conditions",
+          "name": "Maternal complications of pregnancy and childbirth",
+          "kind": "priority",
+          "why": "Maternal mortality ratio of 124 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+          "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)"
+        },
+        {
+          "rank": 13,
+          "key": "hypertension",
+          "name": "Hypertension",
+          "kind": "priority",
+          "why": "49.1% of adults aged 30 to 79 have hypertension and only 21.6% have it controlled (2019, WHO age-standardized estimate)",
+          "source_url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+        }
+      ]
+    },
+    {
+      "iso3": "IND",
+      "name": "India",
+      "flag": "🇮🇳",
+      "region": "South Asia",
+      "source_url": "https://data.who.int/countries/356",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #1 by DALYs, 15.4% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#9). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (3,040 per 100,000; 7.3% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "copd",
+          "name": "Chronic obstructive pulmonary disease (COPD)",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (1,720 per 100,000; 4.1% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (1,692 per 100,000; 4.1% of all DALYs); 12th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (1,460 per 100,000; 3.5% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "diarrheal-disease",
+          "name": "Diarrheal disease",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,271 per 100,000; 3.1% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,129 per 100,000; 2.7% of all DALYs); 5th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "tuberculosis",
+          "name": "Tuberculosis",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (1,023 per 100,000; 2.5% of all DALYs); 6th cause of death; WHO estimates 187 new TB cases per 100,000 in 2024 (25.3% of the global total)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (1,012 per 100,000; 2.4% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "anemia",
+          "name": "Iron-deficiency anemia",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (846 per 100,000; 2.0% of all DALYs)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "falls",
+          "name": "Falls",
+          "kind": "ranked",
+          "why": "11th leading cause of DALYs in 2021 (765 per 100,000; 1.8% of all DALYs); 9th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27IND%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "snakebite",
+          "name": "Snakebite envenoming",
+          "kind": "priority",
+          "why": "About 58,000 snakebite deaths per year (1.2 million from 2000 to 2019), mostly in low-lying farming areas and during the rainy season (Million Death Study, reported by WHO)",
+          "source_url": "https://www.who.int/news/item/10-07-2020-study-estimates-more-than-one-million-indians-died-from-snakebite-envenoming-over-past-two-decades"
+        },
+        {
+          "rank": 12,
+          "key": "hypertension",
+          "name": "Hypertension",
+          "kind": "priority",
+          "why": "31.1% of adults aged 30 to 79 have hypertension and only 14.8% have it controlled (2019, WHO age-standardized estimate)",
+          "source_url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+        }
+      ]
+    },
+    {
+      "iso3": "JAM",
+      "name": "Jamaica",
+      "flag": "🇯🇲",
+      "region": "Latin America and Caribbean",
+      "source_url": "https://data.who.int/countries/388",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #4 by DALYs, 6.0% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#7). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (2,642 per 100,000; 7.2% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "interpersonal-violence",
+          "name": "Interpersonal violence (assault and homicide)",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (2,638 per 100,000; 7.2% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (2,304 per 100,000; 6.3% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "hiv-aids",
+          "name": "HIV/AIDS",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (1,814 per 100,000; 4.9% of all DALYs); 7th cause of death; about 28,000 people living with HIV in 2025, 52% on antiretroviral therapy (WHO/UNAIDS estimates)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,418 per 100,000; 3.9% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "chronic-kidney-disease",
+          "name": "Chronic kidney disease",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,051 per 100,000; 2.9% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (939 per 100,000; 2.6% of all DALYs); 20th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (847 per 100,000; 2.3% of all DALYs); 12th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "hypertensive-heart-disease",
+          "name": "Hypertensive heart disease",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (829 per 100,000; 2.3% of all DALYs); 5th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "breast-cancer",
+          "name": "Breast cancer",
+          "kind": "ranked",
+          "why": "11th leading cause of DALYs in 2021 (733 per 100,000; 2.0% of all DALYs); 10th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27JAM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "sickle-cell-disease",
+          "name": "Sickle cell disease",
+          "kind": "priority",
+          "why": "Newborn screening of 66,833 babies found sickle cell syndromes in 407 (about 1 in 164 births) and sickle cell trait in 9.8% (Serjeant et al., J Community Genet 2017, with the Ministry of Health)",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27796853/"
+        },
+        {
+          "rank": 12,
+          "key": "prostate-cancer",
+          "name": "Prostate cancer",
+          "kind": "priority",
+          "why": "Most common cancer and leading cause of cancer death: 1,394 new cases (18.5% of all cancers) and 809 deaths in 2024 (IARC GLOBOCAN)",
+          "source_url": "https://gco.iarc.who.int/media/globocan/factsheets/populations/388-jamaica-fact-sheet.pdf"
+        },
+        {
+          "rank": 13,
+          "key": "hypertension",
+          "name": "Hypertension",
+          "kind": "priority",
+          "why": "46.3% of adults aged 30 to 79 have hypertension and only 19.1% have it controlled (2019, WHO age-standardized estimate)",
+          "source_url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+        }
+      ]
+    },
+    {
+      "iso3": "PHL",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "region": "Southeast Asia",
+      "source_url": "https://data.who.int/countries/608",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #5 by DALYs, 3.4% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#10). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (4,048 per 100,000; 10.8% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (2,655 per 100,000; 7.1% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (2,115 per 100,000; 5.6% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "tuberculosis",
+          "name": "Tuberculosis",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (1,333 per 100,000; 3.6% of all DALYs); 5th cause of death; WHO estimates 625 new TB cases per 100,000 in 2024 (6.8% of the global total)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "chronic-kidney-disease",
+          "name": "Chronic kidney disease",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,263 per 100,000; 3.4% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,161 per 100,000; 3.1% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (1,121 per 100,000; 3.0% of all DALYs); 14th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "congenital-anomalies",
+          "name": "Congenital anomalies",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (975 per 100,000; 2.6% of all DALYs); 15th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "hypertensive-heart-disease",
+          "name": "Hypertensive heart disease",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (835 per 100,000; 2.2% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "interpersonal-violence",
+          "name": "Interpersonal violence (assault and homicide)",
+          "kind": "ranked",
+          "why": "11th leading cause of DALYs in 2021 (783 per 100,000; 2.1% of all DALYs); 10th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27PHL%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "dengue",
+          "name": "Dengue",
+          "kind": "priority",
+          "why": "167,355 cases and 575 deaths reported from 1 January to 7 December 2023 (WHO Disease Outbreak News); WHO GHE ranks dengue only 59th by DALYs",
+          "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498"
+        },
+        {
+          "rank": 12,
+          "key": "hiv-aids",
+          "name": "HIV/AIDS",
+          "kind": "priority",
+          "why": "New HIV infections rose more than sixfold, from about 4,600 in 2010 to 30,000 in 2024, and only 40% of people with HIV were on treatment in 2024 (WHO/UNAIDS estimates)",
+          "source_url": "https://www.who.int/data/gho/data/themes/hiv-aids"
+        }
+      ]
+    },
+    {
+      "iso3": "THA",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "region": "Southeast Asia",
+      "source_url": "https://data.who.int/countries/764",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #4 by DALYs, 4.4% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#7), hearing loss (#12). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (2,642 per 100,000; 7.2% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (1,692 per 100,000; 4.6% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (1,613 per 100,000; 4.4% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (1,496 per 100,000; 4.1% of all DALYs); 11th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "chronic-kidney-disease",
+          "name": "Chronic kidney disease",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,366 per 100,000; 3.7% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "cirrhosis-liver-disease",
+          "name": "Cirrhosis of the liver",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,254 per 100,000; 3.4% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "liver-cancer",
+          "name": "Liver cancer",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (1,064 per 100,000; 2.9% of all DALYs); 5th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (1,055 per 100,000; 2.9% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "hiv-aids",
+          "name": "HIV/AIDS",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (896 per 100,000; 2.5% of all DALYs); 12th cause of death; about 620,000 people living with HIV in 2025, 82% on antiretroviral therapy (WHO/UNAIDS estimates)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "self-harm-suicide",
+          "name": "Self-harm and suicide",
+          "kind": "ranked",
+          "why": "11th leading cause of DALYs in 2021 (862 per 100,000; 2.4% of all DALYs); 13th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27THA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "tuberculosis",
+          "name": "Tuberculosis",
+          "kind": "priority",
+          "why": "WHO estimates 146 new TB cases per 100,000 in 2024; Thailand is on the WHO 2021 to 2025 list of 30 high TB burden countries",
+          "source_url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/data"
+        },
+        {
+          "rank": 12,
+          "key": "dengue",
+          "name": "Dengue",
+          "kind": "priority",
+          "why": "136,655 cases and 147 deaths in 2023 (to 22 November), up from 46,678 cases in 2022 (WHO Disease Outbreak News)",
+          "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498"
+        }
+      ]
+    },
+    {
+      "iso3": "UGA",
+      "name": "Uganda",
+      "flag": "🇺🇬",
+      "region": "Sub-Saharan Africa",
+      "source_url": "https://data.who.int/countries/800",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #13 by DALYs, 1.7% of all DALYs). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position. US3 measured 0.7% disease prevalence; the study background notes an older, commonly cited figure of 20,000 babies per year born with sickle cell disease that lacked accurate data.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "malaria",
+          "name": "Malaria",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (3,116 per 100,000; 8.0% of all DALYs); 1st cause of death; an estimated 13.2 million malaria cases in 2024, 4.7% of the global total (WHO World Malaria Report estimates)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (2,928 per 100,000; 7.5% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "hiv-aids",
+          "name": "HIV/AIDS",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (2,660 per 100,000; 6.8% of all DALYs); 2nd cause of death; about 1,500,000 people living with HIV in 2025, 85% on antiretroviral therapy (WHO/UNAIDS estimates)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (2,307 per 100,000; 5.9% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "neonatal-encephalopathy-asphyxia",
+          "name": "Birth asphyxia and birth trauma",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,762 per 100,000; 4.5% of all DALYs); 9th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "tuberculosis",
+          "name": "Tuberculosis",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,513 per 100,000; 3.9% of all DALYs); 5th cause of death; WHO estimates 197 new TB cases per 100,000 in 2024, 33% of them in people with HIV",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "diarrheal-disease",
+          "name": "Diarrheal disease",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (1,332 per 100,000; 3.4% of all DALYs); 8th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "congenital-anomalies",
+          "name": "Congenital anomalies",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (1,198 per 100,000; 3.1% of all DALYs); 14th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "interpersonal-violence",
+          "name": "Interpersonal violence (assault and homicide)",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (1,046 per 100,000; 2.7% of all DALYs); 11th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (1,009 per 100,000; 2.6% of all DALYs); 10th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27UGA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "sickle-cell-disease",
+          "name": "Sickle cell disease",
+          "kind": "priority",
+          "why": "National survey of 97,631 HIV-exposed infants found sickle cell trait in 13.3% and sickle cell disease in 0.7%, up to 1.5% in East Central region (Uganda Sickle Surveillance Study, with the Ministry of Health)",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/26833239/"
+        },
+        {
+          "rank": 12,
+          "key": "maternal-conditions",
+          "name": "Maternal complications of pregnancy and childbirth",
+          "kind": "priority",
+          "why": "Maternal mortality ratio of 170 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+          "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)"
+        },
+        {
+          "rank": 13,
+          "key": "hypertension",
+          "name": "Hypertension",
+          "kind": "priority",
+          "why": "32.5% of adults aged 30 to 79 have hypertension and only 7.6% have it controlled (2019, WHO age-standardized estimate)",
+          "source_url": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+        }
+      ]
+    },
+    {
+      "iso3": "VNM",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "region": "Southeast Asia",
+      "source_url": "https://data.who.int/countries/704",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #6 by DALYs, 2.9% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#4). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (3,766 per 100,000; 12.7% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (1,380 per 100,000; 4.7% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (1,098 per 100,000; 3.7% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (900 per 100,000; 3.0% of all DALYs); 12th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "liver-cancer",
+          "name": "Liver cancer",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (809 per 100,000; 2.7% of all DALYs); 5th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "copd",
+          "name": "Chronic obstructive pulmonary disease (COPD)",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (781 per 100,000; 2.6% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (775 per 100,000; 2.6% of all DALYs); 21st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "congenital-anomalies",
+          "name": "Congenital anomalies",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (738 per 100,000; 2.5% of all DALYs); 20th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "cirrhosis-liver-disease",
+          "name": "Cirrhosis of the liver",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (729 per 100,000; 2.5% of all DALYs); 8th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "lung-cancer",
+          "name": "Lung cancer",
+          "kind": "ranked",
+          "why": "11th leading cause of DALYs in 2021 (694 per 100,000; 2.3% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27VNM%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "tuberculosis",
+          "name": "Tuberculosis",
+          "kind": "priority",
+          "why": "WHO estimates 182 new TB cases per 100,000 in 2024 (1.7% of the global total); Viet Nam is on the WHO 2021 to 2025 list of 30 high TB burden countries",
+          "source_url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/data"
+        },
+        {
+          "rank": 12,
+          "key": "dengue",
+          "name": "Dengue",
+          "kind": "priority",
+          "why": "149,557 cases and 36 deaths reported from 1 January to 7 December 2023 (WHO Disease Outbreak News)",
+          "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498"
+        },
+        {
+          "rank": 13,
+          "key": "hepatitis",
+          "name": "Chronic hepatitis B (and C)",
+          "kind": "priority",
+          "why": "More than 7 million people live with hepatitis B or C (1 in 15), and these viruses cause 90% of liver cancer, the leading cause of cancer death (WHO Western Pacific, 2025)",
+          "source_url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/don-t-wait-for-symptoms---get-checked-for-hepatitis--say-liver-cancer-patient-and-experts-in-viet-nam-ahead-of-world-hepatitis-day"
+        }
+      ]
+    },
+    {
+      "iso3": "ZWE",
+      "name": "Zimbabwe",
+      "flag": "🇿🇼",
+      "region": "Sub-Saharan Africa",
+      "source_url": "https://data.who.int/countries/716",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #4 by DALYs, 4.8% of all DALYs). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "hiv-aids",
+          "name": "HIV/AIDS",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (8,114 per 100,000; 14.8% of all DALYs); 1st cause of death; about 1,300,000 people living with HIV in 2025, 95% on antiretroviral therapy (WHO/UNAIDS estimates)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "lower-respiratory-infection",
+          "name": "Pneumonia and other lower respiratory infections",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (3,601 per 100,000; 6.6% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "neonatal-preterm-birth",
+          "name": "Preterm birth complications",
+          "kind": "ranked",
+          "why": "3rd leading cause of DALYs in 2021 (3,312 per 100,000; 6.1% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "tuberculosis",
+          "name": "Tuberculosis",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (2,496 per 100,000; 4.6% of all DALYs); 4th cause of death; WHO estimates 203 new TB cases per 100,000 in 2024, 62% of them in people with HIV",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "diarrheal-disease",
+          "name": "Diarrheal disease",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,863 per 100,000; 3.4% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,835 per 100,000; 3.4% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "neonatal-encephalopathy-asphyxia",
+          "name": "Birth asphyxia and birth trauma",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (1,789 per 100,000; 3.3% of all DALYs); 11th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (1,765 per 100,000; 3.2% of all DALYs); 8th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (1,216 per 100,000; 2.2% of all DALYs); 5th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "congenital-anomalies",
+          "name": "Congenital anomalies",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (1,195 per 100,000; 2.2% of all DALYs); 18th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27ZWE%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "maternal-conditions",
+          "name": "Maternal complications of pregnancy and childbirth",
+          "kind": "priority",
+          "why": "Maternal mortality ratio of 358 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+          "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)"
+        },
+        {
+          "rank": 12,
+          "key": "cervical-cancer",
+          "name": "Cervical cancer",
+          "kind": "priority",
+          "why": "Most common cancer and leading cause of cancer death: 5,194 new cases (20.7% of all cancers) and 3,118 deaths in 2024 (IARC GLOBOCAN), strongly linked to HIV",
+          "source_url": "https://gco.iarc.who.int/media/globocan/factsheets/populations/716-zimbabwe-fact-sheet.pdf"
+        },
+        {
+          "rank": 13,
+          "key": "malaria",
+          "name": "Malaria",
+          "kind": "priority",
+          "why": "An estimated 148,833 malaria cases in 2024 (WHO World Malaria Report estimates)",
+          "source_url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases"
+        }
+      ]
+    },
+    {
+      "iso3": "USA",
+      "name": "United States (including Puerto Rico)",
+      "flag": "🇺🇸",
+      "region": "North America",
+      "source_url": "https://data.who.int/countries/840",
+      "source_note": "WHO GHE 2021, all ages, both sexes. COVID-19 removed from ranking (it would have been #1 by DALYs, 8.0% of all DALYs). Skipped as low-acuity, disability-only causes: back and neck pain (#3), anxiety disorders (#11). Ranks in 'why' are WHO ranks among rankable causes with COVID-19 removed; 'rank' is list position. WHO GHE covers the 50 states only; Puerto Rico is not a WHO member state and has no separate GHE estimate, so Puerto Rico appears through the CDC-sourced dengue priority item.",
+      "conditions": [
+        {
+          "rank": 1,
+          "key": "ischemic-heart-disease",
+          "name": "Ischemic heart disease",
+          "kind": "ranked",
+          "why": "1st leading cause of DALYs in 2021 (2,805 per 100,000; 7.2% of all DALYs); 1st cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 2,
+          "key": "opioid-use-disorder",
+          "name": "Drug use disorders (mainly opioid use disorder)",
+          "kind": "ranked",
+          "why": "2nd leading cause of DALYs in 2021 (2,544 per 100,000; 6.5% of all DALYs); 6th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 3,
+          "key": "diabetes",
+          "name": "Diabetes mellitus",
+          "kind": "ranked",
+          "why": "4th leading cause of DALYs in 2021 (1,485 per 100,000; 3.8% of all DALYs); 10th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 4,
+          "key": "copd",
+          "name": "Chronic obstructive pulmonary disease (COPD)",
+          "kind": "ranked",
+          "why": "5th leading cause of DALYs in 2021 (1,271 per 100,000; 3.2% of all DALYs); 4th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 5,
+          "key": "alzheimer-dementia",
+          "name": "Alzheimer disease and other dementias",
+          "kind": "ranked",
+          "why": "6th leading cause of DALYs in 2021 (1,186 per 100,000; 3.0% of all DALYs); 2nd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 6,
+          "key": "stroke",
+          "name": "Stroke",
+          "kind": "ranked",
+          "why": "7th leading cause of DALYs in 2021 (1,113 per 100,000; 2.8% of all DALYs); 3rd cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 7,
+          "key": "depression",
+          "name": "Depressive disorders",
+          "kind": "ranked",
+          "why": "8th leading cause of DALYs in 2021 (1,033 per 100,000; 2.6% of all DALYs)",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 8,
+          "key": "road-injury",
+          "name": "Road traffic injury",
+          "kind": "ranked",
+          "why": "9th leading cause of DALYs in 2021 (913 per 100,000; 2.3% of all DALYs); 14th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 9,
+          "key": "lung-cancer",
+          "name": "Lung cancer",
+          "kind": "ranked",
+          "why": "10th leading cause of DALYs in 2021 (892 per 100,000; 2.3% of all DALYs); 5th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 10,
+          "key": "chronic-kidney-disease",
+          "name": "Chronic kidney disease",
+          "kind": "ranked",
+          "why": "12th leading cause of DALYs in 2021 (794 per 100,000; 2.0% of all DALYs); 7th cause of death",
+          "source_url": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL_DD?$filter=DIM_COUNTRY_CODE%20eq%20%27USA%27%20and%20DIM_YEAR_CODE%20eq%20%272021%27%20and%20DIM_AGEGROUP_CODE%20eq%20%27ALLAges%27%20and%20DIM_SEX_CODE%20eq%20%27BTSX%27"
+        },
+        {
+          "rank": 11,
+          "key": "dengue",
+          "name": "Dengue (Puerto Rico)",
+          "kind": "priority",
+          "why": "Puerto Rico declared a dengue public health emergency in March 2024: 6,291 confirmed cases that year, 52.3% hospitalized, 264 severe, 11 deaths (CDC MMWR 2025)",
+          "source_url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7405a1.htm"
+        },
+        {
+          "rank": 12,
+          "key": "self-harm-suicide",
+          "name": "Self-harm and suicide",
+          "kind": "priority",
+          "why": "48,824 suicide deaths in 2024 (CDC NCHS); 13th leading cause of DALYs in WHO GHE 2021",
+          "source_url": "https://www.cdc.gov/nchs/fastats/suicide.htm"
+        }
+      ]
+    }
+  ]
+}

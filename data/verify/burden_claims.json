@@ -1,0 +1,620 @@
+{
+  "checked": "2026-09-29",
+  "file": "burden.json",
+  "scope": "All priority items, all figures appended to ranked items after the GHE DALY part, country source_url identity, source_url resolution. GHE DALY rank/rate text on ranked items was out of scope (verified earlier).",
+  "summary": {
+    "records": 66,
+    "verified": 58,
+    "wrong_fixed": 7,
+    "unverifiable_fixed": 1
+  },
+  "freshness_notes": [
+    "Hypertension: GHO series used (2019) is the latest in the GHO API, but the WHO 2025 hypertension country profiles give 2024 estimates (prevalence / control: ARM 51/10, BWA 41/20, DOM 50/23, IND 30/17, JAM 49/21, UGA 28/9). Not changed.",
+    "Philippines HIV: 2025 values exist (34,000 new infections, 41% on ART). Claim for 2024 is correct. Not changed.",
+    "Zimbabwe malaria: 2024 estimate (148,833) is a 77% drop from 2023 (635,589). Correct as stated."
+  ],
+  "claims": [
+    {
+      "country": "ARM",
+      "condition": "hypertension",
+      "kind": "priority",
+      "claim": "47.3% of adults aged 30 to 79 have hypertension and only 8.8% have it controlled (2019, WHO age-standardized estimate)",
+      "verdict": "verified",
+      "evidence": "GHO NCD_HYP_PREVALENCE_A ARM 2019 = 47.3; NCD_HYP_CONTROL_A ARM 2019 = 8.8 (controlled among adults 30 to 79 with hypertension). Latest year in GHO is 2019.",
+      "source_checked": "https://ghoapi.azureedge.net/api/NCD_HYP_PREVALENCE_A?$filter=SpatialDim eq 'ARM'"
+    },
+    {
+      "country": "BWA",
+      "condition": "hypertension",
+      "kind": "priority",
+      "claim": "44.1% of adults aged 30 to 79 have hypertension and only 18.8% have it controlled (2019, WHO age-standardized estimate)",
+      "verdict": "verified",
+      "evidence": "GHO NCD_HYP_PREVALENCE_A BWA 2019 = 44.1; NCD_HYP_CONTROL_A BWA 2019 = 18.8 (controlled among adults 30 to 79 with hypertension). Latest year in GHO is 2019.",
+      "source_checked": "https://ghoapi.azureedge.net/api/NCD_HYP_PREVALENCE_A?$filter=SpatialDim eq 'BWA'"
+    },
+    {
+      "country": "DOM",
+      "condition": "hypertension",
+      "kind": "priority",
+      "claim": "49.1% of adults aged 30 to 79 have hypertension and only 21.6% have it controlled (2019, WHO age-standardized estimate)",
+      "verdict": "verified",
+      "evidence": "GHO NCD_HYP_PREVALENCE_A DOM 2019 = 49.1; NCD_HYP_CONTROL_A DOM 2019 = 21.6 (controlled among adults 30 to 79 with hypertension). Latest year in GHO is 2019.",
+      "source_checked": "https://ghoapi.azureedge.net/api/NCD_HYP_PREVALENCE_A?$filter=SpatialDim eq 'DOM'"
+    },
+    {
+      "country": "IND",
+      "condition": "hypertension",
+      "kind": "priority",
+      "claim": "31.1% of adults aged 30 to 79 have hypertension and only 14.8% have it controlled (2019, WHO age-standardized estimate)",
+      "verdict": "verified",
+      "evidence": "GHO NCD_HYP_PREVALENCE_A IND 2019 = 31.1; NCD_HYP_CONTROL_A IND 2019 = 14.8 (controlled among adults 30 to 79 with hypertension). Latest year in GHO is 2019.",
+      "source_checked": "https://ghoapi.azureedge.net/api/NCD_HYP_PREVALENCE_A?$filter=SpatialDim eq 'IND'"
+    },
+    {
+      "country": "JAM",
+      "condition": "hypertension",
+      "kind": "priority",
+      "claim": "46.3% of adults aged 30 to 79 have hypertension and only 19.1% have it controlled (2019, WHO age-standardized estimate)",
+      "verdict": "verified",
+      "evidence": "GHO NCD_HYP_PREVALENCE_A JAM 2019 = 46.3; NCD_HYP_CONTROL_A JAM 2019 = 19.1 (controlled among adults 30 to 79 with hypertension). Latest year in GHO is 2019.",
+      "source_checked": "https://ghoapi.azureedge.net/api/NCD_HYP_PREVALENCE_A?$filter=SpatialDim eq 'JAM'"
+    },
+    {
+      "country": "UGA",
+      "condition": "hypertension",
+      "kind": "priority",
+      "claim": "32.5% of adults aged 30 to 79 have hypertension and only 7.6% have it controlled (2019, WHO age-standardized estimate)",
+      "verdict": "verified",
+      "evidence": "GHO NCD_HYP_PREVALENCE_A UGA 2019 = 32.5; NCD_HYP_CONTROL_A UGA 2019 = 7.6 (controlled among adults 30 to 79 with hypertension). Latest year in GHO is 2019.",
+      "source_checked": "https://ghoapi.azureedge.net/api/NCD_HYP_PREVALENCE_A?$filter=SpatialDim eq 'UGA'"
+    },
+    {
+      "country": "ARM",
+      "condition": "hypertension",
+      "kind": "priority",
+      "claim": "hypertensive heart disease is already the 8th item above",
+      "verdict": "verified",
+      "evidence": "burden.json ARM list position 8 = hypertensive-heart-disease",
+      "source_checked": "burden.json"
+    },
+    {
+      "country": "BWA",
+      "condition": "maternal-conditions",
+      "kind": "priority",
+      "claim": "Maternal mortality ratio of 155 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+      "verdict": "verified",
+      "evidence": "GHO MDG_0000000026 BWA 2023 = '155 [..]' (latest year)",
+      "source_checked": "https://ghoapi.azureedge.net/api/MDG_0000000026?$filter=SpatialDim eq 'BWA'"
+    },
+    {
+      "country": "DOM",
+      "condition": "maternal-conditions",
+      "kind": "priority",
+      "claim": "Maternal mortality ratio of 124 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+      "verdict": "verified",
+      "evidence": "GHO MDG_0000000026 DOM 2023 = '124 [..]' (latest year)",
+      "source_checked": "https://ghoapi.azureedge.net/api/MDG_0000000026?$filter=SpatialDim eq 'DOM'"
+    },
+    {
+      "country": "UGA",
+      "condition": "maternal-conditions",
+      "kind": "priority",
+      "claim": "Maternal mortality ratio of 170 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+      "verdict": "verified",
+      "evidence": "GHO MDG_0000000026 UGA 2023 = '170 [..]' (latest year)",
+      "source_checked": "https://ghoapi.azureedge.net/api/MDG_0000000026?$filter=SpatialDim eq 'UGA'"
+    },
+    {
+      "country": "ZWE",
+      "condition": "maternal-conditions",
+      "kind": "priority",
+      "claim": "Maternal mortality ratio of 358 per 100,000 live births in 2023 (WHO/UN MMEIG)",
+      "verdict": "verified",
+      "evidence": "GHO MDG_0000000026 ZWE 2023 = '358 [..]' (latest year)",
+      "source_checked": "https://ghoapi.azureedge.net/api/MDG_0000000026?$filter=SpatialDim eq 'ZWE'"
+    },
+    {
+      "country": "BWA",
+      "condition": "cervical-cancer",
+      "kind": "priority",
+      "claim": "Most common cancer and leading cause of cancer death: 502 new cases (17.3% of all cancers) and 331 deaths in 2024 (IARC GLOBOCAN)",
+      "verdict": "verified",
+      "evidence": "GLOBOCAN 2024 Botswana fact sheet: Cervix uteri 502 cases, rank 1, 17.3%; 331 deaths, rank 1 (both sexes)",
+      "source_checked": "https://gco.iarc.who.int/media/globocan/factsheets/populations/72-botswana-fact-sheet.pdf"
+    },
+    {
+      "country": "ZWE",
+      "condition": "cervical-cancer",
+      "kind": "priority",
+      "claim": "Most common cancer and leading cause of cancer death: 5,194 new cases (20.7% of all cancers) and 3,118 deaths in 2024 (IARC GLOBOCAN)",
+      "verdict": "verified",
+      "evidence": "GLOBOCAN 2024 Zimbabwe fact sheet: Cervix uteri 5 194 cases, rank 1, 20.7%; 3 118 deaths, rank 1",
+      "source_checked": "https://gco.iarc.who.int/media/globocan/factsheets/populations/716-zimbabwe-fact-sheet.pdf"
+    },
+    {
+      "country": "BWA",
+      "condition": "cervical-cancer",
+      "kind": "priority",
+      "claim": "strongly linked to HIV",
+      "verdict": "verified",
+      "evidence": "Not in the GLOBOCAN fact sheet; supported by WHO cervical cancer fact sheet: 'Women living with HIV are 6 times more likely to develop cervical cancer'",
+      "source_checked": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer"
+    },
+    {
+      "country": "ZWE",
+      "condition": "cervical-cancer",
+      "kind": "priority",
+      "claim": "strongly linked to HIV",
+      "verdict": "verified",
+      "evidence": "Not in the GLOBOCAN fact sheet; supported by WHO cervical cancer fact sheet: 'Women living with HIV are 6 times more likely to develop cervical cancer'",
+      "source_checked": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer"
+    },
+    {
+      "country": "JAM",
+      "condition": "prostate-cancer",
+      "kind": "priority",
+      "claim": "Most common cancer and leading cause of cancer death: 1,394 new cases (18.5% of all cancers) and 809 deaths in 2024 (IARC GLOBOCAN)",
+      "verdict": "verified",
+      "evidence": "GLOBOCAN 2024 Jamaica fact sheet: Prostate 1 394 cases, rank 1, 18.5%; 809 deaths, rank 1",
+      "source_checked": "https://gco.iarc.who.int/media/globocan/factsheets/populations/388-jamaica-fact-sheet.pdf"
+    },
+    {
+      "country": "DOM",
+      "condition": "dengue",
+      "kind": "priority",
+      "claim": "9,153 suspected cases in epidemiological weeks 1 to 34 of 2024 (83 per 100,000), 65 severe and 9 deaths (PAHO)",
+      "verdict": "verified",
+      "evidence": "PAHO alert 7 Oct 2024: 'between EW 1 and EW 34 of 2024, 9,153 suspected dengue cases'; 83 per 100,000; 65 severe; nine fatal",
+      "source_checked": "https://www.paho.org/sites/default/files/2024-10/2024-oct-07-phe-epi-alert-dengue-final.pdf"
+    },
+    {
+      "country": "DOM",
+      "condition": "dengue",
+      "kind": "priority",
+      "claim": "WHO GHE ranks dengue only 101st by DALYs",
+      "verdict": "verified",
+      "evidence": "Live GHE_FULL_DD DOM 2021: dengue (300) rank 101 among rankable causes, COVID-19 removed",
+      "source_checked": "xmart-api-public.who.int GHE_FULL_DD DOM"
+    },
+    {
+      "country": "PHL",
+      "condition": "dengue",
+      "kind": "priority",
+      "claim": "167,355 cases and 575 deaths reported from 1 January to 7 December 2023 (WHO Disease Outbreak News)",
+      "verdict": "verified",
+      "evidence": "DON498: 'Between 1 January 2023 to 7 December 2023 ... the Philippines, reporting 167 355 cases and 575 deaths'",
+      "source_checked": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498"
+    },
+    {
+      "country": "PHL",
+      "condition": "dengue",
+      "kind": "priority",
+      "claim": "WHO GHE ranks dengue only 59th by DALYs",
+      "verdict": "verified",
+      "evidence": "Live GHE_FULL_DD PHL 2021: dengue rank 59",
+      "source_checked": "xmart-api-public.who.int GHE_FULL_DD PHL"
+    },
+    {
+      "country": "THA",
+      "condition": "dengue",
+      "kind": "priority",
+      "claim": "136,655 cases and 147 deaths in 2023 (to 22 November), up from 46,678 cases in 2022 (WHO Disease Outbreak News)",
+      "verdict": "verified",
+      "evidence": "DON498: 'dengue cases rising from 46 678 in 2022 to 136 655 in 2023 (as of 22 November 2023)'; deaths 34 to 147",
+      "source_checked": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498"
+    },
+    {
+      "country": "VNM",
+      "condition": "dengue",
+      "kind": "priority",
+      "claim": "149,557 cases and 36 deaths reported from 1 January to 7 December 2023 (WHO Disease Outbreak News)",
+      "verdict": "verified",
+      "evidence": "DON498: 'Viet Nam with 149 557 cases and 36 deaths (CFR: 0.02%)', same 1 Jan to 7 Dec 2023 window",
+      "source_checked": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498"
+    },
+    {
+      "country": "USA",
+      "condition": "dengue",
+      "kind": "priority",
+      "claim": "Puerto Rico declared a dengue public health emergency in March 2024: 6,291 confirmed cases that year, 52.3% hospitalized, 264 severe, 11 deaths (CDC MMWR 2025)",
+      "verdict": "verified",
+      "evidence": "MMWR 74(5), 20 Feb 2025: 'In March 2024, the Puerto Rico Department of Health (PRDH) declared a public health emergency'; 6,291 confirmed; 3,289 (52.3%) hospitalized; 264 (4.2%) severe; 11 fatalities",
+      "source_checked": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7405a1.htm"
+    },
+    {
+      "country": "IND",
+      "condition": "snakebite",
+      "kind": "priority",
+      "claim": "About 58,000 snakebite deaths per year (1.2 million from 2000 to 2019) (Million Death Study, reported by WHO)",
+      "verdict": "verified",
+      "evidence": "WHO 10 Jul 2020: '1.2 million snakebite deaths (representing an average of 58,000 per year) from 2000 to 2019'",
+      "source_checked": "https://www.who.int/news/item/10-07-2020-study-estimates-more-than-one-million-indians-died-from-snakebite-envenoming-over-past-two-decades"
+    },
+    {
+      "country": "IND",
+      "condition": "snakebite",
+      "kind": "priority",
+      "claim": "mostly rural, half in the June to September monsoon",
+      "verdict": "unverifiable",
+      "evidence": "Source says only 'low altitude agricultural areas' (70% of deaths in 8 states, 2001 to 2014) and 'particularly during the rainy season'. It gives no share for the monsoon and no June to September months ('nearly half' in the source refers to victims aged 30 to 69).",
+      "source_checked": "https://www.who.int/news/item/10-07-2020-study-estimates-more-than-one-million-indians-died-from-snakebite-envenoming-over-past-two-decades",
+      "corrected": "About 58,000 snakebite deaths per year (1.2 million from 2000 to 2019), mostly in low-lying farming areas and during the rainy season (Million Death Study, reported by WHO)"
+    },
+    {
+      "country": "JAM",
+      "condition": "sickle-cell-disease",
+      "kind": "priority",
+      "claim": "Newborn screening of 66,833 babies found sickle cell syndromes in 407 (about 1 in 164 births) and sickle cell trait in 9.8% (Serjeant et al., J Community Genet 2017, with the Ministry of Health)",
+      "verdict": "verified",
+      "evidence": "PubMed abstract: 'screened 66,833 samples with the sickle cell trait in 9.8 %'; 'Sickle cell syndromes occurred in 407 babies'; 66,833/407 = 164; J Community Genet 2017;8(1); co-authors from Southern Regional Health Authority, Ministry of Health",
+      "source_checked": "https://pubmed.ncbi.nlm.nih.gov/27796853/"
+    },
+    {
+      "country": "UGA",
+      "condition": "sickle-cell-disease",
+      "kind": "priority",
+      "claim": "National survey of 97,631 infants found sickle cell trait in 13.3% and sickle cell disease in 0.7%, up to 1.5% in East Central region (Uganda Sickle Surveillance Study, with the Ministry of Health)",
+      "verdict": "wrong",
+      "evidence": "All numbers match the Lancet Glob Health 2016 abstract (97,631 results; trait 13.3%; disease 0.7%; East Central 1.5%; Ministry of Health co-author). Imprecise: samples were from HIV-exposed infants in the Early Infant Diagnosis programme, not a general infant survey.",
+      "source_checked": "https://pubmed.ncbi.nlm.nih.gov/26833239/",
+      "corrected": "National survey of 97,631 HIV-exposed infants found sickle cell trait in 13.3% and sickle cell disease in 0.7%, up to 1.5% in East Central region (Uganda Sickle Surveillance Study, with the Ministry of Health)"
+    },
+    {
+      "country": "UGA",
+      "condition": "(country source_note)",
+      "kind": "note",
+      "claim": "US3 measured 0.7% disease prevalence; the study background notes an older, commonly cited figure of 20,000 babies per year born with sickle cell disease that lacked accurate data.",
+      "verdict": "verified",
+      "evidence": "Abstract: 'In Uganda, 20,000 babies per year are thought to be born with sickle cell disease, but accurate data are not available.'",
+      "source_checked": "https://pubmed.ncbi.nlm.nih.gov/26833239/"
+    },
+    {
+      "country": "PHL",
+      "condition": "hiv-aids",
+      "kind": "priority",
+      "claim": "New HIV infections rose more than sixfold, from about 4,600 in 2010 to 30,000 in 2024, and only 40% of people with HIV were on treatment in 2024 (WHO/UNAIDS estimates)",
+      "verdict": "verified",
+      "evidence": "GHO HIV_0000000026 PHL: 2010 = 4600, 2024 = 30 000 (6.5x); HIV_ARTCOVERAGE PHL 2024 = 40. Newer 2025 values exist: 34 000 new infections, 41% on ART.",
+      "source_checked": "https://ghoapi.azureedge.net/api/HIV_0000000026?$filter=SpatialDim eq 'PHL'"
+    },
+    {
+      "country": "THA",
+      "condition": "tuberculosis",
+      "kind": "priority",
+      "claim": "WHO estimates 146 new TB cases per 100,000 in 2024",
+      "verdict": "verified",
+      "evidence": "WHO TB estimates CSV THA 2024 e_inc_100k = 146 (share of global 0.97%, below the 1% display cut)",
+      "source_checked": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates (live, 2024 rows)"
+    },
+    {
+      "country": "VNM",
+      "condition": "tuberculosis",
+      "kind": "priority",
+      "claim": "WHO estimates 182 new TB cases per 100,000 in 2024 (1.7% of the global total)",
+      "verdict": "verified",
+      "evidence": "VNM 2024 e_inc_100k = 182; e_inc_num 184,000 / WHO global 10,700,000 (GHO TB_e_inc_num GLOBAL) = 1.72%",
+      "source_checked": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates (live, 2024 rows)"
+    },
+    {
+      "country": "THA",
+      "condition": "tuberculosis",
+      "kind": "priority",
+      "claim": "Thailand is on the WHO list of high TB burden countries",
+      "verdict": "wrong",
+      "evidence": "Thailand is on the 30-country TB high burden list in the WHO background document 'WHO global lists of high burden countries for TB, TB/HIV and MDR/RR-TB, 2021 to 2025'. The list is time-bound (valid to 2025, no 2026 to 2030 list found) and the fact is not on the cited TB data page.",
+      "source_checked": "https://iris.who.int/server/api/core/bitstreams/69a887d5-9f87-474a-b3ea-3b4f78a504e6/content",
+      "corrected": "Thailand is on the WHO 2021 to 2025 list of 30 high TB burden countries"
+    },
+    {
+      "country": "VNM",
+      "condition": "tuberculosis",
+      "kind": "priority",
+      "claim": "Viet Nam is on the WHO list of high TB burden countries",
+      "verdict": "wrong",
+      "evidence": "Viet Nam is on the 30-country TB high burden list in the WHO background document 'WHO global lists of high burden countries for TB, TB/HIV and MDR/RR-TB, 2021 to 2025'. The list is time-bound (valid to 2025, no 2026 to 2030 list found) and the fact is not on the cited TB data page.",
+      "source_checked": "https://iris.who.int/server/api/core/bitstreams/69a887d5-9f87-474a-b3ea-3b4f78a504e6/content",
+      "corrected": "Viet Nam is on the WHO 2021 to 2025 list of 30 high TB burden countries"
+    },
+    {
+      "country": "VNM",
+      "condition": "hepatitis",
+      "kind": "priority",
+      "claim": "More than 7 million people live with hepatitis B or C (1 in 15), and these viruses cause 90% of liver cancer, the leading cause of cancer death (WHO Western Pacific, 2025)",
+      "verdict": "verified",
+      "evidence": "WHO WPRO feature, 25 July 2025: 'more than 7 million people are estimated to live with hepatitis B and C, in other words, one person in every 15'; 'liver cancer is the leading cause of cancer deaths, with 90% caused by hepatitis B and C'",
+      "source_checked": "https://www.who.int/westernpacific/newsroom/feature-stories/item/don-t-wait-for-symptoms---get-checked-for-hepatitis--say-liver-cancer-patient-and-experts-in-viet-nam-ahead-of-world-hepatitis-day"
+    },
+    {
+      "country": "ZWE",
+      "condition": "malaria",
+      "kind": "priority",
+      "claim": "An estimated 148,833 malaria cases in 2024 (WHO World Malaria Report estimates)",
+      "verdict": "verified",
+      "evidence": "GHO MALARIA_EST_CASES ZWE 2024 = 148 833 [89 000 to 214 000] (2023 was 635 589)",
+      "source_checked": "https://ghoapi.azureedge.net/api/MALARIA_EST_CASES?$filter=SpatialDim eq 'ZWE'"
+    },
+    {
+      "country": "USA",
+      "condition": "self-harm-suicide",
+      "kind": "priority",
+      "claim": "48,824 suicide deaths in 2024 (CDC NCHS)",
+      "verdict": "verified",
+      "evidence": "CDC FastStats: 'Number of deaths: 48,824'; source 'National Vital Statistics System, Mortality Data (2024) via CDC WONDER'",
+      "source_checked": "https://www.cdc.gov/nchs/fastats/suicide.htm"
+    },
+    {
+      "country": "USA",
+      "condition": "self-harm-suicide",
+      "kind": "priority",
+      "claim": "13th leading cause of DALYs in WHO GHE 2021",
+      "verdict": "verified",
+      "evidence": "Live GHE_FULL_DD USA 2021: self-harm (1610) rank 13, COVID-19 removed",
+      "source_checked": "xmart-api-public.who.int GHE_FULL_DD USA"
+    },
+    {
+      "country": "BWA",
+      "condition": "hiv-aids",
+      "kind": "ranked-extra",
+      "claim": "about 350,000 people living with HIV in 2025, >98% on antiretroviral therapy (WHO/UNAIDS estimates)",
+      "verdict": "verified",
+      "evidence": "GHO HIV_0000000001 BWA 2025 = 350 000; HIV_ARTCOVERAGE BWA 2025 = >98",
+      "source_checked": "https://ghoapi.azureedge.net/api/HIV_0000000001?$filter=SpatialDim eq 'BWA'"
+    },
+    {
+      "country": "DOM",
+      "condition": "hiv-aids",
+      "kind": "ranked-extra",
+      "claim": "about 88,000 people living with HIV in 2025, 65% on antiretroviral therapy (WHO/UNAIDS estimates)",
+      "verdict": "verified",
+      "evidence": "GHO HIV_0000000001 DOM 2025 = 88 000; HIV_ARTCOVERAGE DOM 2025 = 65",
+      "source_checked": "https://ghoapi.azureedge.net/api/HIV_0000000001?$filter=SpatialDim eq 'DOM'"
+    },
+    {
+      "country": "JAM",
+      "condition": "hiv-aids",
+      "kind": "ranked-extra",
+      "claim": "about 28,000 people living with HIV in 2025, 52% on antiretroviral therapy (WHO/UNAIDS estimates)",
+      "verdict": "verified",
+      "evidence": "GHO HIV_0000000001 JAM 2025 = 28 000; HIV_ARTCOVERAGE JAM 2025 = 52",
+      "source_checked": "https://ghoapi.azureedge.net/api/HIV_0000000001?$filter=SpatialDim eq 'JAM'"
+    },
+    {
+      "country": "THA",
+      "condition": "hiv-aids",
+      "kind": "ranked-extra",
+      "claim": "about 620,000 people living with HIV in 2025, 82% on antiretroviral therapy (WHO/UNAIDS estimates)",
+      "verdict": "verified",
+      "evidence": "GHO HIV_0000000001 THA 2025 = 620 000; HIV_ARTCOVERAGE THA 2025 = 82",
+      "source_checked": "https://ghoapi.azureedge.net/api/HIV_0000000001?$filter=SpatialDim eq 'THA'"
+    },
+    {
+      "country": "UGA",
+      "condition": "hiv-aids",
+      "kind": "ranked-extra",
+      "claim": "about 1,500,000 people living with HIV in 2025, 85% on antiretroviral therapy (WHO/UNAIDS estimates)",
+      "verdict": "verified",
+      "evidence": "GHO HIV_0000000001 UGA 2025 = 1 500 000; HIV_ARTCOVERAGE UGA 2025 = 85",
+      "source_checked": "https://ghoapi.azureedge.net/api/HIV_0000000001?$filter=SpatialDim eq 'UGA'"
+    },
+    {
+      "country": "ZWE",
+      "condition": "hiv-aids",
+      "kind": "ranked-extra",
+      "claim": "about 1,300,000 people living with HIV in 2025, 95% on antiretroviral therapy (WHO/UNAIDS estimates)",
+      "verdict": "verified",
+      "evidence": "GHO HIV_0000000001 ZWE 2025 = 1 300 000; HIV_ARTCOVERAGE ZWE 2025 = 95",
+      "source_checked": "https://ghoapi.azureedge.net/api/HIV_0000000001?$filter=SpatialDim eq 'ZWE'"
+    },
+    {
+      "country": "IND",
+      "condition": "tuberculosis",
+      "kind": "ranked-extra",
+      "claim": "WHO estimates 187 new TB cases per 100,000 in 2024 (25.7% of the global total)",
+      "verdict": "wrong",
+      "evidence": "e_inc_100k 187 correct. Share used the sum of country rows (10,553,581), which omits PRK (blank). WHO global estimate is 10,700,000 (GHO TB_e_inc_num GLOBAL 2024); 2,710,000 / 10,700,000 = 25.3%.",
+      "source_checked": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates (live, 2024 rows)",
+      "corrected": "WHO estimates 187 new TB cases per 100,000 in 2024 (25.3% of the global total)"
+    },
+    {
+      "country": "PHL",
+      "condition": "tuberculosis",
+      "kind": "ranked-extra",
+      "claim": "WHO estimates 625 new TB cases per 100,000 in 2024 (6.9% of the global total)",
+      "verdict": "wrong",
+      "evidence": "e_inc_100k 625 correct. 724,000 / 10,700,000 WHO global = 6.8% (6.9% came from the sum of country rows).",
+      "source_checked": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates (live, 2024 rows)",
+      "corrected": "WHO estimates 625 new TB cases per 100,000 in 2024 (6.8% of the global total)"
+    },
+    {
+      "country": "BWA",
+      "condition": "tuberculosis",
+      "kind": "ranked-extra",
+      "claim": "WHO estimates 143 new TB cases per 100,000 in 2024, 44% of them in people with HIV",
+      "verdict": "verified",
+      "evidence": "WHO TB estimates BWA 2024: e_inc_100k = 143, e_tbhiv_prct = 44; share of global below 1% so not shown",
+      "source_checked": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates (live, 2024 rows)"
+    },
+    {
+      "country": "ZWE",
+      "condition": "tuberculosis",
+      "kind": "ranked-extra",
+      "claim": "WHO estimates 203 new TB cases per 100,000 in 2024, 62% of them in people with HIV",
+      "verdict": "verified",
+      "evidence": "WHO TB estimates ZWE 2024: e_inc_100k = 203, e_tbhiv_prct = 62; share of global below 1% so not shown",
+      "source_checked": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates (live, 2024 rows)"
+    },
+    {
+      "country": "UGA",
+      "condition": "tuberculosis",
+      "kind": "ranked-extra",
+      "claim": "WHO estimates 197 new TB cases per 100,000 in 2024, 33% of them in people with HIV",
+      "verdict": "verified",
+      "evidence": "WHO TB estimates UGA 2024: e_inc_100k = 197, e_tbhiv_prct = 33; share of global below 1% so not shown",
+      "source_checked": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates (live, 2024 rows)"
+    },
+    {
+      "country": "UGA",
+      "condition": "malaria",
+      "kind": "ranked-extra",
+      "claim": "an estimated 13.2 million malaria cases in 2024, 4.7% of the global total (WHO World Malaria Report estimates)",
+      "verdict": "verified",
+      "evidence": "GHO MALARIA_EST_CASES UGA 2024 = 13 215 579; GLOBAL 2024 = 281 741 573; share 4.69%",
+      "source_checked": "https://ghoapi.azureedge.net/api/MALARIA_EST_CASES"
+    },
+    {
+      "country": "ALL",
+      "condition": "source_primary.notes",
+      "kind": "note",
+      "claim": "Supplementary series use later years (TB 2024, malaria 2024, HIV 2024, ...)",
+      "verdict": "wrong",
+      "evidence": "HIV figures on ranked items are 2025 (GHO latest year); only the Philippines priority item uses 2024.",
+      "source_checked": "GHO HIV_0000000001",
+      "corrected": "Supplementary series use later years (TB 2024, malaria 2024, HIV 2025 (Philippines trend to 2024), maternal mortality 2023, hypertension 2019)"
+    },
+    {
+      "country": "ALL",
+      "condition": "source_primary.notes",
+      "kind": "note",
+      "claim": "WHO GHE assigns dengue very few DALYs (rank 59 or lower in PHL, VNM, THA, DOM)",
+      "verdict": "verified",
+      "evidence": "Live GHE 2021 dengue ranks: PHL 59, VNM 93, THA 87, DOM 101",
+      "source_checked": "xmart-api-public.who.int GHE_FULL_DD"
+    },
+    {
+      "country": "ARM",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/051",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Armenia'",
+      "source_checked": "https://data.who.int/countries/051"
+    },
+    {
+      "country": "BWA",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/072",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Botswana'",
+      "source_checked": "https://data.who.int/countries/072"
+    },
+    {
+      "country": "DOM",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/214",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Dominican Republic'",
+      "source_checked": "https://data.who.int/countries/214"
+    },
+    {
+      "country": "IND",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/356",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'India'",
+      "source_checked": "https://data.who.int/countries/356"
+    },
+    {
+      "country": "JAM",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/388",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Jamaica'",
+      "source_checked": "https://data.who.int/countries/388"
+    },
+    {
+      "country": "PHL",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/608",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Philippines'",
+      "source_checked": "https://data.who.int/countries/608"
+    },
+    {
+      "country": "THA",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/764",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Thailand'",
+      "source_checked": "https://data.who.int/countries/764"
+    },
+    {
+      "country": "UGA",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/800",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Uganda'",
+      "source_checked": "https://data.who.int/countries/800"
+    },
+    {
+      "country": "VNM",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/704",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Viet Nam'",
+      "source_checked": "https://data.who.int/countries/704"
+    },
+    {
+      "country": "ZWE",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/716",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'Zimbabwe'",
+      "source_checked": "https://data.who.int/countries/716"
+    },
+    {
+      "country": "USA",
+      "condition": "(country source_url)",
+      "kind": "country-url",
+      "claim": "https://data.who.int/countries/840",
+      "verdict": "verified",
+      "evidence": "HTTP 200; page og:title = 'United States of America'",
+      "source_checked": "https://data.who.int/countries/840"
+    },
+    {
+      "country": "ARM, BWA, DOM, IND, JAM, UGA",
+      "condition": "hypertension",
+      "kind": "url",
+      "claim": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-hypertension-among-adults-aged-30-79-years-age-standardized",
+      "verdict": "wrong",
+      "evidence": "HTTP 404 (retested with browser user agent). Replacement lists both 'Hypertension among adults aged 30-79 years (%)' and 'effective treatment coverage (controlled hypertension)'; HTTP 200.",
+      "source_checked": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-hypertension-among-adults-aged-30-79-years-age-standardized",
+      "corrected": "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure"
+    },
+    {
+      "country": "ALL",
+      "condition": "(source_url resolution)",
+      "kind": "url",
+      "claim": "gco.iarc.who.int fact sheets (3); paho.org dengue alert PDF; who.int malaria, MMR indicator pages, HIV theme, TB data page, DON498, snakebite news, WPRO hepatitis story, GHE page; xmart-api GHE_FULL_DD URLs (11)",
+      "verdict": "verified",
+      "evidence": "HTTP 200 for each",
+      "source_checked": "curl"
+    },
+    {
+      "country": "JAM, UGA",
+      "condition": "(source_url resolution)",
+      "kind": "url",
+      "claim": "pubmed.ncbi.nlm.nih.gov/27796853/ and /26833239/",
+      "verdict": "verified",
+      "evidence": "HTTP 203 to curl (bot shield); abstracts read through NCBI E-utilities efetch",
+      "source_checked": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+    },
+    {
+      "country": "USA",
+      "condition": "(source_url resolution)",
+      "kind": "url",
+      "claim": "cdc.gov mm7405a1.htm and nchs/fastats/suicide.htm",
+      "verdict": "verified",
+      "evidence": "HTTP 403 to curl (bot block); both load through WebFetch with the quoted figures",
+      "source_checked": "WebFetch"
+    }
+  ]
+}

@@ -1,0 +1,1137 @@
+[
+ {
+  "id": "emsimcases",
+  "name": "EM Sim Cases",
+  "publisher": "EMSimCases.com (Canadian emergency medicine simulation educators)",
+  "url": "https://emsimcases.com/",
+  "type": "repository",
+  "access": "open",
+  "license": "CC BY-SA 4.0",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed FOAM case bank run by Canadian EM simulation faculty (McMaster, McGill, Queen's, UBC and others). Each case has a vignette, learning objectives, case progression, and debrief notes. Site footer states CC BY-SA 4.0.",
+  "best_for": [
+   "neonatal-encephalopathy-asphyxia",
+   "neonatal-sepsis",
+   "maternal-hemorrhage",
+   "preeclampsia-eclampsia",
+   "sickle-cell-disease",
+   "tuberculosis",
+   "cirrhosis-liver-disease",
+   "diabetes",
+   "chronic-kidney-disease",
+   "heart-failure",
+   "sepsis",
+   "road-injury",
+   "self-harm-suicide"
+  ],
+  "brief": "Free Canadian bank of about 150 emergency simulation cases. Written for mannequin-based team training, with enough history detail to adapt for a standardized patient."
+ },
+ {
+  "id": "cureus",
+  "name": "Cureus simulation technical reports",
+  "publisher": "Cureus Journal of Medical Science (Springer Nature)",
+  "url": "https://www.cureus.com/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0 (older articles CC BY 3.0)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open-access journal with a Medical Simulation section and technical report format for full scenarios. cureus.com blocks automated requests (HTTP 403), so case links point to the identical full text on PubMed Central, which resolves.",
+  "best_for": [
+   "diarrheal-disease",
+   "sepsis",
+   "neonatal-encephalopathy-asphyxia",
+   "preeclampsia-eclampsia",
+   "maternal-hemorrhage",
+   "snakebite",
+   "road-injury",
+   "diabetes"
+  ],
+  "brief": "Open journal that publishes complete simulation scenarios as technical reports, including some written for Kenya, Malawi and India. Each report has the case script, critical actions and a debrief guide."
+ },
+ {
+  "id": "em-rescu-peds",
+  "name": "EM ReSCu Peds (Emergency Medicine Resident Simulation Curriculum for Pediatrics)",
+  "publisher": "ALiEM (Academic Life in Emergency Medicine) with 10 national EM and pediatric organizations",
+  "url": "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/",
+  "type": "course",
+  "access": "open",
+  "license": "Free access; ALiEM content is marked All Rights Reserved",
+  "sp_ready": "partial",
+  "trust_note": "16 peer-reviewed cases built by more than 50 pediatric simulation experts from 44 institutions; each case names its authors and editors. Implementation is described in Cureus (2026).",
+  "best_for": [
+   "diabetes",
+   "sepsis",
+   "lower-respiratory-infection",
+   "neonatal-encephalopathy-asphyxia",
+   "road-injury",
+   "asthma"
+  ],
+  "brief": "A free national pediatric simulation curriculum of 16 cases for emergency residents. Each case has setup, history, vital sign progression, critical actions and a debrief guide."
+ },
+ {
+  "id": "acep-simbox",
+  "name": "ACEP SimBox (Pediatric Readiness SimBox)",
+  "publisher": "SimBox Creative Team with the American College of Emergency Physicians and the EMSC Innovation and Improvement Center",
+  "url": "https://www.emergencysimbox.com/",
+  "type": "course",
+  "access": "open",
+  "license": "CC BY-NC-ND 4.0 (stated on newer case booklets; others not stated)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed, low-technology pediatric simulation program for community emergency departments, described in Annals of Emergency Medicine (2021) and Cureus. Case booklets plus video vital-sign monitors; used in many countries.",
+  "best_for": [
+   "maternal-hemorrhage",
+   "neonatal-encephalopathy-asphyxia",
+   "neonatal-sepsis",
+   "lower-respiratory-infection",
+   "diabetes",
+   "self-harm-suicide",
+   "road-injury"
+  ],
+  "brief": "Free downloadable pediatric emergency drills that need only a doll or low-cost mannequin and a screen. Good fit for low-resource sites because no high-fidelity equipment is needed."
+ },
+ {
+  "id": "simcanada-exchange",
+  "name": "SIM Scenario Exchange",
+  "publisher": "Simulation Canada",
+  "url": "https://simulationcanada.ca/resources/scenario-exchange/",
+  "type": "repository",
+  "access": "free-registration",
+  "license": "CC BY-NC-SA 4.0 (per scenario pages checked)",
+  "sp_ready": "partial",
+  "trust_note": "National Canadian simulation network; scenarios are contributed by colleges, universities and hospitals and some are peer reviewed. A free account is needed to download. The site blocks automated requests (HTTP 403); pages were confirmed with a fetch tool.",
+  "best_for": [
+   "alzheimer-dementia",
+   "copd",
+   "depression",
+   "neonatal-preterm-birth",
+   "self-harm-suicide",
+   "sepsis",
+   "stroke"
+  ],
+  "brief": "Open exchange of nursing, paramedic and medical simulation scenarios, many as virtual patients. Strong on nursing mental health and paramedic cases."
+ },
+ {
+  "id": "cdc-tb",
+  "name": "CDC Self-Study Modules on Tuberculosis",
+  "publisher": "US Centers for Disease Control and Prevention, Division of Tuberculosis Elimination",
+  "url": "https://www.cdc.gov/tb/hcp/education/self-study-modules-on-tuberculosis.html",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "Public domain (US government work)",
+  "sp_ready": "partial",
+  "trust_note": "Official CDC training series (Modules 1 to 9, updated page March 2025). Each module has short case studies with answer keys.",
+  "best_for": [
+   "tuberculosis"
+  ],
+  "brief": "Nine free PDF modules on TB transmission, diagnosis, treatment, adherence and contact investigation. The short case studies suit communication role-plays on adherence and treatment."
+ },
+ {
+  "id": "curry-itbc",
+  "name": "Curry International Tuberculosis Center products",
+  "publisher": "University of California San Francisco, Curry International Tuberculosis Center",
+  "url": "https://www.currytbcenter.ucsf.edu/products",
+  "type": "course",
+  "access": "open",
+  "license": "Free access; copyright Regents of the University of California",
+  "sp_ready": "partial",
+  "trust_note": "CDC-funded TB Center of Excellence. Materials are expert reviewed; most are guides and toolkits rather than full patient cases.",
+  "best_for": [
+   "tuberculosis"
+  ],
+  "brief": "Free TB guides, toolkits and self-study tools, including radiology practice cases and the Drug-Resistant TB Survival Guide. Good background for building TB and MDR-TB scenarios."
+ },
+ {
+  "id": "rutgers-gtbi",
+  "name": "Global Tuberculosis Institute educational materials",
+  "publisher": "Rutgers New Jersey Medical School, Global Tuberculosis Institute",
+  "url": "https://globaltb.njms.rutgers.edu/educationalmaterials/productlist.php",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "Free access; copyright Rutgers University, all rights reserved",
+  "sp_ready": "partial",
+  "trust_note": "CDC-funded TB Center of Excellence. No public patient case bank found; the TB Interview manual and interview checklist support interview skills training.",
+  "best_for": [
+   "tuberculosis"
+  ],
+  "brief": "Free TB training products, including a TB interview manual with feedback forms and a contact investigation interview checklist. Useful to design and score an SP interview station."
+ },
+ {
+  "id": "uw-hiv-curriculum",
+  "name": "National HIV Curriculum (Case Discussions podcast)",
+  "publisher": "University of Washington, funded by HRSA",
+  "url": "https://www.hiv.uw.edu/podcast",
+  "type": "course",
+  "access": "open",
+  "license": "Free access; copyright University of Washington (optional free registration for CE)",
+  "sp_ready": "partial",
+  "trust_note": "Nationally used US HIV curriculum. Case discussion episodes walk through a single patient with an infectious disease expert, with full transcripts.",
+  "best_for": [
+   "hiv-aids",
+   "meningitis"
+  ],
+  "brief": "Free HIV lessons plus podcast episodes that follow one patient from presentation to management. Cases cover cryptococcal meningitis, toxoplasmosis, PCP and other opportunistic infections."
+ },
+ {
+  "id": "uw-hepb-online",
+  "name": "Hepatitis B Online",
+  "publisher": "University of Washington",
+  "url": "https://www.hepatitisb.uw.edu/",
+  "type": "course",
+  "access": "open",
+  "license": "Free access; copyright University of Washington",
+  "sp_ready": "no",
+  "trust_note": "Authoritative free curriculum. No patient case collection was found on the site; content is lesson based.",
+  "best_for": [
+   "hepatitis",
+   "liver-cancer",
+   "cirrhosis-liver-disease"
+  ],
+  "brief": "Free lessons on hepatitis B testing, treatment and liver cancer screening. Use it as the reference behind an HBV or HCC SP case, not as a case source."
+ },
+ {
+  "id": "uw-hepc-online",
+  "name": "Hepatitis C Online (Expert Opinions cases)",
+  "publisher": "University of Washington",
+  "url": "https://www.hepatitisc.uw.edu/page/challenges/expert-opinions/cases/1",
+  "type": "course",
+  "access": "open",
+  "license": "Free access; copyright University of Washington",
+  "sp_ready": "partial",
+  "trust_note": "Short clinical vignettes with answers from named hepatitis experts. Vignettes are brief, so an educator must add history and exam detail.",
+  "best_for": [
+   "hepatitis",
+   "cirrhosis-liver-disease"
+  ],
+  "brief": "Free short cases on hepatitis C and cirrhosis decisions, each with expert commentary. Good seeds for an outpatient counseling station."
+ },
+ {
+  "id": "gorgas",
+  "name": "Gorgas Course Case of the Week",
+  "publisher": "University of Alabama at Birmingham and Universidad Peruana Cayetano Heredia",
+  "url": "https://www.uab.edu/medicine/gorgas/cases-blog",
+  "type": "repository",
+  "access": "open",
+  "license": "Free access; no open licence stated (copyright UAB)",
+  "sp_ready": "yes",
+  "trust_note": "Real inpatient cases from the Tropical Disease Unit, Cayetano Heredia Hospital, Lima, Peru, run since 2009. Each case gives history, exposure, exam, images, diagnosis and discussion.",
+  "best_for": [
+   "malaria",
+   "tuberculosis",
+   "dengue",
+   "snakebite",
+   "hiv-aids"
+  ],
+  "brief": "Weekly real tropical medicine cases from Peru with a full history, exposure history, exam and images. The structured history makes them very easy to turn into SP scripts."
+ },
+ {
+  "id": "ajtmh-images",
+  "name": "American Journal of Tropical Medicine and Hygiene (case reports and Images in Clinical Tropical Medicine)",
+  "publisher": "American Society of Tropical Medicine and Hygiene",
+  "url": "https://www.ajtmh.org/",
+  "type": "journal",
+  "access": "open",
+  "license": "Free to read; older articles copyright ASTMH, many recent articles CC BY or CC BY-NC",
+  "sp_ready": "partial",
+  "trust_note": "Leading peer-reviewed tropical medicine journal. Image items are short, so history detail is limited.",
+  "best_for": [
+   "malaria",
+   "tuberculosis",
+   "typhoid",
+   "dengue",
+   "diarrheal-disease",
+   "malnutrition"
+  ],
+  "brief": "Peer-reviewed tropical case reports and one-image teaching cases. Strong on field settings in Asia, Africa and Latin America."
+ },
+ {
+  "id": "plos-ntd",
+  "name": "PLOS Neglected Tropical Diseases (case reports and photo quizzes)",
+  "publisher": "Public Library of Science",
+  "url": "https://journals.plos.org/plosntds/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open access journal. Case items and photo quizzes are few but well documented.",
+  "best_for": [
+   "diarrheal-disease",
+   "snakebite"
+  ],
+  "brief": "Open access journal with occasional photo quizzes and case reports on neglected tropical diseases. All content is CC BY."
+ },
+ {
+  "id": "malaria-journal",
+  "name": "Malaria Journal",
+  "publisher": "BioMed Central (Springer Nature)",
+  "url": "https://link.springer.com/journal/12936",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0 (some recent articles CC BY-NC-ND 4.0)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open access journal dedicated to malaria. Case reports include full clinical course.",
+  "best_for": [
+   "malaria"
+  ],
+  "brief": "Open access malaria journal with detailed case reports on severe, cerebral, congenital and drug-resistant malaria."
+ },
+ {
+  "id": "jmcr",
+  "name": "Journal of Medical Case Reports",
+  "publisher": "BioMed Central (Springer Nature)",
+  "url": "https://link.springer.com/journal/13256",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0 (some recent articles CC BY-NC-ND 4.0)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed case report journal. Uses a structured format (patient information, findings, timeline, outcome) that maps well to SP scripts.",
+  "best_for": [
+   "dengue",
+   "snakebite",
+   "tuberculosis",
+   "rheumatic-heart-disease",
+   "liver-cancer",
+   "typhoid",
+   "sepsis"
+  ],
+  "brief": "Large open access case report journal with many cases from South Asia and Africa. The structured layout gives history, exam, tests and outcome in order."
+ },
+ {
+  "id": "pamj",
+  "name": "Pan African Medical Journal",
+  "publisher": "Pan African Medical Journal",
+  "url": "https://www.panafrican-med-journal.com/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY (Creative Commons Attribution License)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed African open access journal. Many case reports are in French; 'Images in medicine' items are short.",
+  "best_for": [
+   "malaria",
+   "sickle-cell-disease",
+   "rheumatic-heart-disease",
+   "tuberculosis",
+   "oral-cancer"
+  ],
+  "brief": "Open access African journal with case reports and image cases from African and Indian hospitals. Good source of locally set cases."
+ },
+ {
+  "id": "idcases",
+  "name": "IDCases",
+  "publisher": "Elsevier",
+  "url": "https://www.sciencedirect.com/journal/idcases",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY or CC BY-NC-ND 4.0 (author choice; most cases here are CC BY-NC-ND 4.0)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open access infectious disease case journal (ISSN 2214-2509). Many cases are from high-income settings, so filter by country. The publisher site blocks automated link checks; the URL was confirmed by search.",
+  "best_for": [
+   "typhoid",
+   "snakebite",
+   "sepsis",
+   "tuberculosis",
+   "hiv-aids"
+  ],
+  "brief": "Open access infectious disease case reports. Useful for typhoid, TB-HIV and envenoming complications."
+ },
+ {
+  "id": "clinical-case-reports",
+  "name": "Clinical Case Reports",
+  "publisher": "Wiley",
+  "url": "https://onlinelibrary.wiley.com/journal/20500904",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY, CC BY-NC or CC BY-NC-ND (varies by article)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed, fully open access case journal (ISSN 2050-0904) with many authors from Nepal, Uganda, Cameroon and Tanzania. The publisher site blocks automated link checks; the URL was confirmed by search.",
+  "best_for": [
+   "sickle-cell-disease",
+   "meningitis",
+   "tuberculosis",
+   "hiv-aids",
+   "rheumatic-heart-disease",
+   "liver-cancer"
+  ],
+  "brief": "Open access case reports, often from LMIC hospitals. Each has a short key clinical message that can become a learning objective."
+ },
+ {
+  "id": "bmc-infect-dis",
+  "name": "BMC Infectious Diseases (case reports)",
+  "publisher": "BioMed Central (Springer Nature)",
+  "url": "https://link.springer.com/journal/12879",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open access journal. Case reports include detailed lab and CSF data.",
+  "best_for": [
+   "hiv-aids",
+   "meningitis",
+   "tuberculosis"
+  ],
+  "brief": "Open access infectious disease journal with detailed case reports, including HIV-associated cryptococcal meningitis cases from Malawi, Uganda and India."
+ },
+ {
+  "id": "pmc",
+  "name": "PubMed Central (other open access case reports)",
+  "publisher": "US National Library of Medicine",
+  "url": "https://pmc.ncbi.nlm.nih.gov/",
+  "type": "repository",
+  "access": "open",
+  "license": "Varies by article (listed per case)",
+  "sp_ready": "partial",
+  "trust_note": "Free full-text archive of peer-reviewed articles. Used here for single cases from journals outside the named list.",
+  "best_for": [
+   "snakebite",
+   "cervical-cancer",
+   "oral-cancer",
+   "malnutrition",
+   "hepatitis",
+   "sickle-cell-disease",
+   "meningitis"
+  ],
+  "brief": "Free archive of full-text articles. Search with the filter 'case reports' plus a country name to find locally set cases."
+ },
+ {
+  "id": "open-i",
+  "name": "Open-i biomedical image search",
+  "publisher": "US National Library of Medicine",
+  "url": "https://openi.nlm.nih.gov/",
+  "type": "repository",
+  "access": "open",
+  "license": "Varies by source article (images from open access PMC articles)",
+  "sp_ready": "no",
+  "trust_note": "NLM search engine over figures from open access articles. Good for finding a real rash, X-ray or smear image to add to a case.",
+  "best_for": [
+   "malaria",
+   "tuberculosis",
+   "malnutrition",
+   "snakebite"
+  ],
+  "brief": "Free search of images from open access articles. Use it to add real clinical images (smears, X-rays, skin signs) to an SP case, citing the source article."
+ },
+ {
+  "id": "jetem",
+  "name": "Journal of Education and Teaching in Emergency Medicine (JETem)",
+  "publisher": "JETem, in partnership with the Western Journal of Emergency Medicine (University of California eScholarship)",
+  "url": "https://jetem.org/category/simulation/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0",
+  "sp_ready": "partial",
+  "trust_note": "Peer reviewed, open access, indexed in PubMed Central. The site footer licenses content under CC BY 4.0. Each article has a free manuscript PDF with case script, vitals, labs, critical actions and debrief notes.",
+  "best_for": [
+   "copd",
+   "diabetes",
+   "heart-failure",
+   "interpersonal-violence",
+   "maternal-hemorrhage",
+   "neonatal-sepsis",
+   "preeclampsia-eclampsia",
+   "sepsis",
+   "stroke",
+   "substance-use-alcohol"
+  ],
+  "brief": "Free peer reviewed emergency medicine simulation cases and oral board style cases with full facilitator scripts. Most are written for high fidelity mannequins in US emergency departments, but many adapt well to a standardized patient or a low resource setting."
+ },
+ {
+  "id": "saem-sim",
+  "name": "SAEM Simulation Academy case documents",
+  "publisher": "Society for Academic Emergency Medicine (SAEM)",
+  "url": "https://www.saem.org/about-saem/academies-interest-groups-affiliates2/simulation",
+  "type": "repository",
+  "access": "open",
+  "license": "unknown",
+  "sp_ready": "partial",
+  "trust_note": "Scenario templates hosted on the SAEM website by its simulation interest group. Free PDFs, not peer reviewed as a set, with no license stated and no public index page (found by direct document links).",
+  "best_for": [
+   "heart-failure",
+   "ischemic-heart-disease",
+   "asthma"
+  ],
+  "brief": "A small set of free emergency medicine scenario PDFs with objectives, critical actions and scripts. Useful as extra cases, but authorship, dates and reuse terms are unclear."
+ },
+ {
+  "id": "nln-ace",
+  "name": "Advancing Care Excellence (ACE) unfolding cases: ACE.S, ACE.V, ACE.Z, ACE.D",
+  "publisher": "National League for Nursing (NLN), USA",
+  "url": "https://www.nln.org/education/teaching-resources/advancing-care-excellence",
+  "type": "repository",
+  "access": "open",
+  "license": "Free to download for teaching; copyright National League for Nursing (no open license stated)",
+  "sp_ready": "yes",
+  "trust_note": "Written by nurse educators and reviewed by the NLN (most cases reviewed 2023 to 2024). Each case has a first-person patient monologue (audio and script), three simulation scenarios, chart materials and an instructor toolkit, so SPs can use them directly.",
+  "best_for": [
+   "alzheimer-dementia",
+   "copd",
+   "diabetes",
+   "heart-failure",
+   "hypertension",
+   "depression",
+   "anxiety",
+   "stroke",
+   "falls",
+   "lung-cancer"
+  ],
+  "brief": "Free unfolding cases about older adults, veterans, people with dementia and people with disabilities. Each case follows one patient and family across three encounters, with scripts ready for an actor."
+ },
+ {
+  "id": "can-sim",
+  "name": "CAN-Sim open-access virtual simulation games",
+  "publisher": "Canadian Alliance of Nurse Educators using Simulation (CAN-Sim)",
+  "url": "https://can-sim.ca/virtual-simulation-games-open-source/",
+  "type": "virtual-patient",
+  "access": "open",
+  "license": "Free open access for listed games; no license stated on game pages. Some games linked from the list (for example diabetic ketoacidosis) are for members only.",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed virtual gaming simulations built by Canadian university nursing programs (Thompson Rivers, Nipissing, Queen's, Ottawa) with CAN-Sim. Branching video games; the patient story can be adapted into an SP script.",
+  "best_for": [
+   "sepsis",
+   "alzheimer-dementia",
+   "psychosis"
+  ],
+  "brief": "Free, branching video simulations for nursing students. Learners make choices at each step and see the result, then debrief."
+ },
+ {
+  "id": "wtcs-sim",
+  "name": "ARISE simulation scenarios (Wisconsin Technical College System)",
+  "publisher": "Wisconsin Technical College System consortium via SkillsCommons (MERLOT)",
+  "url": "https://support.skillscommons.org/showcases/open-courseware/healthcare/augment-reality/",
+  "type": "repository",
+  "access": "open",
+  "license": "Creative Commons (US Department of Labor TAACCCT grant materials); check the license on each item",
+  "sp_ready": "partial",
+  "trust_note": "150 low- and high-fidelity nursing and allied health scenarios aligned with the WTCS statewide nursing curriculum. The ARIS app they used is no longer supported, and in September 2026 individual SkillsCommons item links (for example the ARISE heart failure scenarios) returned 404, so reach items through the showcase page.",
+  "best_for": [
+   "heart-failure"
+  ],
+  "brief": "A large set of free nursing simulation scenarios from Wisconsin technical colleges, each with a patient storyline and a live simulated patient introduction."
+ },
+ {
+  "id": "open-rn",
+  "name": "Open RN virtual simulations",
+  "publisher": "Open RN project, Chippewa Valley Technical College (WTCS), funded by the US Department of Education",
+  "url": "https://www.wistechopen.org/open-rn-virtual-simulations",
+  "type": "virtual-patient",
+  "access": "open",
+  "license": "CC BY 4.0",
+  "sp_ready": "partial",
+  "trust_note": "Faculty-built against the WTCS nursing curriculum and the NCLEX-RN test plan. Free H5P virtual simulations with patient and family videos; no login needed.",
+  "best_for": [
+   "heart-failure",
+   "alzheimer-dementia",
+   "chronic-kidney-disease",
+   "interpersonal-violence",
+   "lung-cancer",
+   "ischemic-heart-disease"
+  ],
+  "brief": "Free online branching simulations for nursing students, all CC BY 4.0. Patient videos and case details can be reused to write SP scripts."
+ },
+ {
+  "id": "laerdal-scenarios",
+  "name": "Laerdal Scenario Cloud (formerly SimStore and complimentary scenarios)",
+  "publisher": "Laerdal Medical",
+  "url": "https://scenariocloud.laerdal.com/",
+  "type": "repository",
+  "access": "paid",
+  "license": "Proprietary; subscription (free trial available)",
+  "sp_ready": "partial",
+  "trust_note": "Manufacturer scenarios written for Laerdal manikins. The old complimentary scenarios page now redirects to the subscription Scenario Cloud.",
+  "best_for": [
+   "maternal-hemorrhage"
+  ],
+  "brief": "Laerdal's scenario library for its manikins. It needs a paid subscription, so no cases are listed here."
+ },
+ {
+  "id": "mcc-osce",
+  "name": "Free NAC examination resources (sample OSCE case studies)",
+  "publisher": "Medical Council of Canada (MCC)",
+  "url": "https://mcc.ca/free-resources/free-nac-examination-resources/",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "Free to use for exam preparation; copyright Medical Council of Canada",
+  "sp_ready": "yes",
+  "trust_note": "Official national licensing body. Each sample case has candidate instructions, the full SP role (history, timeline, affect) and the scoring approach. The page blocks automated checks; the PDFs resolve directly.",
+  "best_for": [
+   "diabetes",
+   "opioid-use-disorder"
+  ],
+  "brief": "Official sample OSCE stations from Canada's national exam for international medical graduates. Each PDF gives the full patient script and what examiners look for."
+ },
+ {
+  "id": "usmle-cs",
+  "name": "USMLE Step 2 Clinical Skills (legacy)",
+  "publisher": "FSMB and NBME (USMLE)",
+  "url": "https://www.usmle.org/work-relaunch-usmle-step-2-cs-discontinued",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "Copyright USMLE",
+  "sp_ready": "no",
+  "trust_note": "Step 2 CS was discontinued in January 2021. The official site no longer offers the sample case or patient note materials, so there is nothing to reuse from the official source.",
+  "best_for": [],
+  "brief": "The US standardized patient exam that ended in 2021. Its old sample case is no longer on the official site."
+ },
+ {
+  "id": "aspe",
+  "name": "Association of Standardized Patient Educators (ASPE)",
+  "publisher": "ASPE",
+  "url": "https://www.aspeducators.org/",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "Varies; some resources are for members only",
+  "sp_ready": "partial",
+  "trust_note": "The international professional body for SP educators. It publishes the ASPE Standards of Best Practice and a free case development template, which are useful for writing and checking SP scripts. It does not offer a public case bank.",
+  "best_for": [],
+  "brief": "Standards and templates for building SP programs and writing SP cases. Use it to check the quality of any script in this library."
+ },
+ {
+  "id": "adv-sim",
+  "name": "Advances in Simulation",
+  "publisher": "BMC (Springer Nature)",
+  "url": "https://advancesinsimulation.biomedcentral.com/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open-access simulation journal. Good for SP methods (it published the ASPE Standards of Best Practice in 2017); full SP scripts are rare.",
+  "best_for": [],
+  "brief": "Open-access research journal on healthcare simulation. Useful for SP methods and debriefing, less so for ready-made cases."
+ },
+ {
+  "id": "ijohs",
+  "name": "International Journal of Healthcare Simulation (IJoHS)",
+  "publisher": "Adi Health + Wellness, London",
+  "url": "https://archive.johs.org.uk/",
+  "type": "journal",
+  "access": "open",
+  "license": "Open access; check the license on each article (APCs since April 2024)",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open-access journal, official journal of the Association for Simulated Practice in Healthcare (ASPiH) and of simulation societies in India and Pan Asia. Its archive is at archive.johs.org.uk and new articles go to the Journal of Healthcare Simulation. The old domain ijohs.com now shows unrelated commercial content, so do not link to it.",
+  "best_for": [],
+  "brief": "Open-access simulation journal with strong UK, India and Asia links. Search it for scenario and technical reports."
+ },
+ {
+  "id": "mededpublish",
+  "name": "MedEdPublish",
+  "publisher": "AMEE (Association for Medical Education in Europe), F1000 platform",
+  "url": "https://mededpublish.org/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0",
+  "sp_ready": "partial",
+  "trust_note": "Open-access, open peer review. Articles are published before review, so check the review status of each item.",
+  "best_for": [],
+  "brief": "Open-access health professions education journal. It has some SP and simulation descriptions but few full scripts."
+ },
+ {
+  "id": "openlabyrinth",
+  "name": "OpenLabyrinth virtual patient platform",
+  "publisher": "OpenLabyrinth consortium (University of Calgary and partners)",
+  "url": "https://demo.openlabyrinth.ca/",
+  "type": "virtual-patient",
+  "access": "open",
+  "license": "Software GPL-3.0; case licenses vary by author",
+  "sp_ready": "partial",
+  "trust_note": "Open-source branching virtual patient platform used by eViP partners. The demo server hosts open cases; the main openlabyrinth.ca site returned a server error in September 2026. Source code is at github.com/olab/Open-Labyrinth.",
+  "best_for": [],
+  "brief": "Free software for building and playing branching virtual patients. Local teams can host it and write their own cases."
+ },
+ {
+  "id": "evip",
+  "name": "eViP Electronic Virtual Patients referatory",
+  "publisher": "eViP consortium (EU eContentplus project, led by St George's, University of London)",
+  "url": "https://virtualpatients.eu/referatory/",
+  "type": "virtual-patient",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0",
+  "sp_ready": "partial",
+  "trust_note": "Listing of 340 repurposed virtual patients from European medical schools. The project has ended and the site is not updated; some player links (for example old OpenLabyrinth links at St George's) no longer work, so test each case before use.",
+  "best_for": [
+   "copd",
+   "diabetes",
+   "hypertension",
+   "tuberculosis"
+  ],
+  "brief": "A free catalog of virtual patients in several languages, all CC BY-NC-SA. Some cases still open in their original players."
+ },
+ {
+  "id": "aquifer",
+  "name": "Aquifer virtual patient cases",
+  "publisher": "Aquifer (US nonprofit)",
+  "url": "https://aquifer.org/institutional-pricing",
+  "type": "virtual-patient",
+  "access": "paid",
+  "license": "Proprietary; institutional or individual subscription",
+  "sp_ready": "no",
+  "trust_note": "Widely used in US medical schools, peer-reviewed cases, but paid. No cases are listed here.",
+  "best_for": [],
+  "brief": "High-quality US virtual patient cases that need a paid subscription."
+ },
+ {
+  "id": "open-pediatrics",
+  "name": "OPENPediatrics",
+  "publisher": "OPENPediatrics (founded at Boston Children's Hospital)",
+  "url": "https://www.openpediatrics.org/",
+  "type": "course",
+  "access": "free-registration",
+  "license": "Free for health professionals after registration; terms of use apply (no open license stated)",
+  "sp_ready": "no",
+  "trust_note": "Pediatric critical care and clinical education videos and interactive modules for clinicians worldwide. Not SP scripts.",
+  "best_for": [],
+  "brief": "Free pediatric teaching videos and modules after sign-up. Useful background for pediatric simulations, not a case bank."
+ },
+ {
+  "id": "who-mhgap-training",
+  "name": "mhGAP training manuals (mhGAP-IG version 2.0)",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/publications/i/item/WHO-MSD-MER-17.6",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "yes",
+  "trust_note": "WHO training package for non-specialist health workers in low-resource settings (WHO/MSD/MER/17.6, 2017). Each module has scripted role plays with separate instructions for the health worker, the person seeking help and the observer.",
+  "best_for": [
+   "depression",
+   "self-harm-suicide",
+   "substance-use-alcohol",
+   "alzheimer-dementia"
+  ],
+  "brief": "WHO role-play scripts for depression, suicide risk, alcohol use and dementia, written for primary care in low-resource countries. They work as SP scripts with little change."
+ },
+ {
+  "id": "who-unicef-equip",
+  "name": "EQUIP (Ensuring Quality in Psychological Support)",
+  "publisher": "WHO and UNICEF",
+  "url": "https://equipcompetency.org/en-gb/resources",
+  "type": "guideline-training",
+  "access": "free-registration",
+  "license": "No license stated on the resources page",
+  "sp_ready": "partial",
+  "trust_note": "WHO and UNICEF platform for competency-based training of mental health and psychosocial support helpers, used in 36 countries by 2024. It gives example standardized role-play scripts (English and Spanish) for its ENACT and other competency tools.",
+  "best_for": [
+   "depression",
+   "anxiety"
+  ],
+  "brief": "Free WHO and UNICEF role-play scripts to test basic counseling skills. Registration is needed for the full platform."
+ },
+ {
+  "id": "bmc-journals",
+  "name": "BMC open-access journals (BMC Medical Education, Trials)",
+  "publisher": "BMC (Springer Nature)",
+  "url": "https://bmcmededuc.biomedcentral.com/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0 for most articles; check each article",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open-access journals. SP scripts, when shared, are usually in the additional files.",
+  "best_for": [
+   "hiv-aids",
+   "breast-cancer"
+  ],
+  "brief": "Open-access journals where some studies publish their SP cases and OSCE stations as supplements."
+ },
+ {
+  "id": "plos-journals",
+  "name": "PLOS Medicine and PLOS Global Public Health",
+  "publisher": "Public Library of Science",
+  "url": "https://journals.plos.org/plosmedicine/",
+  "type": "journal",
+  "access": "open",
+  "license": "CC BY 4.0",
+  "sp_ready": "partial",
+  "trust_note": "Peer-reviewed open-access journals. Standardized patient research studies in LMICs publish their case scenarios and SP training methods here.",
+  "best_for": [
+   "tuberculosis",
+   "hiv-aids"
+  ],
+  "brief": "Open-access journals with standardized patient studies from India, Kenya and other LMICs, including their case scenarios."
+ },
+ {
+  "id": "who-bec",
+  "name": "Basic Emergency Care: approach to the acutely ill and injured (participant workbook)",
+  "publisher": "WHO and ICRC, with IFEM",
+  "url": "https://iris.who.int/handle/10665/275635",
+  "type": "course",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "yes",
+  "trust_note": "WHO/ICRC course for first-contact emergency providers in low-resource settings; each module ends with two facilitator-led case scenarios (adult and child) that participants must lead to pass.",
+  "best_for": [
+   "road-injury",
+   "sepsis",
+   "diarrheal-disease",
+   "lower-respiratory-infection",
+   "meningitis",
+   "interpersonal-violence",
+   "ischemic-heart-disease"
+  ],
+  "brief": "Five modules (ABCDE, trauma, difficulty in breathing, shock, altered mental status) with ten scripted adult and child case scenarios plus handover (SBAR) examples."
+ },
+ {
+  "id": "who-etat",
+  "name": "Emergency Triage Assessment and Treatment (ETAT): manual for participants and facilitator guide",
+  "publisher": "WHO",
+  "url": "https://iris.who.int/handle/10665/43386",
+  "type": "course",
+  "access": "open",
+  "license": "Copyright WHO, all rights reserved (free to read and download; ask WHO for reuse permission)",
+  "sp_ready": "yes",
+  "trust_note": "WHO paediatric triage course (2005). The facilitator guide, module six, has 14 scripted case management scenarios with facilitator inputs and expected responses.",
+  "best_for": [
+   "diarrheal-disease",
+   "lower-respiratory-infection",
+   "meningitis",
+   "sepsis",
+   "road-injury"
+  ],
+  "brief": "Paediatric emergency triage course. The facilitator guide scripts 14 child emergencies (shock, dehydration, convulsion, respiratory distress, trauma) for role play."
+ },
+ {
+  "id": "etat-plus-kenya",
+  "name": "ETAT+ course (Kenya Paediatric Association / KEMRI-Wellcome)",
+  "publisher": "Kenya Paediatric Association (KPA) and KEPRECON, with KEMRI-Wellcome Trust",
+  "url": "https://kenyapaediatric.org/etat-course/",
+  "type": "course",
+  "access": "open",
+  "license": "Not stated on the course page; free PDF modules posted by KPA",
+  "sp_ready": "partial",
+  "trust_note": "Kenyan adaptation of WHO ETAT with neonatal care and national guideline content; more than 10,000 health workers trained since 2006. Individual scenarios were not verified for this catalog.",
+  "best_for": [
+   "malaria",
+   "lower-respiratory-infection",
+   "malnutrition",
+   "neonatal-sepsis",
+   "neonatal-encephalopathy-asphyxia",
+   "diarrheal-disease"
+  ],
+  "brief": "Free downloadable ETAT+ modules (triage, newborn resuscitation, respiratory distress, dehydration). The course itself is taught in person by KPA instructors."
+ },
+ {
+  "id": "who-imci",
+  "name": "Integrated Management of Childhood Illness (IMCI): distance learning course",
+  "publisher": "WHO and UNICEF",
+  "url": "https://iris.who.int/handle/10665/104772",
+  "type": "course",
+  "access": "open",
+  "license": "Copyright WHO, all rights reserved (free to read and download; ask WHO for reuse permission)",
+  "sp_ready": "partial",
+  "trust_note": "Official WHO IMCI self-study course (2014, 9 modules). Each module opens with a named child case study that runs through the module, plus DVD video cases.",
+  "best_for": [
+   "lower-respiratory-infection",
+   "diarrheal-disease",
+   "malaria",
+   "malnutrition",
+   "anemia",
+   "hiv-aids",
+   "neonatal-sepsis"
+  ],
+  "brief": "Nine self-study modules for first-level health workers, each built around a story of a sick child and caregiver that can be turned into a caregiver role play."
+ },
+ {
+  "id": "who-mhgap",
+  "name": "mhGAP training manuals for the mhGAP Intervention Guide version 2.0 (ToT and ToHP)",
+  "publisher": "WHO",
+  "url": "https://iris.who.int/handle/10665/259161",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "yes",
+  "trust_note": "WHO mental health training package (2017, field-test version). Supporting material for each module has role plays with separate scripts for the person seeking help, the health-care provider and the observer, plus competency forms.",
+  "best_for": [
+   "depression",
+   "self-harm-suicide",
+   "substance-use-alcohol",
+   "opioid-use-disorder",
+   "alzheimer-dementia",
+   "interpersonal-violence",
+   "epilepsy",
+   "psychosis"
+  ],
+  "brief": "Ready-made three-role scripts (patient, provider, observer) for depression, psychosis, epilepsy, child mental health, dementia, substance use, self-harm and suicide, and other complaints."
+ },
+ {
+  "id": "who-sam-course",
+  "name": "Training course on the inpatient management of severe acute malnutrition (2021 update)",
+  "publisher": "WHO",
+  "url": "https://iris.who.int/handle/10665/352677",
+  "type": "course",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "partial",
+  "trust_note": "WHO course with eight modules plus facilitator and clinical instructor guides. Module 3 (initial management) uses named child cases for written exercises on the Critical Care Pathway form.",
+  "best_for": [
+   "malnutrition",
+   "diarrheal-disease",
+   "sepsis"
+  ],
+  "brief": "Case exercises on children with severe wasting who also have dehydration, shock, hypothermia or low blood sugar, using the WHO Critical Care Pathway form."
+ },
+ {
+  "id": "who-dengue",
+  "name": "Handbook for clinical management of dengue",
+  "publisher": "WHO and TDR",
+  "url": "https://iris.who.int/handle/10665/76887",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "Copyright WHO, all rights reserved (free to read and download; ask WHO for reuse permission)",
+  "sp_ready": "partial",
+  "trust_note": "WHO handbook (2012) whose Section 4 has four detailed, time-stamped real-world case studies with commentary on pitfalls. WHO WPRO also publishes a Dengue clinical management facilitator's training manual (2013, iris.who.int/handle/10665/207673) with case studies and role plays, but its case handouts are not printed in the manual.",
+  "best_for": [
+   "dengue"
+  ],
+  "brief": "Four teaching cases of severe dengue in adults and children, showing missed shock, hidden bleeding and fluid overload, with expert discussion."
+ },
+ {
+  "id": "paho-dengue",
+  "name": "Clinical diagnosis and management of dengue (self-learning course)",
+  "publisher": "PAHO Virtual Campus for Public Health",
+  "url": "https://campus.paho.org/en/course/self-learning-course-clinical-diagnosis-and-management-dengue/",
+  "type": "course",
+  "access": "free-registration",
+  "license": "PAHO terms; free, open to the public",
+  "sp_ready": "no",
+  "trust_note": "Free PAHO/WHO self-paced course in English, Spanish and Portuguese for doctors, nurses and students; covers warning signs, severity classification and treatment.",
+  "best_for": [
+   "dengue"
+  ],
+  "brief": "Free online dengue course from PAHO. Useful background before running dengue SP cases; individual cases not verified for this catalog."
+ },
+ {
+  "id": "cdc-dengue",
+  "name": "CDC dengue clinical management courses (including Virtual Practice in Dengue Management Through Simulated Scenarios, WB4964)",
+  "publisher": "US Centers for Disease Control and Prevention",
+  "url": "https://www.cdc.gov/dengue/hcp/trainings/clinical-management.html",
+  "type": "virtual-patient",
+  "access": "free-registration",
+  "license": "US government course; free with CE credit via CDC TRAIN",
+  "sp_ready": "partial",
+  "trust_note": "Three free CDC TRAIN courses: an integrated approach module (WB4945), a case-based module Face the Case (WB4963) and a simulated-scenario module (WB4964).",
+  "best_for": [
+   "dengue"
+  ],
+  "brief": "Free CDC online courses with case-based and simulated dengue patients; registration on CDC TRAIN needed. The CDC site blocks automated checks, so the page was confirmed through a browser fetch."
+ },
+ {
+  "id": "who-enc",
+  "name": "WHO Essential Newborn Care course (ENC 1 and ENC 2), including simulation practice cards",
+  "publisher": "WHO (with Helping Mothers and Babies Survive)",
+  "url": "https://www.who.int/tools/essential-newborn-care-course",
+  "type": "course",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "yes",
+  "trust_note": "WHO 2024 revision of essential newborn care training in the Helping Babies Survive style. Simulation practice cards give scripted cases for two or three people, with mother prompts and a debrief.",
+  "best_for": [
+   "neonatal-encephalopathy-asphyxia",
+   "neonatal-preterm-birth",
+   "neonatal-sepsis"
+  ],
+  "brief": "Free action plans, flip charts, provider guides and simulation practice cards for newborn resuscitation, routine care and care of small and sick babies."
+ },
+ {
+  "id": "aap-hbb",
+  "name": "Helping Babies Survive: Helping Babies Breathe (HBB 2nd ed.), Essential Care for Every Baby (ECEB), Essential Care for Small Babies (ECSB)",
+  "publisher": "American Academy of Pediatrics (with Laerdal Global Health)",
+  "url": "https://www.aap.org/en/aap-global/helping-babies-survive/trainer-tools/course-materials/",
+  "type": "course",
+  "access": "open",
+  "license": "Copyright American Academy of Pediatrics, all rights reserved; free download for training use",
+  "sp_ready": "yes",
+  "trust_note": "AAP programs taught to more than 850,000 providers in 80+ countries. OSCE sheets give a role-play case the facilitator reads aloud, with prompts and a done/not done checklist.",
+  "best_for": [
+   "neonatal-encephalopathy-asphyxia",
+   "neonatal-preterm-birth"
+  ],
+  "brief": "Free OSCEs, knowledge checks and skill checks for newborn resuscitation and essential newborn care. AAP states the HBB action plan, flip chart and provider guide can be downloaded at no cost from its International Resources site; printed copies are sold."
+ },
+ {
+  "id": "jhpiego-hms",
+  "name": "Helping Mothers Survive (Pre-eclampsia and Eclampsia, Bleeding After Birth and other modules)",
+  "publisher": "Jhpiego (with Laerdal Global Health)",
+  "url": "https://jhpiego.org/areas-of-expertise/helping-mothers-survive/",
+  "type": "course",
+  "access": "open",
+  "license": "Copyright Jhpiego, all rights reserved; free download from Jhpiego",
+  "sp_ready": "yes",
+  "trust_note": "Jhpiego low-dose, high-frequency simulation program used in 65+ countries. Facilitator flip charts contain scripted simulation cases with only-if-assessed findings and structured debriefs.",
+  "best_for": [
+   "preeclampsia-eclampsia",
+   "maternal-hemorrhage",
+   "neonatal-preterm-birth"
+  ],
+  "brief": "Free action plans and facilitator flip charts for obstetric emergency drills. The Pre-eclampsia and Eclampsia flip chart (June 2026 edition) has role-play cases for severe pre-eclampsia and eclampsia."
+ },
+ {
+  "id": "who-bab",
+  "name": "Bleeding after birth: course on prevention, diagnosis and treatment of postpartum haemorrhage",
+  "publisher": "WHO (developed with Jhpiego from the HMS Bleeding After Birth module)",
+  "url": "https://iris.who.int/handle/10665/382922",
+  "type": "course",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "yes",
+  "trust_note": "WHO 2025 course aligned with the new PPH diagnostic criteria and the PPH bundle. The flip chart has five scenario practices with simulator settings, prompts and expected actions; six OSCE cases are on www.who.int/tools/bleeding-after-birth.",
+  "best_for": [
+   "maternal-hemorrhage"
+  ],
+  "brief": "One-day simulation course for all birth attendants on preventing, spotting early and treating bleeding after birth, with scripted scenarios and OSCEs."
+ },
+ {
+  "id": "who-pen",
+  "name": "Package of Essential Noncommunicable (PEN) disease and healthy lifestyle interventions: training modules for primary health care workers",
+  "publisher": "WHO Regional Office for South-East Asia",
+  "url": "https://iris.who.int/handle/10665/274260",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "partial",
+  "trust_note": "WHO SEARO training modules (2018) for primary care workers; activities include short case studies, case scenarios and two-person role plays with answers for the facilitator.",
+  "best_for": [
+   "hypertension",
+   "diabetes",
+   "stroke",
+   "copd",
+   "asthma",
+   "oral-cancer",
+   "breast-cancer",
+   "cervical-cancer",
+   "rheumatic-heart-disease",
+   "substance-use-alcohol"
+  ],
+  "brief": "NCD training for primary care with short cases on diabetes emergencies, blood pressure, stroke, COPD and asthma, oral cancer, plus role plays for RHD, breast findings, tobacco and alcohol brief advice."
+ },
+ {
+  "id": "who-imai",
+  "name": "IMAI TB-HIV co-management training course: participant's manual",
+  "publisher": "WHO",
+  "url": "https://iris.who.int/handle/10665/339277",
+  "type": "course",
+  "access": "open",
+  "license": "Copyright WHO, all rights reserved (free to read and download; ask WHO for reuse permission)",
+  "sp_ready": "partial",
+  "trust_note": "WHO IMAI course (2008) for first-level facility workers. It uses expert patient trainers (EPTs), people living with HIV who play the patient and give one-to-one feedback, plus written case studies.",
+  "best_for": [
+   "tuberculosis",
+   "hiv-aids"
+  ],
+  "brief": "Case studies and expert-patient role plays for finding TB in people with HIV, starting treatment and preparing patients for ART."
+ },
+ {
+  "id": "ptc",
+  "name": "Primary Trauma Care course manual (2018 edition)",
+  "publisher": "Primary Trauma Care Foundation",
+  "url": "https://www.primarytraumacare.org/courses/ptc-foundation-course",
+  "type": "course",
+  "access": "open",
+  "license": "Copyright 2018 Primary Trauma Care Foundation; may be copied for courses with permission from PTCF",
+  "sp_ready": "no",
+  "trust_note": "Manual originated as an annex to WHO Surgical Care at the District Hospital (2003); taught in 76 countries. The 2018 manual text has no written case scenarios; scenarios are run by course instructors.",
+  "best_for": [
+   "road-injury",
+   "falls"
+  ],
+  "brief": "Free trauma manual (ABCDE primary survey, secondary survey, triage) useful as the reference for trauma SP cases."
+ },
+ {
+  "id": "safe-delivery-app",
+  "name": "Safe Delivery App",
+  "publisher": "Maternity Foundation (with Universities of Copenhagen and Southern Denmark)",
+  "url": "https://www.maternity.dk/safe-delivery-app/",
+  "type": "virtual-patient",
+  "access": "open",
+  "license": "Free app (iOS and Android, offline); Maternity Foundation terms",
+  "sp_ready": "partial",
+  "trust_note": "Widely used offline job aid and training app for skilled birth attendants with animated videos, action cards and a certification track (MyLearning).",
+  "best_for": [
+   "maternal-hemorrhage",
+   "preeclampsia-eclampsia",
+   "neonatal-encephalopathy-asphyxia",
+   "neonatal-sepsis"
+  ],
+  "brief": "Free midwifery app with animated instruction for emergency obstetric and newborn care. Specific in-app cases were not verified for this catalog."
+ },
+ {
+  "id": "ghmp",
+  "name": "Global Health Media Project videos",
+  "publisher": "Global Health Media Project",
+  "url": "https://globalhealthmedia.org/",
+  "type": "repository",
+  "access": "free-registration",
+  "license": "Free; download requires accepting GHMP Terms for Video Download Use",
+  "sp_ready": "no",
+  "trust_note": "More than 300 live-action teaching videos on newborn care, childbirth, small babies, nutrition and emergency care, in 119 languages.",
+  "best_for": [
+   "neonatal-preterm-birth",
+   "neonatal-encephalopathy-asphyxia",
+   "maternal-hemorrhage",
+   "malnutrition",
+   "diarrheal-disease"
+  ],
+  "brief": "Short real-patient videos that show signs and skills; good for SP trainer calibration, not scripted cases."
+ },
+ {
+  "id": "afem",
+  "name": "AFEM resources (curriculum, Rapid Assessment Protocols, presentation bank)",
+  "publisher": "African Federation for Emergency Medicine",
+  "url": "https://afem.africa/resources/",
+  "type": "repository",
+  "access": "open",
+  "license": "Described by AFEM as almost entirely open source; per-item terms not stated",
+  "sp_ready": "no",
+  "trust_note": "Africa-specific emergency care curriculum and teaching materials from the continental emergency medicine federation. Case scenarios were not verified in these files.",
+  "best_for": [
+   "road-injury",
+   "sepsis",
+   "snakebite"
+  ],
+  "brief": "Free African emergency medicine curricula and slide banks to anchor local SP emergency cases."
+ },
+ {
+  "id": "who-hearts",
+  "name": "HEARTS technical package for cardiovascular disease management in primary health care",
+  "publisher": "WHO",
+  "url": "https://www.who.int/publications/i/item/hearts-technical-package",
+  "type": "guideline-training",
+  "access": "open",
+  "license": "CC BY-NC-SA 3.0 IGO",
+  "sp_ready": "no",
+  "trust_note": "WHO technical package (2016, risk-based module 2020) with protocols, counselling and team-care modules; no scripted patient cases were found.",
+  "best_for": [
+   "hypertension",
+   "ischemic-heart-disease",
+   "stroke",
+   "diabetes"
+  ],
+  "brief": "Reference protocols for building hypertension and CVD risk SP cases; not a case collection."
+ },
+ {
+  "id": "iarc-screening",
+  "name": "IARC screening atlases and e-learning (Atlas of Colposcopy, Atlas of VIA, Atlas of oral cancer and precancer)",
+  "publisher": "International Agency for Research on Cancer (WHO)",
+  "url": "https://screening.iarc.fr/atlascolpo.php",
+  "type": "repository",
+  "access": "open",
+  "license": "Copyright IARC; free access under IARC terms of use",
+  "sp_ready": "partial",
+  "trust_note": "WHO cancer agency image atlases, organized as illustrated clinical cases by diagnosis (normal, inflammation, low and high grade lesions, cancer, post-treatment) with quizzes.",
+  "best_for": [
+   "cervical-cancer",
+   "oral-cancer"
+  ],
+  "brief": "Image-based cases for cervical and oral screening; pair images with an SP history for a screening OSCE station."
+ },
+ {
+  "id": "rhdaustralia",
+  "name": "RHDAustralia free online learning programs",
+  "publisher": "RHDAustralia (Menzies School of Health Research) and Heart Foundation",
+  "url": "https://rhdaustralia.org.au/continuing-professional-development/",
+  "type": "course",
+  "access": "free-registration",
+  "license": "Free, accredited; Heart Foundation learning hub terms",
+  "sp_ready": "partial",
+  "trust_note": "National Australian ARF and RHD program; guideline authors. Eight free self-paced programs including a patient-story module (Michael's Story).",
+  "best_for": [
+   "rheumatic-heart-disease"
+  ],
+  "brief": "Free accredited e-learning on recognizing acute rheumatic fever, penicillin prophylaxis and RHD in pregnancy."
+ }
+]

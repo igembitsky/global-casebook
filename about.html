@@ -1,0 +1,32 @@
+<span class="label">About this library</span>
+<h2>What the Global Casebook is</h2>
+<p>The Global Casebook helps a teacher find a free practice patient for a condition their students will meet. Each case comes from a trusted publisher. Most have been peer reviewed. Many include the materials an actor needs to play the patient: the patient's story, what to say, the physical findings, and a checklist to mark the student.</p>
+
+<h2>How to use it</h2>
+<ul>
+  <li><b>By condition.</b> Type a disease, an abbreviation or a symptom in the search field. The list suggests matching conditions as you type. Select one to see every case for it.</li>
+  <li><b>By country.</b> Select a partner country. You see the conditions with the highest burden there, from the WHO estimates. Open a condition to see its cases.</li>
+  <li><b>Coverage and gaps.</b> The table shows which priority conditions have many cases, few cases, or none.</li>
+  <li><b>Labels on each case.</b> "SP materials included" means the publication gives a script or case for a standardized patient. "Adaptable for an SP" means a simulation or paper case that a teacher can turn into an SP encounter.</li>
+</ul>
+
+<h2>How we built it</h2>
+<ol>
+  <li><b>Partner countries.</b> We took the ten international partner countries from the Global Health Academy website in September 2026, and added the United States for the domestic partners (Sacred Heart, UConn, Yale, WestConn and Puerto Rico).</li>
+  <li><b>Top conditions.</b> For each country we took the leading causes of disease burden from one source, the WHO Global Health Estimates, so that countries can be compared. COVID-19 is left out because pandemic years distort the ranks. Where a condition is a known national priority but falls below the top ten (for example malaria, tuberculosis, HIV, dengue or sickle cell disease), we added it as a local priority, marked "LOCAL", with its own WHO or national source.</li>
+  <li><b>MedEdPORTAL.</b> We read the title and abstract of every MedEdPORTAL publication, 3,346 in total from 2005 to September 2026, using the open OpenAlex index. We kept each publication that contains a patient case usable for a standardized patient, OSCE, role-play or simulation. Procedure-only trainers, lectures, curricula and surveys were left out.</li>
+  <li><b>Cross-reference.</b> Each case is tagged with the conditions it teaches. A condition with five or more cases is marked well covered, one to four is thin, and none is a gap.</li>
+  <li><b>Other trusted sources.</b> For the gaps, we searched for free cases from WHO training courses, peer-reviewed simulation journals, open-access case report journals, national programs and university repositories.</li>
+  <li><b>Verification.</b> Every MedEdPORTAL title was matched to the publisher's DOI record and every DOI link was opened. Every WHO burden figure was compared with the live WHO data. Each other figure was checked against its source document, and eight were corrected. Every other case link was opened, and each case was checked in PubMed Central, WHO IRIS or on its own page. The Sources tab shows the results.</li>
+</ol>
+
+<h2>Limits</h2>
+<ul>
+  <li>The case summaries and condition tags come from the published abstracts, read with the help of AI and checked by sampling. Open the case and read it before you use it with students.</li>
+  <li>Most MedEdPORTAL cases were written for training in the United States. Drugs, tests and referral paths may differ from your setting. Adapt them to local guidelines.</li>
+  <li>Each case keeps its own license. MedEdPORTAL cases are free to use for teaching; most are CC BY-NC-SA or CC BY. Credit the authors when you use or adapt a case.</li>
+  <li>Burden ranks describe deaths and years of healthy life lost for the whole population. They do not describe what a single clinic sees each day.</li>
+</ul>
+
+<h2>Run a case with a virtual patient</h2>
+<p>The eight patients in the free Virtual Standardized Patient tool come from six MedEdPORTAL publications in this library. They run offline in <a href="https://github.com/igembitsky/virtual-standardized-patient" target="_blank" rel="noopener">that tool</a>, where a local AI model plays the patient on a laptop with no internet connection.</p>

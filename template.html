@@ -1,0 +1,457 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Global Casebook</title>
+<meta name="description" content="A free library of practice patient cases, matched to the conditions that clinicians see most in each Global Health Academy partner country.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a reference-desk tool. Masthead with one search field, then three views (condition, country, coverage map)
+   in a single 1120px column. Colors come from the H&E stain: hematoxylin ink, eosin for gaps. */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --sunk:#eceef3; --line:#d9dce5; --fg:#1b1d2b; --muted:#5c6072;
+  --hema:#3a3486; --hema-soft:#e7e5f5; --eosin:#b8386a; --eosin-soft:#f8e3eb;
+  --good:#23775a; --good-soft:#dff1e9; --warn:#9a6a0e; --warn-soft:#f7ecd4;
+  --shadow:0 1px 2px rgba(27,29,43,.06),0 6px 20px rgba(27,29,43,.06);
+  --f-display:"Spectral",Georgia,"Times New Roman",serif;
+  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12131b; --surface:#1b1d28; --sunk:#232634; --line:#323647; --fg:#e8e9f0; --muted:#a2a6b8;
+  --hema:#a9a2f2; --hema-soft:#2a2750; --eosin:#f089b0; --eosin-soft:#3f2030;
+  --good:#6fd0a8; --good-soft:#18352b; --warn:#e8bd62; --warn-soft:#3a2f16;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12131b; --surface:#1b1d28; --sunk:#232634; --line:#323647; --fg:#e8e9f0; --muted:#a2a6b8;
+  --hema:#a9a2f2; --hema-soft:#2a2750; --eosin:#f089b0; --eosin-soft:#3f2030;
+  --good:#6fd0a8; --good-soft:#18352b; --warn:#e8bd62; --warn-soft:#3a2f16;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
+a{color:var(--hema);text-underline-offset:2px}
+a:focus-visible,button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--hema);outline-offset:2px;border-radius:4px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;font-weight:600}
+.mono{font-family:var(--f-mono);font-size:.82em}
+.label{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.num{font-variant-numeric:tabular-nums}
+
+/* masthead */
+header.mast{padding-block:36px 20px;display:grid;gap:14px}
+.brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.brand h1{font-size:clamp(34px,5vw,52px);line-height:1.02;letter-spacing:-.01em}
+.brand h1 em{font-style:italic;color:var(--hema);font-weight:500}
+.brand .edition{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.lede{max-width:66ch;color:var(--muted);font-size:16px;margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13.5px;color:var(--muted)}
+.stats b{color:var(--fg);font-variant-numeric:tabular-nums;font-weight:700}
+
+/* search */
+.searchbox{position:relative;margin-top:6px}
+.searchbox input{width:100%;font:500 18px var(--f-body);padding:15px 18px 15px 48px;border:1.5px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);box-shadow:var(--shadow)}
+.searchbox input:focus{border-color:var(--hema);outline:none}
+.searchbox svg{position:absolute;left:17px;top:50%;transform:translateY(-50%);width:20px;height:20px;stroke:var(--muted)}
+.suggest{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 6px);background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);max-height:380px;overflow:auto;padding:6px}
+.suggest button{display:flex;width:100%;justify-content:space-between;gap:12px;align-items:baseline;text-align:left;background:none;border:0;padding:9px 12px;border-radius:8px;color:var(--fg);font:15px var(--f-body);cursor:pointer}
+.suggest button[aria-selected="true"],.suggest button:hover{background:var(--hema-soft)}
+.suggest .syn{color:var(--muted);font-size:13px}
+.suggest .cnt{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.suggest mark{background:none;color:var(--hema);font-weight:700}
+.hint{font-size:13px;color:var(--muted);margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:3px 11px;font-size:13px;color:var(--fg);cursor:pointer;font-family:var(--f-body)}
+.chip:hover{border-color:var(--hema);color:var(--hema)}
+
+/* tabs */
+nav.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-block:18px 22px;overflow-x:auto}
+nav.tabs button{background:none;border:0;border-bottom:2.5px solid transparent;padding:10px 14px;font:600 14.5px var(--f-body);color:var(--muted);cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--hema)}
+
+/* coverage pills */
+.pill{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:600;white-space:nowrap}
+.pill.good{background:var(--good-soft);color:var(--good)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.pill.gap{background:var(--eosin-soft);color:var(--eosin)}
+.pill.src{background:var(--sunk);color:var(--muted);font-weight:500}
+.pill.sp{background:var(--hema-soft);color:var(--hema)}
+
+/* condition view */
+.cond-head{display:grid;gap:8px;margin-bottom:18px}
+.cond-head h2{font-size:30px}
+.cond-head .where{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-block:4px 16px}
+.filters .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--surface)}
+.filters .seg button{border:0;background:none;padding:6px 12px;font:500 13px var(--f-body);color:var(--muted);cursor:pointer}
+.filters .seg button[aria-pressed="true"]{background:var(--hema);color:var(--surface)}
+.cases{display:grid;gap:12px}
+.case{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:8px;min-width:0}
+.case h3{font-size:18px;line-height:1.3;font-weight:600}
+.case h3 a{color:var(--fg);text-decoration:none}
+.case h3 a:hover{color:var(--hema);text-decoration:underline}
+.case .meta{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12.5px;color:var(--muted);align-items:center}
+.case p{margin:0;max-width:78ch}
+.case .dx{font-size:13px;color:var(--muted)}
+.case .dx b{color:var(--fg);font-weight:600}
+.more{justify-self:start;margin-top:4px}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:9px;padding:8px 14px;font:600 13.5px var(--f-body);cursor:pointer}
+.btn:hover{border-color:var(--hema);color:var(--hema)}
+.empty{border:1.5px dashed var(--line);border-radius:12px;padding:22px;color:var(--muted);background:var(--surface)}
+.empty b{color:var(--eosin)}
+
+/* country view */
+.countries{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin-bottom:26px}
+.ctile{display:grid;gap:6px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;color:var(--fg);font-family:var(--f-body)}
+.ctile:hover{border-color:var(--hema)}
+.ctile[aria-pressed="true"]{border-color:var(--hema);box-shadow:0 0 0 1.5px var(--hema) inset}
+.ctile .nm{font:600 16px var(--f-display);display:flex;gap:8px;align-items:center}
+.ctile .flag{font-size:20px;line-height:1}
+.bar{display:flex;height:6px;border-radius:3px;overflow:hidden;background:var(--sunk)}
+.bar i{display:block}
+.bar .g{background:var(--good)} .bar .w{background:var(--warn)} .bar .x{background:var(--eosin)}
+.ctile small{color:var(--muted);font-size:12px}
+.country-detail h2{font-size:30px;display:flex;gap:10px;align-items:center}
+.srcnote{font-size:13px;color:var(--muted);margin-block:6px 16px;max-width:80ch}
+.condlist{display:grid;gap:8px}
+.crow{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.crow>button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:center;padding:13px 16px;cursor:pointer}
+.crow>button:focus-visible{outline:2px solid var(--hema);outline-offset:-2px}
+.crow .rk{font:600 20px var(--f-display);color:var(--muted);text-align:center;font-variant-numeric:tabular-nums}
+.crow .rk.pri{font-size:12px;font-family:var(--f-body);letter-spacing:.05em}
+.crow .ttl{min-width:0}
+.crow .ttl b{font-weight:600;font-size:16px;display:block}
+.crow .ttl span{font-size:13px;color:var(--muted);display:block}
+.crow .right{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.crow .body{padding:4px 16px 16px;border-top:1px solid var(--line);background:var(--bg)}
+.crow .body .cases{margin-top:12px}
+
+/* map */
+.mapwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table.map{border-collapse:separate;border-spacing:0;font-size:13px;min-width:760px;width:100%}
+table.map th,table.map td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:center}
+table.map thead th{position:sticky;top:0;background:var(--surface);font-weight:600;font-size:12px;color:var(--muted)}
+table.map th.cn{text-align:left;position:sticky;left:0;background:var(--surface);font-weight:600;color:var(--fg);white-space:nowrap;min-width:200px}
+table.map td .cell{display:inline-grid;place-items:center;width:30px;height:24px;border-radius:5px;font:500 12px var(--f-mono);cursor:pointer;border:0}
+.cell.g{background:var(--good-soft);color:var(--good)} .cell.w{background:var(--warn-soft);color:var(--warn)} .cell.x{background:var(--eosin-soft);color:var(--eosin)}
+.cell.na{background:transparent;color:var(--line);cursor:default}
+table.map td.tot{font-family:var(--f-mono);color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);margin-block:12px}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.legend i{width:14px;height:14px;border-radius:4px;display:inline-block}
+.gapgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:22px}
+.gapcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:6px}
+.gapcard h3{font-size:17px}
+.gapcard p{margin:0;font-size:13.5px;color:var(--muted)}
+
+/* sources */
+.srcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.srccard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:6px;align-content:start;min-width:0}
+.srccard h3{font-size:17px}
+.srccard p{margin:0;font-size:13.5px}
+.srccard .meta{display:flex;flex-wrap:wrap;gap:6px}
+.verify{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin-bottom:8px}
+.verify div{background:var(--good-soft);border-radius:10px;padding:10px 12px;display:grid;gap:2px}
+.verify b{font:600 22px var(--f-display);color:var(--good)}
+.verify span{font-size:12.5px;color:var(--fg)}
+section.about{max-width:74ch}
+section.about h2{font-size:24px;margin-block:10px 8px}
+section.about p,section.about li{color:var(--fg)}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);display:grid;gap:4px}
+@media (max-width:560px){
+  .crow>button{grid-template-columns:26px 1fr}
+  .crow .right{grid-column:2;justify-content:flex-start}
+  .case{padding:14px}
+}
+@media (prefers-reduced-motion:no-preference){.case,.crow,.ctile{transition:border-color .15s}}
+</style>
+
+<div class="wrap">
+<header class="mast">
+  <div class="brand"><h1>Global <em>Casebook</em></h1><span class="edition" id="edition"></span></div>
+  <p class="lede">Free, peer-reviewed practice patients for standardized patient (SP) encounters, OSCEs (Objective Structured Clinical Examinations: timed exam stations with a standardized patient) and simulation. Each case is matched to the conditions that clinicians see most in the eleven Global Health Academy partner countries.</p>
+  <div class="stats" id="stats"></div>
+  <div class="searchbox" role="combobox" aria-haspopup="listbox" aria-owns="suggest" aria-expanded="false" id="combo">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search a condition: malaria, sepsis, postpartum hemorrhage, chest pain, depression..." aria-autocomplete="list" aria-controls="suggest" aria-label="Search by condition">
+    <div class="suggest" id="suggest" role="listbox" hidden></div>
+  </div>
+  <div class="hint" id="quick"><span>Try:</span></div>
+</header>
+
+<nav class="tabs" role="tablist" id="tabs">
+  <button role="tab" data-view="condition" aria-selected="true">By condition</button>
+  <button role="tab" data-view="country" aria-selected="false">By country</button>
+  <button role="tab" data-view="map" aria-selected="false">Coverage and gaps</button>
+  <button role="tab" data-view="sources" aria-selected="false">Sources</button>
+  <button role="tab" data-view="about" aria-selected="false">About</button>
+</nav>
+
+<main>
+  <section id="v-condition"></section>
+  <section id="v-country" hidden></section>
+  <section id="v-map" hidden></section>
+  <section id="v-sources" hidden></section>
+  <section id="v-about" class="about" hidden></section>
+</main>
+
+<footer>
+  <div>Case summaries are short descriptions written for this library. Each case belongs to its authors and publisher; follow the link and respect the license shown.</div>
+  <div>Built for the 5th Annual Global Health Conference, Southbury, Connecticut, September 2026.</div>
+</footer>
+</div>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = (s, el=document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const C = Object.fromEntries(D.conditions.map(c => [c.key, c]));
+const SRC = Object.fromEntries(D.sources.map(s => [s.id, s]));
+const byCond = {};
+D.cases.forEach(k => (k.conditions||[]).forEach(key => (byCond[key] ||= []).push(k)));
+const countOf = key => { const a = byCond[key]||[]; return {all:a.length, mep:a.filter(x=>x.source==='mededportal').length, alt:a.filter(x=>x.source!=='mededportal').length, sp:a.filter(x=>x.sp_ready==='yes').length}; };
+const level = key => { const n = countOf(key); return n.all >= 5 ? 'g' : n.all >= 1 ? 'w' : 'x'; };
+const levelPill = key => { const n = countOf(key), l = level(key);
+  const txt = l==='x' ? 'No free case found' : `${n.all} case${n.all===1?'':'s'}`;
+  return `<span class="pill ${l==='g'?'good':l==='w'?'warn':'gap'}">${txt}</span>`; };
+const ctry = Object.fromEntries(D.burden.countries.map(c => [c.iso3, c]));
+const countriesFor = key => D.burden.countries.filter(c => c.conditions.some(x => x.key === key));
+const fmtLabel = {'sp-case':'SP (standardized patient) case','osce-station':'OSCE (Objective Structured Clinical Examination) station','role-play':'Role-play','simulation-scenario':'Simulation scenario','virtual-patient':'Virtual patient','case-based-session':'Case-based session','case-report':'Case report','guideline-training':'Training course'};
+
+// stats
+(function(){
+  const mep = D.cases.filter(c=>c.source==='mededportal').length, alt = D.cases.length - mep;
+  const sp = D.cases.filter(c=>c.sp_ready==='yes').length;
+  const pri = new Set(D.burden.countries.flatMap(c=>c.conditions.map(x=>x.key)));
+  const gaps = [...pri].filter(k=>level(k)==='x').length;
+  $('#stats').innerHTML = `<span><b>${D.cases.length}</b> cases</span><span><b>${mep}</b> from MedEdPORTAL</span><span><b>${alt}</b> from ${D.sources.length - 1} other trusted sources</span><span><b>${sp}</b> with ready SP (standardized patient) materials</span><span><b>${D.burden.countries.length}</b> countries</span><span><b>${pri.size}</b> priority conditions, <b>${gaps}</b> with no free case</span>`;
+  $('#edition').textContent = 'Edition ' + D.built;
+})();
+
+// ---------- search ----------
+const norm = s => s.toLowerCase().normalize('NFD').replace(/\p{M}/gu,'');
+const INDEX = D.conditions.map(c => ({c, terms:[c.name, ...(c.synonyms||[])].map(norm)}));
+function matchConds(q){
+  q = norm(q.trim()); if (!q) return [];
+  const out = [];
+  for (const {c, terms} of INDEX){
+    let best = 99, hit = null;
+    terms.forEach((t,i) => { const p = t.indexOf(q); if (p === -1) return;
+      const s = (p===0?0:(t[p-1]===' '||t[p-1]==='-'?1:3)) + (i===0?0:1);
+      if (s < best){ best = s; hit = i; } });
+    if (hit !== null) out.push({c, s:best - Math.min(3,(byCond[c.key]||[]).length/20), via: hit===0?null:c.synonyms[hit-1]});
+  }
+  return out.sort((a,b)=>a.s-b.s).slice(0,10);
+}
+const hl = (text, q) => { const i = norm(text).indexOf(norm(q.trim())); return i<0 ? esc(text) : esc(text.slice(0,i))+'<mark>'+esc(text.slice(i,i+q.trim().length))+'</mark>'+esc(text.slice(i+q.trim().length)); };
+const qEl = $('#q'), sg = $('#suggest'), combo = $('#combo');
+let sel = -1, items = [];
+function renderSuggest(){
+  items = matchConds(qEl.value); sel = items.length ? 0 : -1;
+  if (!qEl.value.trim()){ sg.hidden = true; combo.setAttribute('aria-expanded','false'); return; }
+  sg.innerHTML = items.length ? items.map((m,i) => { const n = countOf(m.c.key);
+    return `<button role="option" id="opt${i}" aria-selected="${i===sel}" data-key="${m.c.key}"><span>${hl(m.c.name, qEl.value)}${m.via?` <span class="syn">(${hl(m.via, qEl.value)})</span>`:''}</span><span class="cnt">${n.all ? n.all+' cases' : 'no case yet'}</span></button>`; }).join('')
+    : '';
+  const ft = textHits(qEl.value).length;
+  sg.innerHTML += `<button role="option" id="opt${items.length}" aria-selected="${items.length===sel}" data-text="1"><span>Search all case titles and summaries for "<mark>${esc(qEl.value.trim())}</mark>"</span><span class="cnt">${ft} cases</span></button>`;
+  if (sel === -1) sel = 0;
+  sg.hidden = false; combo.setAttribute('aria-expanded','true');
+}
+function moveSel(d){ const n = items.length + 1; sel = (sel + d + n) % n;
+  sg.querySelectorAll('button').forEach((b,i)=>b.setAttribute('aria-selected', i===sel)); sg.querySelector('#opt'+sel)?.scrollIntoView({block:'nearest'}); qEl.setAttribute('aria-activedescendant','opt'+sel); }
+qEl.addEventListener('input', renderSuggest);
+qEl.addEventListener('focus', () => qEl.value.trim() && renderSuggest());
+qEl.addEventListener('keydown', e => {
+  if (e.key==='ArrowDown'){ e.preventDefault(); moveSel(1); }
+  else if (e.key==='ArrowUp'){ e.preventDefault(); moveSel(-1); }
+  else if (e.key==='Enter'){ e.preventDefault(); if (items[sel]) pickCondition(items[sel].c.key); else if (qEl.value.trim()) pickText(qEl.value); }
+  else if (e.key==='Escape'){ sg.hidden = true; }
+});
+sg.addEventListener('mousedown', e => { const b = e.target.closest('button[data-key],button[data-text]'); if (!b) return; e.preventDefault(); b.dataset.key ? pickCondition(b.dataset.key) : pickText(qEl.value); });
+document.addEventListener('click', e => { if (!combo.contains(e.target)) sg.hidden = true; });
+['malaria','tuberculosis','maternal-hemorrhage','ischemic-heart-disease','depression','sepsis','stroke','diabetes'].forEach(k => { if (C[k]) $('#quick').insertAdjacentHTML('beforeend', `<button class="chip" data-key="${k}">${esc(C[k].name)}</button>`); });
+$('#quick').addEventListener('click', e => { const b = e.target.closest('[data-key]'); if (b) pickCondition(b.dataset.key); });
+
+// ---------- tabs ----------
+function show(view){
+  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.view===view));
+  document.querySelectorAll('main>section').forEach(s => s.hidden = s.id !== 'v-'+view);
+  try{ localStorage.setItem('gc-view', view); }catch(e){}
+}
+$('#tabs').addEventListener('click', e => { const b = e.target.closest('button[data-view]'); if (b) show(b.dataset.view); });
+
+// ---------- case cards ----------
+function licPlain(l){
+  if (!l || !/CC BY/.test(l)) return l;
+  const t = ['Creative Commons: free to share and adapt with credit to the authors'];
+  if (/NC/.test(l)) t.push('non-commercial use only');
+  if (/SA/.test(l)) t.push('share changes under the same license');
+  if (/ND/.test(l)) t.push('no changed versions');
+  return `${l} (${t.join('; ')})`;
+}
+function caseCard(k){
+  const src = SRC[k.source_id || k.source] || {};
+  const fm = fmtLabel[k.format] || k.format || '';
+  const spl = k.sp_ready==='yes' ? '<span class="pill sp">SP (standardized patient) materials included</span>' : k.sp_ready==='partial' ? '<span class="pill src">Adaptable for an SP (standardized patient)</span>' : '';
+  const dx = (k.diagnoses||[]).length ? `<div class="dx"><b>Diagnosis:</b> ${esc(k.diagnoses.join('; '))}</div>` : '';
+  return `<article class="case">
+    <h3><a href="${esc(k.url)}" target="_blank" rel="noopener">${esc(k.title)}</a></h3>
+    <div class="meta">${fm?`<span class="pill src">${esc(fm)}</span>`:''}${spl}<span>${esc(src.name||k.source)}</span>${k.year?`<span class="num">${k.year}</span>`:''}${k.authors?`<span>${esc(k.authors)}</span>`:''}${k.learners?`<span>For ${esc(k.learners)}</span>`:''}${k.license?`<span>${esc(licPlain(k.license))}</span>`:''}</div>
+    <p>${esc(k.brief)}</p>${dx}
+    <div class="meta">${k.doi?`<span class="mono">doi:${esc(k.doi)}</span>`:`<span class="mono">${esc((k.url||'').replace(/^https?:\/\//,'').slice(0,70))}</span>`}</div>
+  </article>`;
+}
+function caseList(key, opts={}){
+  let list = (byCond[key]||[]).slice();
+  const f = opts.filter || 'all';
+  if (f==='sp') list = list.filter(k=>k.sp_ready==='yes');
+  if (f==='mep') list = list.filter(k=>k.source==='mededportal');
+  if (f==='alt') list = list.filter(k=>k.source!=='mededportal');
+  list.sort((a,b) => (b.sp_ready==='yes')-(a.sp_ready==='yes') || (b.year||0)-(a.year||0));
+  return list;
+}
+function emptyFor(key){
+  const c = C[key];
+  const alts = D.sources.filter(s => (s.best_for||[]).includes(key));
+  return `<div class="empty"><b>Gap:</b> we found no free, peer-reviewed practice case for ${esc(c?.name||key)}.${alts.length?` These trusted sources teach it and may be adapted: ${alts.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(', ')}.`:''} ${c?.gap_note?esc(c.gap_note):''}</div>`;
+}
+function paged(list, el, n=12){
+  let shown = 0;
+  const box = document.createElement('div'); box.className='cases'; el.appendChild(box);
+  const btn = document.createElement('button'); btn.className='btn more';
+  const more = () => { box.insertAdjacentHTML('beforeend', list.slice(shown, shown+n).map(caseCard).join('')); shown += n;
+    btn.hidden = shown >= list.length; btn.textContent = `Show ${Math.min(n, list.length-shown)} more of ${list.length-shown}`; };
+  btn.onclick = more; el.appendChild(btn); more();
+}
+
+// ---------- full-text search ----------
+const HAY = D.cases.map(k => norm([k.title, k.brief, (k.diagnoses||[]).join(' '), (k.presentations||[]).join(' '), k.specialty||''].join(' ')));
+function textHits(q){ const t = norm(q.trim()).split(/\s+/).filter(Boolean); if (!t.length) return [];
+  return D.cases.filter((k,i) => t.every(w => HAY[i].includes(w))); }
+let curText = null;
+function pickText(q){ curText = q.trim(); curCond = null; sg.hidden = true; renderCondition(); show('condition'); }
+// ---------- condition view ----------
+let curCond = null, curFilter = 'all';
+function pickCondition(key){ curText = null; curCond = key; qEl.value = C[key]?.name || key; sg.hidden = true; renderCondition(); show('condition'); window.scrollTo({top: $('#tabs').offsetTop - 8, behavior:'smooth'}); }
+function renderCondition(){
+  const el = $('#v-condition');
+  if (curText){
+    const list = textHits(curText).sort((a,b)=>(b.sp_ready==='yes')-(a.sp_ready==='yes') || (b.year||0)-(a.year||0));
+    el.innerHTML = `<div class="cond-head"><span class="label">Text search</span><h2>Cases that mention "${esc(curText)}"</h2><p class="srcnote">${list.length} cases match in the title, summary or diagnosis.</p></div><div class="filters"><button class="btn" id="clearc">All conditions</button></div><div id="clist"></div>`;
+    $('#clearc').onclick=()=>{curText=null; qEl.value=''; renderCondition();};
+    if (list.length) paged(list, $('#clist')); else $('#clist').innerHTML = `<div class="empty">No case mentions "${esc(curText)}". Try a shorter word.</div>`;
+    return;
+  }
+  if (!curCond){
+    const top = D.conditions.filter(c=>countriesFor(c.key).length).sort((a,b)=>countriesFor(b.key).length-countriesFor(a.key).length);
+    el.innerHTML = `<div class="cond-head"><span class="label">Priority conditions across the partner countries</span><h2>Start with a condition</h2><p class="srcnote">Type in the search field above, or pick one of the conditions below. The number shows in how many partner countries the condition is a top cause of disease burden.</p></div>
+    <div class="condlist">${top.map(c=>`<div class="crow"><button data-key="${c.key}"><span class="rk num">${countriesFor(c.key).length}</span><span class="ttl"><b>${esc(c.name)}</b><span>${countriesFor(c.key).map(x=>x.flag).join(' ')}</span></span><span class="right">${levelPill(c.key)}</span></button></div>`).join('')}</div>`;
+    el.querySelectorAll('button[data-key]').forEach(b=>b.onclick=()=>pickCondition(b.dataset.key));
+    return;
+  }
+  const c = C[curCond], n = countOf(curCond), cs = countriesFor(curCond);
+  const list = caseList(curCond, {filter:curFilter});
+  el.innerHTML = `<div class="cond-head"><span class="label">Condition</span><h2>${esc(c.name)}</h2>
+    ${c.synonyms?.length?`<div class="srcnote" style="margin:0">Also searched as: ${esc(c.synonyms.slice(0,8).join(', '))}</div>`:''}
+    <div class="where">${levelPill(curCond)}${cs.length?`<span class="label" style="margin-left:6px">A top condition in</span>${cs.map(x=>`<button class="chip" data-iso="${x.iso3}">${x.flag} ${esc(x.name)}</button>`).join('')}`:''}</div></div>
+    <div class="filters"><span class="seg" role="group" aria-label="Filter cases">${[['all',`All ${n.all}`],['sp',`SP (standardized patient) materials ${n.sp}`],['mep',`MedEdPORTAL ${n.mep}`],['alt',`Other sources ${n.alt}`]].map(([k,t])=>`<button data-f="${k}" aria-pressed="${curFilter===k}">${t}</button>`).join('')}</span><button class="btn" id="clearc">All conditions</button></div>
+    <div id="clist"></div>`;
+  el.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{curFilter=b.dataset.f; renderCondition();});
+  el.querySelectorAll('[data-iso]').forEach(b=>b.onclick=()=>{pickCountry(b.dataset.iso);});
+  $('#clearc').onclick=()=>{curCond=null; qEl.value=''; renderCondition();};
+  if (!n.all) $('#clist').innerHTML = emptyFor(curCond);
+  else if (!list.length) $('#clist').innerHTML = `<div class="empty">No cases match this filter. Choose "All".</div>`;
+  else paged(list, $('#clist'));
+  relatedBlock(curCond, el);
+}
+
+function relatedBlock(key, el){
+  const rel = (C[key]?.related||[]).filter(r => (byCond[r]||[]).length);
+  if (!rel.length) return;
+  const own = new Set((byCond[key]||[]).map(k=>k.id));
+  const box = document.createElement('div');
+  box.innerHTML = `<h3 style="font-size:20px;margin:28px 0 6px">Related cases</h3><p class="srcnote" style="margin-top:0">These cases teach a closely linked condition. They can support teaching on ${esc(C[key].name)}.</p>
+    <div class="hint" style="margin-bottom:12px">${rel.map(r=>`<button class="chip" data-key="${r}">${esc(C[r]?.name||r)} <span class="mono">${(byCond[r]||[]).filter(k=>!own.has(k.id)).length}</span></button>`).join('')}</div>`;
+  box.querySelectorAll('[data-key]').forEach(b=>b.onclick=()=>pickCondition(b.dataset.key));
+  el.appendChild(box);
+}
+// ---------- country view ----------
+let curCountry = null;
+function pickCountry(iso){ curCountry = iso; renderCountry(); show('country'); }
+function renderCountry(){
+  const el = $('#v-country');
+  const tiles = D.burden.countries.map(c => { const ls = c.conditions.map(x=>level(x.key)); const t = ls.length;
+    const g = ls.filter(l=>l==='g').length, w = ls.filter(l=>l==='w').length, x = ls.filter(l=>l==='x').length;
+    return `<button class="ctile" data-iso="${c.iso3}" aria-pressed="${curCountry===c.iso3}"><span class="nm"><span class="flag">${c.flag}</span>${esc(c.name)}</span>
+      <span class="bar" aria-hidden="true"><i class="g" style="width:${g/t*100}%"></i><i class="w" style="width:${w/t*100}%"></i><i class="x" style="width:${x/t*100}%"></i></span>
+      <small>${t} conditions: ${g} well covered, ${w} thin, ${x} gap${x===1?'':'s'}</small></button>`; }).join('');
+  let detail = `<p class="srcnote">Select a country to see its top conditions and the practice cases for each one.</p>`;
+  if (curCountry){
+    const c = ctry[curCountry];
+    detail = `<div class="country-detail"><span class="label">Top conditions clinicians see</span><h2><span>${c.flag}</span>${esc(c.name)}</h2>
+      <p class="srcnote">Conditions are ranked by DALYs (disability-adjusted life years: years of healthy life lost to illness, disability or early death). LOCAL marks a local priority condition that ranks lower but is a known national concern, with its own source. ${esc(c.source_note||'')} Source: <a href="${esc(c.source_url)}" target="_blank" rel="noopener">${esc(D.burden.source_primary.name)}</a>.</p>
+      <div class="condlist">${c.conditions.map(x => `<div class="crow" data-key="${x.key}"><button aria-expanded="false"><span class="rk ${x.kind==='priority'?'pri':''} num">${x.kind==='priority'?'LOCAL':x.rank}</span><span class="ttl"><b>${esc(x.name)}</b><span>${esc(x.why||'')}</span></span><span class="right">${levelPill(x.key)}</span></button><div class="body" hidden></div></div>`).join('')}</div></div>`;
+  }
+  el.innerHTML = `<div class="countries">${tiles}</div>${detail}`;
+  el.querySelectorAll('.ctile').forEach(b=>b.onclick=()=>{curCountry=b.dataset.iso; renderCountry();});
+  el.querySelectorAll('.crow[data-key]').forEach(row => { const btn = row.querySelector('button'), body = row.querySelector('.body');
+    btn.onclick = () => { const open = body.hidden; body.hidden = !open; btn.setAttribute('aria-expanded', open);
+      if (open && !body.dataset.done){ body.dataset.done = 1; const k = row.dataset.key; const list = caseList(k);
+        body.insertAdjacentHTML('beforeend', `<div class="filters" style="margin:12px 0 0"><button class="btn" data-open="${k}">Open ${esc(C[k]?.name||k)} in condition view</button></div>`);
+        body.querySelector('[data-open]').onclick = () => pickCondition(k);
+        if (list.length) paged(list, body, 6); else body.insertAdjacentHTML('beforeend', `<div style="margin-top:12px">${emptyFor(k)}</div>`);
+        relatedBlock(k, body); } }; });
+}
+
+// ---------- coverage map ----------
+function renderMap(){
+  const el = $('#v-map');
+  const keys = [...new Set(D.burden.countries.flatMap(c=>c.conditions.map(x=>x.key)))].sort((a,b)=>countriesFor(b).length-countriesFor(a).length || (C[a]?.name||a).localeCompare(C[b]?.name||b));
+  const cs = D.burden.countries;
+  const rows = keys.map(k => { const n = countOf(k); return `<tr><th class="cn" scope="row">${esc(C[k]?.name||k)}</th>${cs.map(c => { const x = c.conditions.find(y=>y.key===k);
+      return `<td>${x?`<button class="cell ${level(k)}" title="${esc(c.name)}: ${esc(C[k]?.name||k)}, ${x.kind==='priority'?'local priority':'rank '+x.rank}, ${n.all} cases" data-key="${k}">${x.kind==='priority'?'P':x.rank}</button>`:'<span class="cell na">.</span>'}</td>`; }).join('')}<td class="tot num">${n.mep}</td><td class="tot num">${n.alt}</td></tr>`; }).join('');
+  const gaps = keys.filter(k=>level(k)!=='g').sort((a,b)=>countOf(a).all-countOf(b).all || countriesFor(b).length-countriesFor(a).length);
+  el.innerHTML = `<div class="cond-head"><span class="label">Cross-reference</span><h2>Where the cases are, and where they are missing</h2>
+    <p class="srcnote">Each row is a priority condition. Each column is a partner country. The number is the condition's rank in that country by DALYs (disability-adjusted life years: years of healthy life lost to illness, disability or early death). P marks a local priority condition. The color shows how many free practice cases exist for it across all sources. Select a cell to open its cases.</p></div>
+    <div class="legend"><span><i style="background:var(--good-soft);outline:1px solid var(--good)"></i>5 or more cases</span><span><i style="background:var(--warn-soft);outline:1px solid var(--warn)"></i>1 to 4 cases</span><span><i style="background:var(--eosin-soft);outline:1px solid var(--eosin)"></i>No free case found</span></div>
+    <div class="mapwrap"><table class="map"><thead><tr><th class="cn">Condition</th>${cs.map(c=>`<th title="${esc(c.name)}">${c.flag}<br>${c.iso3}</th>`).join('')}<th>MedEd-<br>PORTAL</th><th>Other<br>sources</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <h2 style="font-size:24px;margin-top:30px">The gaps, and what fills them</h2>
+    <p class="srcnote">Conditions with fewer than five free cases, most urgent first. MedEdPORTAL is written mostly for US training programs, so the largest gaps are the infectious, maternal and newborn conditions that lead the burden in the partner countries.</p>
+    <div class="gapgrid">${gaps.map(k=>{ const n=countOf(k); return `<div class="gapcard"><div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${levelPill(k)}<span class="pill src">MedEdPORTAL ${n.mep}</span><span class="pill src">Other ${n.alt}</span></div><h3>${esc(C[k]?.name||k)}</h3><p>${countriesFor(k).map(x=>x.flag+' '+x.name).join(', ')}</p>${C[k]?.gap_note?`<p>${esc(C[k].gap_note)}</p>`:''}<div><button class="btn" data-key="${k}">See cases</button></div></div>`;}).join('')}</div>`;
+  el.querySelectorAll('[data-key]').forEach(b=>b.onclick=()=>pickCondition(b.dataset.key));
+}
+
+// ---------- sources ----------
+const V = D.verification || {};
+function vBadge(url){ const v = (V.links||{})[url]; if (!v) return '';
+  return v.ok ? `<span class="pill good" title="Checked ${esc(V.date)}: ${esc(v.how)}">Link verified</span>` : `<span class="pill gap" title="${esc(v.how)}">Link not verified</span>`; }
+function renderSources(){
+  const el = $('#v-sources');
+  const cnt = id => D.cases.filter(k=>(k.source_id||k.source)===id).length;
+  const groups = [...new Set(D.data_sources.map(s=>s.group))];
+  const srcs = D.sources.slice().sort((a,b)=>cnt(b.id)-cnt(a.id));
+  const ds = s => `<div class="srccard"><h3><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></h3>
+      <div class="meta">${vBadge(s.url)}<span class="pill src">${esc(s.publisher)}</span></div>
+      <p>${esc(s.brief)}</p><p><b>Why it is authoritative:</b> ${esc(s.authority)}</p><p style="color:var(--muted)"><b>Used for:</b> ${esc(s.used_for)}</p></div>`;
+  el.innerHTML = `<div class="cond-head"><span class="label">Where every piece of this library comes from</span><h2>Sources</h2>
+    <p class="srcnote">This page lists every source used to build the Global Casebook, what it is, and why it can be trusted. ${esc(V.summary||'')}</p></div>
+    <div class="verify">${(V.checks||[]).map(c=>`<div><b class="num">${esc(c.value)}</b><span>${esc(c.label)}</span></div>`).join('')}</div>
+    ${groups.map(g=>`<h2 style="font-size:22px;margin:28px 0 12px">${esc(g)}</h2><div class="srcs">${D.data_sources.filter(s=>s.group===g).map(ds).join('')}</div>`).join('')}
+    <h2 style="font-size:22px;margin:32px 0 6px">Case publishers</h2>
+    <p class="srcnote">Every case in the library links to one of these publishers. MedEdPORTAL is the anchor. The others fill the gaps for conditions that US curricula rarely cover.</p>
+    <div class="srcs">${srcs.map(s=>`<div class="srccard"><h3><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></h3><div class="meta">${vBadge(s.url)}<span class="pill ${s.access==='open'?'good':s.access==='paid'?'gap':'warn'}">${esc(s.access==='free-registration'?'free, sign-up':s.access)}</span>${s.license?`<span class="pill src">${esc(licPlain(s.license))}</span>`:''}${s.sp_ready==='yes'?'<span class="pill sp">SP-ready (has standardized patient materials)</span>':''}<span class="pill src num">${cnt(s.id)} cases listed</span></div><p>${esc(s.brief||'')}</p>${s.trust_note?`<p><b>Why it is authoritative:</b> ${esc(s.trust_note)}</p>`:''}<p style="color:var(--muted)">${esc(s.publisher||'')}</p></div>`).join('')}</div>`;
+}
+
+// ---------- about ----------
+function renderAbout(){
+  $('#v-about').innerHTML = D.about_html;
+}
+
+renderCondition(); renderCountry(); renderMap(); renderSources(); renderAbout();
+const hash = (location.hash||'').slice(1);
+let start = 'condition'; try{ start = localStorage.getItem('gc-view') || 'condition'; }catch(e){}
+if (['condition','country','map','sources','about'].includes(hash)) start = hash;
+if (ctry[hash.toUpperCase()]) { curCountry = hash.toUpperCase(); renderCountry(); start='country'; }
+if (C[hash]) { pickCondition(hash); start='condition'; }
+show(start);
+</script>

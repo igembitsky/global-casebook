@@ -1,0 +1,2201 @@
+[
+ {
+  "id": "10615",
+  "include": false,
+  "exclude_reason": "Curriculum, no specific patient case"
+ },
+ {
+  "id": "10915",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Transgender health care encounter"
+  ],
+  "presentations": [
+   "transgender patient care"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "A transgender patient is shown in paired videos of competent and poor provider communication. Students analyze the encounters and practice affirming care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10816",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Zika virus infection in pregnancy"
+  ],
+  "presentations": [
+   "considering pregnancy termination"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care",
+   "contraception-family-planning"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A woman diagnosed with Zika virus is considering pregnancy termination. Students learn to counsel patients on pregnancy options and abortion care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11324",
+  "include": false,
+  "exclude_reason": "Conflict workshop, no defined patient case"
+ },
+ {
+  "id": "10522",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Complete androgen insensitivity syndrome"
+  ],
+  "presentations": [
+   "difference in sex development"
+  ],
+  "conditions": [
+   "congenital-anomalies"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A patient with complete androgen insensitivity syndrome and her family are followed across the medical and psychosocial issues of a difference in sex development. Students work through the case in problem-based learning groups.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10760",
+  "include": false,
+  "exclude_reason": "Curriculum, no specific patient case"
+ },
+ {
+  "id": "10700",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pancreatic cancer"
+  ],
+  "presentations": [
+   "abdominal symptoms"
+  ],
+  "conditions": [
+   "cancer-other"
+  ],
+  "specialty": "surgery",
+  "learners": "medical students",
+  "brief": "A patient with pancreatic cancer is followed from presentation through diagnosis, surgery and palliation. Students apply abdominal anatomy and imaging to clinical decisions in a team-based session.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10509",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "HIV infection with complex social needs"
+  ],
+  "presentations": [
+   "medically and socially complex HIV care"
+  ],
+  "conditions": [
+   "hiv-aids"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A medically and socially complex patient with HIV is the starting case. Learners identify barriers to care at the individual, community and policy levels.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11235",
+  "include": false,
+  "exclude_reason": "Wellbeing skills activity, not patient case"
+ },
+ {
+  "id": "11297",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Early pregnancy evaluation"
+  ],
+  "presentations": [
+   "early pregnancy"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A patient with a new early pregnancy is evaluated and managed in a flipped classroom small-group case. Students apply the workup and counseling steps for early pregnancy.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10828",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "LGBT patient care encounter"
+  ],
+  "presentations": [
+   "LGBT health care visit"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Ty Jackson is a patient shown in video-based case discussion about LGBT health. Students practice affirming care and reflect on sexual diversity.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10825",
+  "include": false,
+  "exclude_reason": "Workshop on determinants, no patient case"
+ },
+ {
+  "id": "10607",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Genetic risk in lesbian, gay and bisexual assisted reproduction"
+  ],
+  "presentations": [
+   "assisted reproduction and genetic counseling"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "Two progressive disclosure cases follow lesbian, gay and bisexual patients seeking assisted reproduction. Students combine population genetics, reproductive endocrinology and culturally aware care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10692",
+  "include": false,
+  "exclude_reason": "Case report writing curriculum"
+ },
+ {
+  "id": "9265",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Medication errors at care transition"
+  ],
+  "presentations": [
+   "medication reconciliation"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "pharmacy",
+  "brief": "A patient case has built-in medication errors around a care transition. Students find and resolve medication problems and then practice reconciliation with real patients.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10821",
+  "include": false,
+  "exclude_reason": "Faculty workshop on feedback"
+ },
+ {
+  "id": "7931",
+  "include": false,
+  "exclude_reason": "Literature critical thinking curriculum"
+ },
+ {
+  "id": "10418",
+  "include": false,
+  "exclude_reason": "Brief ethics vignettes, not full cases"
+ },
+ {
+  "id": "10663",
+  "include": false,
+  "exclude_reason": "Burnout group facilitator guide"
+ },
+ {
+  "id": "10707",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Mother-infant dyad care",
+   "Fragmented care of an elderly non-English-speaking man"
+  ],
+  "presentations": [
+   "mother and infant seeking care",
+   "disjointed care"
+  ],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "interprofessional",
+  "brief": "Two unfolding video cases show a mother and infant seeking care and an elderly man who does not speak English and has disjointed care. Interprofessional teams plan coordinated care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10457",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Rheumatic mitral valve disease after untreated strep pharyngitis"
+  ],
+  "presentations": [
+   "heart disease needing surgery"
+  ],
+  "conditions": [
+   "rheumatic-heart-disease"
+  ],
+  "specialty": "pediatrics",
+  "learners": "interprofessional",
+  "brief": "An adolescent Haitian boy needs lifesaving heart surgery in the US after untreated streptococcal pharyngitis. Learners explore how home context and health systems shaped his illness and recommend interventions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10712",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Suspected child maltreatment"
+  ],
+  "presentations": [
+   "troubled teenager"
+  ],
+  "conditions": [
+   "interpersonal-violence"
+  ],
+  "specialty": "interprofessional",
+  "learners": "interprofessional",
+  "brief": "Elizabeth is a teenager whose presentation raises concern for child maltreatment. Interprofessional teams build a prioritized plan of care and practice recognizing and reporting abuse.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10682",
+  "include": false,
+  "exclude_reason": "Critical appraisal worksheets, no case"
+ },
+ {
+  "id": "10855",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute pain after wisdom teeth extraction with opioid risk"
+  ],
+  "presentations": [
+   "post-extraction pain"
+  ],
+  "conditions": [
+   "opioid-use-disorder"
+  ],
+  "specialty": "other",
+  "learners": "interprofessional",
+  "brief": "A patient has acute pain after wisdom teeth extraction and a risk of opioid misuse. Learners practice safe opioid prescribing and recognizing suspected abuse or diversion.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10073",
+  "include": false,
+  "exclude_reason": "Medical writing curriculum"
+ },
+ {
+  "id": "9537",
+  "include": false,
+  "exclude_reason": "Lab values only, no patient story"
+ },
+ {
+  "id": "9659",
+  "include": false,
+  "exclude_reason": "Assessment tool, no patient case"
+ },
+ {
+  "id": "517",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute abdominal pain in pregnancy"
+  ],
+  "presentations": [
+   "abdominal pain"
+  ],
+  "conditions": [
+   "acute-abdomen",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "A pregnant woman from the Dominican Republic comes to the emergency department with abdominal pain. Students build a differential, order tests and plan management over three sessions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10561",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Cervical adenocarcinoma"
+  ],
+  "presentations": [
+   "cervical cancer symptoms"
+  ],
+  "conditions": [
+   "cervical-cancer"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "Minnie Pauls is a patient with cervical adenocarcinoma followed over three sessions. Students work through diagnosis, staging, treatment and prevention.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10233",
+  "include": false,
+  "exclude_reason": "PBL case-writing toolbox"
+ },
+ {
+  "id": "210",
+  "include": false,
+  "exclude_reason": "Basic science cases, no patient focus"
+ },
+ {
+  "id": "9979",
+  "include": false,
+  "exclude_reason": "Basic science TBL, no patient story"
+ },
+ {
+  "id": "10527",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Myalgic encephalomyelitis/chronic fatigue syndrome"
+  ],
+  "presentations": [
+   "profound fatigue"
+  ],
+  "conditions": [
+   "chronic-fatigue-syndrome"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A case study of a patient with ME/CFS is used with a provider video and slides. Students practice recognizing, diagnosing and managing the illness.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11198",
+  "include": false,
+  "exclude_reason": "Quality improvement teaching, no patient case"
+ },
+ {
+  "id": "9447",
+  "include": false,
+  "exclude_reason": "Evidence-based medicine session"
+ },
+ {
+  "id": "10042",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acquired methemoglobinemia",
+   "HIV infection"
+  ],
+  "presentations": [
+   "dizziness",
+   "headache",
+   "cyanosis"
+  ],
+  "conditions": [
+   "hiv-aids",
+   "poisoning-overdose"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "An incarcerated man with HIV comes to the emergency department with dizziness, headache and cyanosis from methemoglobinemia caused by his prophylaxis medication. Students explore oxygen transport and care of incarcerated patients.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9092",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Shock"
+  ],
+  "presentations": [
+   "patient in shock"
+  ],
+  "conditions": [
+   "sepsis"
+  ],
+  "specialty": "surgery",
+  "learners": "residents",
+  "brief": "A patient presents in shock and learners must diagnose and treat it quickly. Junior surgical residents and students research and present the types and treatment of shock.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10577",
+  "include": false,
+  "exclude_reason": "Auscultation skill program"
+ },
+ {
+  "id": "9844",
+  "include": false,
+  "exclude_reason": "Mentoring faculty training"
+ },
+ {
+  "id": "10412",
+  "include": false,
+  "exclude_reason": "Boundary videos, no patient case"
+ },
+ {
+  "id": "10724",
+  "include": false,
+  "exclude_reason": "Pathology specimen workshop"
+ },
+ {
+  "id": "11030",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric case for high-value care"
+  ],
+  "presentations": [
+   "pediatric clinical decision making"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A pediatric patient case is used to weigh which tests change management. Students practice cost-conscious care and talking with parents about it.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9869",
+  "include": false,
+  "exclude_reason": "Health systems case, no patient"
+ },
+ {
+  "id": "9139",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Metastatic renal cell carcinoma with vena caval involvement",
+   "Pneumonia"
+  ],
+  "presentations": [
+   "pneumonia"
+  ],
+  "conditions": [
+   "cancer-other",
+   "lower-respiratory-infection"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Mr. William has pneumonia and is found to have metastatic renal cell carcinoma extending into the right atrium. Students work through three sessions integrating anatomy and clinical care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10719",
+  "include": false,
+  "exclude_reason": "Physiology videos, not patient case"
+ },
+ {
+  "id": "9760",
+  "include": false,
+  "exclude_reason": "PBL faculty training manual"
+ },
+ {
+  "id": "9666",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Nutritional complication after bariatric surgery with anemia"
+  ],
+  "presentations": [
+   "neurologic symptoms after bariatric surgery"
+  ],
+  "conditions": [
+   "anemia",
+   "obesity"
+  ],
+  "specialty": "neurology",
+  "learners": "medical students",
+  "brief": "Mrs. Gutierrez is a woman referred to a neurologist years after bariatric surgery. Students take the history from the facilitator, reason through a rare condition that mimics a common one, and discuss follow-up.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8191",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 6,
+  "diagnoses": [
+   "Status epilepticus",
+   "Acute asthma exacerbation",
+   "Hypovolemic shock",
+   "Intoxication",
+   "Anaphylaxis",
+   "Common fracture"
+  ],
+  "presentations": [
+   "pediatric emergency presentations"
+  ],
+  "conditions": [
+   "seizure-epilepsy",
+   "asthma",
+   "diarrheal-disease",
+   "poisoning-overdose",
+   "anaphylaxis",
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "Six multistep cases cover serious children arriving in the pediatric emergency room. Students work through diagnosis and management for each.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9088",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Suicide risk assessment"
+  ],
+  "presentations": [
+   "suicidal thoughts or behavior"
+  ],
+  "conditions": [
+   "self-harm-suicide"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "Two clinical cases present patients with suicidal thoughts or behavior. Teams decide on risk level and whether to hospitalize or manage as outpatients.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "3187",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Child abuse versus hemophilia A"
+  ],
+  "presentations": [
+   "fracture and bruising in a child"
+  ],
+  "conditions": [
+   "interpersonal-violence"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A child with a greenstick fracture first raises concern for abuse, then lab results and family history point to hemophilia A. Students work through three sessions and draw a pedigree.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "7977",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Kawasaki disease"
+  ],
+  "presentations": [
+   "fever and rash"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "An 11-month-old child has fever and rash. Students work through the differential, diagnostic criteria, complications, treatment and follow-up of Kawasaki disease.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "3170",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Alpha-thalassemia (Hemoglobin H disease)"
+  ],
+  "presentations": [
+   "fatigue"
+  ],
+  "conditions": [
+   "anemia"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A patient with fatigue is found to have microcytic anemia due to Hemoglobin H disease. Students compare thalassemia with iron deficiency anemia over three sessions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "642",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Ornithine transcarbamoylase deficiency"
+  ],
+  "presentations": [
+   "trouble with protein-containing food"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Sophie Claiborne is a young woman who cannot handle protein in her diet, traced to a urea cycle enzyme defect. Students follow the workup and a gene therapy trial decision.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8403",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 45,
+  "diagnoses": [
+   "Acute orthopedic injuries and fractures"
+  ],
+  "presentations": [
+   "acute limb injury"
+  ],
+  "conditions": [
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A slide bank of 45 brief cases pairs clinical information with X-rays of acute orthopedic injuries. Learners practice reading images and deciding management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8086",
+  "include": false,
+  "exclude_reason": "Evolution concepts, not patient case"
+ },
+ {
+  "id": "9752",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 6,
+  "diagnoses": [
+   "Well-child health supervision"
+  ],
+  "presentations": [
+   "routine child health visits"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Six clinical cases teach preventive care visits for infants, children and adolescents. Students use Bright Futures guidance to plan health supervision.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8362",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Childhood cancer at end of life"
+  ],
+  "presentations": [
+   "pediatric end-of-life care"
+  ],
+  "conditions": [
+   "cancer-other",
+   "end-of-life-palliative"
+  ],
+  "specialty": "palliative care",
+  "learners": "interprofessional",
+  "brief": "Justin is a child with cancer whose story is told in a documentary. Learners discuss compassionate approaches to pediatric end-of-life care and the impact on his family and caregivers.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8385",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Malignant vaginal mucosal melanoma"
+  ],
+  "presentations": [
+   "dark vaginal lesion"
+  ],
+  "conditions": [
+   "cancer-other"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A patient has a dark lesion later found to be malignant vaginal melanoma. Students work through the case over three sessions with images.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9935",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Avulsed scalp trauma with psychiatric sequelae"
+  ],
+  "presentations": [
+   "scalp avulsion after accident"
+  ],
+  "conditions": [
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "A patient is rushed to the emergency room with an avulsed scalp after a traumatic accident. The case follows hospital care and later psychiatric problems.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10383",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Juvenile idiopathic arthritis"
+  ],
+  "presentations": [
+   "joint pain in a child"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A podcast module with real case examples teaches the subtypes of juvenile idiopathic arthritis. Students build an approach to diagnosis using the cases.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10224",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "ADHD with adolescent substance use"
+  ],
+  "presentations": [
+   "adolescent with ADHD and substance use"
+  ],
+  "conditions": [
+   "substance-use-alcohol"
+  ],
+  "specialty": "interprofessional",
+  "learners": "interprofessional",
+  "brief": "Brad is an adolescent with ADHD who is at risk for substance use and medication misuse. Interprofessional teams screen and plan care over four sessions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10704",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Bleeding disorder"
+  ],
+  "presentations": [
+   "bleeding"
+  ],
+  "conditions": [
+   "anemia"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A bleeding patient case asks teams to build a differential, choose hemostasis lab tests and decide treatment. Students learn appropriate test use in a team-based session.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1121",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Brain abscess"
+  ],
+  "presentations": [
+   "fever",
+   "headache",
+   "projectile vomiting"
+  ],
+  "conditions": [
+   "meningitis"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 50-year-old woman arrives at the emergency room with 5 days of fever, headache and vomiting after recent ear surgery. She has papilledema and left arm weakness, and learners are examined orally on diagnosis and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "535",
+  "include": false,
+  "exclude_reason": "Curriculum with unspecified cases"
+ },
+ {
+  "id": "10021",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Metformin-associated lactic acidosis",
+   "Type 2 diabetes with renal failure"
+  ],
+  "presentations": [
+   "severe lactic acidosis"
+  ],
+  "conditions": [
+   "diabetes",
+   "acute-kidney-injury"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 59-year-old woman with diabetes and renal failure on metformin develops severe, nearly fatal lactic acidosis. Students integrate basic and clinical science to find the cause and solution.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "7702",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gaucher disease"
+  ],
+  "presentations": [
+   "painful hip"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Rachel Jacobson is a young girl with a painful hip diagnosed with Gaucher disease and treated with enzyme replacement. Students work through the biochemistry and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8276",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Croup",
+   "Epiglottitis",
+   "Bacterial tracheitis"
+  ],
+  "presentations": [
+   "acute stridor in a child"
+  ],
+  "conditions": [
+   "upper-airway-infection"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Three cases begin with a child who has stridor. Students build a differential, confirm the diagnosis and plan treatment for croup, epiglottitis and bacterial tracheitis.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "251",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Depression or anxiety with coronary artery disease"
+  ],
+  "presentations": [
+   "psychiatric distress with cardiac disease"
+  ],
+  "conditions": [
+   "depression",
+   "anxiety",
+   "ischemic-heart-disease"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "A patient has mood or anxiety symptoms alongside cardiovascular disease. Students assess and plan management of both problems across two sessions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9445",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Knee arthroplasty complicated by brain injury and end-of-life decisions"
+  ],
+  "presentations": [
+   "need for total knee arthroplasty"
+  ],
+  "conditions": [
+   "end-of-life-palliative",
+   "falls"
+  ],
+  "specialty": "surgery",
+  "learners": "medical students",
+  "brief": "Mrs. Wrubel needs a total knee replacement, and the case later moves to brain injury and end-of-life issues. Students integrate lower limb anatomy with clinical care over three sessions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1675",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Alcohol use with starvation",
+   "Metabolic acidosis"
+  ],
+  "presentations": [
+   "homeless patients after days of drinking without food"
+  ],
+  "conditions": [
+   "substance-use-alcohol",
+   "malnutrition"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Two homeless people, Fred and Wilma, are examined by students in a mobile clinic after five days of drinking and not eating. Students explore metabolic acidosis and nutritional and neurologic effects.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9252",
+  "include": false,
+  "exclude_reason": "Overview resource, no patient case"
+ },
+ {
+  "id": "8067",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Suspicious pigmented lesion, possible malignant melanoma"
+  ],
+  "presentations": [
+   "dark mole"
+  ],
+  "conditions": [
+   "cancer-other"
+  ],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A 40-year-old woman presents with a dark, suspicious mole. Students make branching decisions on evaluation and initial management in a web-based module.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9623",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Tuberculosis outbreak"
+  ],
+  "presentations": [
+   "public health tuberculosis outbreak"
+  ],
+  "conditions": [
+   "tuberculosis"
+  ],
+  "specialty": "interprofessional",
+  "learners": "interprofessional",
+  "brief": "A tuberculosis outbreak is used to show how health professions work together. Learners discuss both patient-centered and population-centered care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9174",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Dementia"
+  ],
+  "presentations": [
+   "cognitive decline"
+  ],
+  "conditions": [
+   "alzheimer-dementia"
+  ],
+  "specialty": "geriatrics",
+  "learners": "medical students",
+  "brief": "A self-learning module follows a patient with dementia from presentation to follow-up over 5 years. Students work on differential diagnosis and treatment planning with quizzes and video clips.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9792",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Graves disease with thyrotoxicosis"
+  ],
+  "presentations": [
+   "thyrotoxicosis"
+  ],
+  "conditions": [
+   "thyroid-disease"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Dr. Oscarsson is a fictional patient who presents with thyrotoxicosis from Graves disease. Small groups identify what they know and need to learn to solve the case.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "818",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Hereditary hemochromatosis"
+  ],
+  "presentations": [
+   "fatigue"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 44-year-old European woman has vague fatigue caused by hereditary hemochromatosis. Students study iron metabolism, genetics and the varied presentations of the disease.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9708",
+  "include": false,
+  "exclude_reason": "Curriculum, no defined patient case"
+ },
+ {
+  "id": "9269",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Obstructive sleep apnea with obesity requiring bariatric surgery"
+  ],
+  "presentations": [
+   "sleep apnea in an obese man"
+  ],
+  "conditions": [
+   "obesity"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A middle-aged obese man presents with sleep apnea that leads to bariatric surgery. The case is released in a progressive disclosure format for small groups.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8282",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Burns",
+   "Trauma"
+  ],
+  "presentations": [
+   "burn injury",
+   "trauma response"
+  ],
+  "conditions": [
+   "burns",
+   "trauma-general"
+  ],
+  "specialty": "surgery",
+  "learners": "medical students",
+  "brief": "Two written cases cover a burn patient and the response to a trauma. Students discuss fluid management, burn care, wound healing and skin grafts.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9278",
+  "include": false,
+  "exclude_reason": "Imaging review, not patient case"
+ },
+ {
+  "id": "7976",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Delayed puberty"
+  ],
+  "presentations": [
+   "delayed puberty",
+   "short stature"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A multistep case follows a pediatric patient with delayed puberty. Students learn a thorough approach to evaluating short stature and delayed puberty.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "7912",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Failure to thrive"
+  ],
+  "presentations": [
+   "failure to thrive in a 2-month-old"
+  ],
+  "conditions": [
+   "malnutrition"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A 2-month-old boy presents with failure to thrive. Students practice the history, examination and focused workup while learning causes.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9459",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pyelonephritis in pregnancy"
+  ],
+  "presentations": [
+   "abdominal pain in pregnancy"
+  ],
+  "conditions": [
+   "urinary-tract-infection",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A pregnant patient has abdominal pain due to pyelonephritis. Students review pregnancy physiology and urinalysis and plan care during the OB-GYN clerkship.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8055",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Actinic keratosis",
+   "Squamous cell carcinoma"
+  ],
+  "presentations": [
+   "red crusty arm growth"
+  ],
+  "conditions": [
+   "cancer-other"
+  ],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A 70-year-old man has an arm growth and facial lesions. Students make branching decisions on evaluation and initial management in a web-based module.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "131",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Myelodysplastic syndrome progressing to acute leukemia"
+  ],
+  "presentations": [
+   "macrocytosis",
+   "fatigue"
+  ],
+  "conditions": [
+   "cancer-other",
+   "anemia"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 78-year-old woman has macrocytosis and fatigue. The virtual case follows her from workup for macrocytosis through early myelodysplastic syndrome to acute leukemia.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9853",
+  "include": false,
+  "exclude_reason": "Assessment tool, no patient case"
+ },
+ {
+  "id": "9443",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "MRSA pneumonia after influenza"
+  ],
+  "presentations": [
+   "toddler with pneumonia not responding to antibiotics"
+  ],
+  "conditions": [
+   "lower-respiratory-infection",
+   "sepsis"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Lotta Coughlin is a toddler with MRSA pneumonia after influenza who fails oral and then intravenous antibiotics. Students work through the case in a problem-based learning course.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8217",
+  "include": false,
+  "exclude_reason": "Basic science TBL, no patient story"
+ },
+ {
+  "id": "7751",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Basal cell carcinoma"
+  ],
+  "presentations": [
+   "facial growth"
+  ],
+  "conditions": [
+   "cancer-other"
+  ],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A 62-year-old man presents with a facial growth. Students make branching decisions on evaluation and initial management in a web-based module.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10465",
+  "include": false,
+  "exclude_reason": "Dental technique presentation, no patient"
+ },
+ {
+  "id": "10474",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "ADHD versus disruptive behavior disorders"
+  ],
+  "presentations": [
+   "attention and behavior problems"
+  ],
+  "conditions": [],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "A progressive disclosure case presents a child with attention and disruptive behavior problems. Students learn to systematically separate ADHD from oppositional defiant and conduct disorders.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10491",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Repaired tetralogy of Fallot in pregnancy"
+  ],
+  "presentations": [
+   "neuraxial anesthesia in a pregnant woman"
+  ],
+  "conditions": [
+   "congenital-anomalies",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "other",
+  "learners": "residents",
+  "brief": "A pregnant woman has repaired tetralogy of Fallot and needs anesthesia care. Learners discuss safe neuraxial anesthesia for parturients with congenital heart disease.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "10104",
+  "include": false,
+  "exclude_reason": "Faculty development vignettes, no patient"
+ },
+ {
+  "id": "7950",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute otitis media"
+  ],
+  "presentations": [
+   "acute ear pain"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A previously well child presents with acute ear pain. Students practice the evaluation and workup of acute otitis media.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "7988",
+  "include": false,
+  "exclude_reason": "Podcast overview, no patient case"
+ },
+ {
+  "id": "10937",
+  "include": false,
+  "exclude_reason": "Training program, no patient case"
+ },
+ {
+  "id": "596",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Atrial fibrillation"
+  ],
+  "presentations": [
+   "irregular heartbeat"
+  ],
+  "conditions": [
+   "arrhythmia"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A real clinical presentation of atrial fibrillation is used for small-group physiology discussion. Students connect cardiac physiology with other first-year sciences.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9199",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Intussusception",
+   "Small bowel obstruction",
+   "Pneumatosis intestinalis",
+   "Appendicitis"
+  ],
+  "presentations": [
+   "abdominal pain in children"
+  ],
+  "conditions": [
+   "acute-abdomen"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Four children of different ages present with abdominal problems shown with X-rays. Students read images and consider management for each.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "7949",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Eating disorder",
+   "Contraception counseling",
+   "Diabetes mellitus"
+  ],
+  "presentations": [
+   "adolescent health problems"
+  ],
+  "conditions": [
+   "eating-disorder",
+   "contraception-family-planning",
+   "diabetes"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Three adolescent cases cover an eating disorder, contraception and diabetes. A podcast teaches how to take an adolescent history and ask difficult questions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9146",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Substance abuse in a physician"
+  ],
+  "presentations": [
+   "medical problem with hidden substance abuse"
+  ],
+  "conditions": [
+   "substance-use-disorder"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Connor Johnson is a physician patient whose substance abuse is found during care for a medical problem. Students learn to consider substance use in the differential over three sessions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9307",
+  "include": false,
+  "exclude_reason": "Management overview, no defined case"
+ },
+ {
+  "id": "7798",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Hepatic sarcoidosis"
+  ],
+  "presentations": [
+   "liver enlargement and splenic nodules"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "An African American woman has liver enlargement and splenic nodules. Students explore history, exam, labs, imaging and pathology in a self-paced interactive case.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9483",
+  "include": false,
+  "exclude_reason": "Student academic case, no clinical condition"
+ },
+ {
+  "id": "645",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Cognitive impairment in an older adult with acute hospitalization"
+  ],
+  "presentations": [
+   "cognitive impairment in an elder"
+  ],
+  "conditions": [
+   "alzheimer-dementia"
+  ],
+  "specialty": "geriatrics",
+  "learners": "medical students",
+  "brief": "Junior is an older patient followed from outpatient clinic through hospitalization to assisted living. Students practice functional and cognitive assessment and care of older adults.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "3174",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Congenital heart defect"
+  ],
+  "presentations": [
+   "congenital heart disease"
+  ],
+  "conditions": [
+   "congenital-anomalies"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A patient with a congenital heart defect is explored in a team-based session. Students take a systems-based approach to discussing information with the patient.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9865",
+  "include": false,
+  "exclude_reason": "Dental quality assurance program"
+ },
+ {
+  "id": "9104",
+  "include": false,
+  "exclude_reason": "Imaging pathology review, not patient case"
+ },
+ {
+  "id": "7823",
+  "include": false,
+  "exclude_reason": "Documentation tool, no patient case"
+ },
+ {
+  "id": "3175",
+  "include": false,
+  "exclude_reason": "Basic science TBL, no patient story"
+ },
+ {
+  "id": "9121",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Ovarian hyperstimulation syndrome"
+  ],
+  "presentations": [
+   "shortness of breath",
+   "chest pain",
+   "nausea",
+   "dizziness"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A 31-year-old woman has shortness of breath, chest pain, nausea and dizziness from ovarian hyperstimulation syndrome. Students link reproductive endocrinology with cardiopulmonary and fluid changes.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "7764",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute appendicitis"
+  ],
+  "presentations": [
+   "abdominal pain"
+  ],
+  "conditions": [
+   "acute-abdomen"
+  ],
+  "specialty": "surgery",
+  "learners": "medical students",
+  "brief": "A young man has abdominal pain due to acute appendicitis. Students explore history, exam, labs, imaging and pathology in a self-paced interactive case.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9196",
+  "include": false,
+  "exclude_reason": "Procedure module, no patient case"
+ },
+ {
+  "id": "9464",
+  "include": false,
+  "exclude_reason": "Referral guidelines, no patient case"
+ },
+ {
+  "id": "107",
+  "include": false,
+  "exclude_reason": "Faculty job aid"
+ },
+ {
+  "id": "8166",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Radiculopathy versus peripheral nerve lesion"
+  ],
+  "presentations": [
+   "limb weakness or numbness"
+  ],
+  "conditions": [],
+  "specialty": "neurology",
+  "learners": "medical students",
+  "brief": "Two cases, one upper limb and one lower limb, teach how the nerve exam separates radiculopathy from peripheral nerve lesions. Students answer stepwise questions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9374",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Anxiety disorder"
+  ],
+  "presentations": [
+   "anxiety"
+  ],
+  "conditions": [
+   "anxiety"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "A patient with an anxiety disorder is presented with history, background and mental status exam. Students answer knowledge checks on differential diagnosis, treatment and prognosis.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8113",
+  "include": false,
+  "exclude_reason": "Physiology mini cases, no patient story"
+ },
+ {
+  "id": "9705",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Stroke"
+  ],
+  "presentations": [
+   "stroke care"
+  ],
+  "conditions": [
+   "stroke"
+  ],
+  "specialty": "interprofessional",
+  "learners": "interprofessional",
+  "brief": "A patient who has had a stroke is discussed by teams of dental, medical, pharmacy and physical therapy students. Learners identify each profession role in comprehensive care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9461",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Encephalopathy"
+  ],
+  "presentations": [
+   "confusion"
+  ],
+  "conditions": [],
+  "specialty": "neurology",
+  "learners": "medical students",
+  "brief": "A patient identified as John Doe presents with confusion in an interactive online case. Students make clinical decisions and review nutritional and metabolic causes of encephalopathy.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1726",
+  "include": false,
+  "exclude_reason": "Search skills, not clinical case"
+ },
+ {
+  "id": "530",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 7,
+  "diagnoses": [
+   "Congenital adrenal hyperplasia",
+   "Crohn disease",
+   "Metabolic syndrome",
+   "Myasthenia gravis",
+   "Nephrotic syndrome",
+   "Polycystic ovary syndrome",
+   "Polycystic kidney disease"
+  ],
+  "presentations": [
+   "detailed clinical presentations"
+  ],
+  "conditions": [
+   "obesity"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A set of cases gives detailed clinical presentations of seven conditions for small-group physiology discussion. Students integrate clinical and basic science knowledge.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "148",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Infectious disease cases"
+  ],
+  "presentations": [
+   "infectious disease presentations"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Four brief clinical case descriptions each give a presentation to work up. Students build differentials, select tests and answer pathophysiology questions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9832",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Perioperative anaphylaxis to glucocorticoids"
+  ],
+  "presentations": [
+   "perioperative allergic reaction"
+  ],
+  "conditions": [
+   "anaphylaxis"
+  ],
+  "specialty": "other",
+  "learners": "residents",
+  "brief": "A perioperative patient has anaphylaxis to glucocorticoids in a moderated discussion case. Trainees review the pathophysiology and treatment of anaphylaxis.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "7991",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Neonatal jaundice",
+   "Infant vomiting",
+   "Copious secretions in a newborn"
+  ],
+  "presentations": [
+   "newborn and infant presentations"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Three multistep cases cover neonatal jaundice, vomiting in an infant and copious secretions in a newborn. Students work through diagnosis and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8054",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Psychosis due to dopamine agonists",
+   "Dementia with delusions and hallucinations",
+   "Disruptive disorders of childhood",
+   "Intellectual disability"
+  ],
+  "presentations": [
+   "psychiatric presentations"
+  ],
+  "conditions": [
+   "schizophrenia-psychosis",
+   "alzheimer-dementia"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "Four clinical vignettes cover psychosis, dementia and childhood psychiatric problems. Clerks self-assess their knowledge and get immediate feedback.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8301",
+  "include": false,
+  "exclude_reason": "Lecture on diabetes disparities"
+ },
+ {
+  "id": "9431",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Bulimia nervosa",
+   "Bipolar II disorder"
+  ],
+  "presentations": [
+   "young woman with eating disorder and mood symptoms"
+  ],
+  "conditions": [
+   "eating-disorder",
+   "bipolar-disorder"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "A young woman has bulimia nervosa with secondary bipolar II disorder. The progressive disclosure case is taught in small groups.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1685",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pain in dementia",
+   "Postoperative pain with delirium",
+   "Neuropathic pain"
+  ],
+  "presentations": [
+   "inpatient geriatric pain"
+  ],
+  "conditions": [
+   "alzheimer-dementia",
+   "delirium"
+  ],
+  "specialty": "geriatrics",
+  "learners": "residents",
+  "brief": "Three patient cases cover pain in demented elders, postoperative pain with delirium and neuropathic pain. House staff discuss assessment and management in small groups.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1087",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Neurotoxic poisoning"
+  ],
+  "presentations": [
+   "neurotoxicity signs and symptoms"
+  ],
+  "conditions": [
+   "poisoning-overdose"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "A patient has signs and symptoms of a mysterious poisoning affecting nerves and muscles. Teams recognize the neurotoxicity and link it to autonomic and neuromuscular physiology.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9070",
+  "include": false,
+  "exclude_reason": "Immunology TBL, basic science focus"
+ },
+ {
+  "id": "247",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Child abuse",
+   "Sexually transmitted disease",
+   "Diabetes",
+   "Alzheimer disease"
+  ],
+  "presentations": [
+   "child abuse",
+   "STD",
+   "diabetes",
+   "memory loss"
+  ],
+  "conditions": [
+   "interpersonal-violence",
+   "sexually-transmitted-infection",
+   "diabetes",
+   "alzheimer-dementia"
+  ],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Four video problem-based learning cases with scripts portray child abuse, sexually transmitted disease, diabetes and Alzheimer disease. Psychosocial issues include drug abuse, confidentiality and patient-physician communication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8130",
+  "include": false,
+  "exclude_reason": "Morning report education method"
+ },
+ {
+  "id": "9672",
+  "include": false,
+  "exclude_reason": "Dental case study assessment tool"
+ },
+ {
+  "id": "9102",
+  "include": false,
+  "exclude_reason": "Lecture materials, no patient case"
+ },
+ {
+  "id": "785",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Severe burns with refused treatment"
+  ],
+  "presentations": [
+   "autonomy versus paternalism"
+  ],
+  "conditions": [
+   "burns"
+  ],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "Dax is a burn patient whose story is told in a video about autonomy and paternalism. Students reflect on perspectives and practice writing an ethics consult.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8289",
+  "include": false,
+  "exclude_reason": "Basic science TBL, no patient story"
+ },
+ {
+  "id": "10335",
+  "include": false,
+  "exclude_reason": "Lab interpretation TBL, no patient story"
+ },
+ {
+  "id": "9430",
+  "include": false,
+  "exclude_reason": "Bone healing basic science module"
+ },
+ {
+  "id": "1116",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pyelonephritis",
+   "Diabetic ketoacidosis"
+  ],
+  "presentations": [
+   "fever",
+   "painful urination"
+  ],
+  "conditions": [
+   "urinary-tract-infection",
+   "diabetes"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "An 18-year-old woman comes to the emergency room with 3 days of high fever and painful urination, and has diabetic ketoacidosis. Learners are examined orally on diagnosis and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1118",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Upper gastrointestinal bleeding",
+   "Gastric adenocarcinoma"
+  ],
+  "presentations": [
+   "black stool",
+   "vomiting blood"
+  ],
+  "conditions": [
+   "gi-bleeding",
+   "stomach-cancer",
+   "anemia"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 68-year-old man has passed black stool for a week and vomited blood for a day. Learners are examined orally and reach a diagnosis of gastric adenocarcinoma.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1119",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Asthma"
+  ],
+  "presentations": [
+   "recurrent breathlessness",
+   "wheezing"
+  ],
+  "conditions": [
+   "asthma"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 45-year-old woman teacher has 2 years of recurrent breathlessness, wheezing and dry cough. Learners are examined orally on the diagnosis and management of asthma.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1115",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Heart failure",
+   "Atrial fibrillation"
+  ],
+  "presentations": [
+   "progressive shortness of breath",
+   "leg edema"
+  ],
+  "conditions": [
+   "heart-failure",
+   "arrhythmia"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 65-year-old man has 2 months of shortness of breath and leg swelling, with atrial fibrillation and a low ejection fraction. Learners are examined orally on diagnosis and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1114",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Ischemic stroke"
+  ],
+  "presentations": [
+   "right-sided weakness",
+   "inability to speak"
+  ],
+  "conditions": [
+   "stroke"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 65-year-old man is brought to the emergency room with right-sided weakness and loss of speech. Learners are examined orally on diagnosis and management of his stroke.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1117",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Community-acquired pneumonia with empyema",
+   "Diabetic ketoacidosis"
+  ],
+  "presentations": [
+   "fever",
+   "productive cough",
+   "chest pain"
+  ],
+  "conditions": [
+   "lower-respiratory-infection",
+   "diabetes"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 60-year-old woman with diabetes has fever, cough and chest pain, and has empyema and diabetic ketoacidosis. Learners are examined orally on diagnosis and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1120",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Systemic lupus erythematosus"
+  ],
+  "presentations": [
+   "joint pain"
+  ],
+  "conditions": [
+   "lupus"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 21-year-old college student has 8 weeks of joint pain with rash, mouth ulcers and pericardial chest pain. Learners are examined orally on the diagnosis of lupus.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11507",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric myalgic encephalomyelitis/chronic fatigue syndrome"
+  ],
+  "presentations": [
+   "chronic fatigue in a child"
+  ],
+  "conditions": [
+   "chronic-fatigue-syndrome"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A child or adolescent with ME/CFS is shown in videos and slides. Students practice diagnosis, management and communication with the patient.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11505",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Postpartum care",
+   "Intimate partner violence"
+  ],
+  "presentations": [
+   "postpartum visit",
+   "contraception counseling"
+  ],
+  "conditions": [
+   "contraception-family-planning",
+   "interpersonal-violence",
+   "depression"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A postpartum patient is seen in a flipped classroom case covering contraception, peripartum mood and intimate partner violence screening. Clerkship students practice these core visit skills.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11577",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Measles in an unvaccinated child"
+  ],
+  "presentations": [
+   "toddler with illness after international travel"
+  ],
+  "conditions": [
+   "measles"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "An unvaccinated toddler presents to a rural clinic after international travel with measles. Students build a timeline of infection and discuss immunology and vaccine hesitancy.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11605",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acral melanoma"
+  ],
+  "presentations": [
+   "skin lesion"
+  ],
+  "conditions": [
+   "cancer-other"
+  ],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A patient with acral melanoma is presented in a problem-based learning case. Students learn skin cancer recognition and management.",
+  "exclude_reason": ""
+ }
+]

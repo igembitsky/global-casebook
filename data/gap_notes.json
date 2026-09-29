@@ -1,0 +1,10 @@
+{
+ "hypertensive-heart-disease": "No case names hypertensive heart disease directly. Use the hypertension and heart failure cases listed as related cases. A hypertension follow-up visit with new signs of heart failure covers both.",
+ "prostate-cancer": "Only one free case was found. The cancer disclosure and screening conversation cases under Other cancers can be adapted to a prostate cancer patient.",
+ "liver-cancer": "Only published case reports were found, with no SP script. The hepatitis and cirrhosis cases listed as related cases cover the same patients earlier in their disease.",
+ "hepatitis": "Only published case reports were found, with no SP script. Adapt one into an SP encounter about a positive hepatitis B test and follow-up.",
+ "breast-cancer": "Few cases. Most are breaking bad news encounters. Screening and symptom cases are rare.",
+ "lung-cancer": "Few cases. Most are breaking bad news or end-of-life encounters.",
+ "cervical-cancer": "Few cases, and no SP case for screening with visual inspection (VIA). The WHO and IARC screening materials in Sources teach the method but give no patient script.",
+ "chronic-kidney-disease": "Few cases. Most are acute problems, such as high potassium, in patients with kidney failure."
+}

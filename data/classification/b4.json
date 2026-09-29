@@ -1,0 +1,2306 @@
+[
+ {
+  "id": "11215",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "COVID-19 with acute respiratory distress syndrome"
+  ],
+  "presentations": [
+   "respiratory failure needing intubation"
+  ],
+  "conditions": [
+   "lower-respiratory-infection"
+  ],
+  "specialty": "other",
+  "learners": "anesthesiology residents",
+  "brief": "A 45-year-old patient with COVID-19 needs airway management and ventilator care. Learners practice protective equipment use, intubation, managing low blood pressure after induction, ARDS treatment, and team communication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11216",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Abnormal uterine bleeding"
+  ],
+  "presentations": [
+   "abnormal uterine bleeding"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A reproductive-age woman presents with abnormal uterine bleeding. Students take a history, build a differential diagnosis, write a postencounter note, and get feedback from the SP.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11218",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Abdominal pain without a confirmed diagnosis"
+  ],
+  "presentations": [
+   "abdominal pain"
+  ],
+  "conditions": [
+   "acute-abdomen"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "A patient with abdominal pain is being discharged from the emergency department without a diagnosis. Students practice explaining diagnostic uncertainty using a checklist in peer role-play.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11219",
+  "include": false,
+  "exclude_reason": "Inpatient coding curriculum, no patient case"
+ },
+ {
+  "id": "11220",
+  "include": false,
+  "exclude_reason": "Cystoscopy procedural skills workshop"
+ },
+ {
+  "id": "11223",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Dysphagia in dementia"
+  ],
+  "presentations": [
+   "difficulty swallowing"
+  ],
+  "conditions": [
+   "alzheimer-dementia"
+  ],
+  "specialty": "geriatrics",
+  "learners": "residents",
+  "brief": "An older adult with dementia has dysphagia and is on modified diets. Residents work through evaluation and treatment choices and discuss the limited evidence for thickened liquids.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11224",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Toxic stress from adverse childhood experiences"
+  ],
+  "presentations": [
+   "adverse childhood experiences screening"
+  ],
+  "conditions": [
+   "interpersonal-violence"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A patient with a history of childhood adversity is discussed in a facilitated virtual small group. Students practice screening for toxic stress and buffering factors and use brief resilience tools.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11226",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Endocrine conditions including diabetes and thyroid disease"
+  ],
+  "presentations": [
+   "endocrine history in Spanish"
+  ],
+  "conditions": [
+   "diabetes",
+   "thyroid-disease"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Spanish-speaking patients with endocrine problems are portrayed in role-play interviews. Students practice taking histories, explaining diagnoses, and giving discharge instructions in Spanish.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11227",
+  "include": false,
+  "exclude_reason": "Discussion workshop, no patient case"
+ },
+ {
+  "id": "11229",
+  "include": false,
+  "exclude_reason": "Escape room orientation game"
+ },
+ {
+  "id": "11231",
+  "include": false,
+  "exclude_reason": "Faculty development workshop"
+ },
+ {
+  "id": "11232",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Unmet social needs"
+  ],
+  "presentations": [
+   "social determinants of health needs"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Patients with social needs such as housing or food problems are presented as cases. Students practice assessing these needs and linking patients to community resources.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11233",
+  "include": false,
+  "exclude_reason": "Antibias curriculum, no clinical case"
+ },
+ {
+  "id": "11234",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Opioid use disorder, pain with early refill request"
+  ],
+  "presentations": [
+   "request for early opioid refill"
+  ],
+  "conditions": [
+   "opioid-use-disorder"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A patient with pain asks for an early refill of an opioid medication. Students explore their own biases in a progressive case presentation, and third-year students run the same vignettes as OSCEs.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11236",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Alcohol use disorder"
+  ],
+  "presentations": [
+   "alcohol use"
+  ],
+  "conditions": [
+   "substance-use-alcohol"
+  ],
+  "specialty": "internal medicine",
+  "learners": "residents",
+  "brief": "Video cases show patients with alcohol use disorder in clinic. Residents discuss medication options and treatment decisions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11237",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Firearm injury risk, safe storage counseling"
+  ],
+  "presentations": [
+   "firearm safety counseling"
+  ],
+  "conditions": [
+   "interpersonal-violence"
+  ],
+  "specialty": "surgery",
+  "learners": "residents",
+  "brief": "A trauma patient is counseled on safe firearm storage. Providers practice the counseling conversation with standardized patients after a short lecture.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11238",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Opioid use disorder",
+   "Chronic pain on opioids"
+  ],
+  "presentations": [
+   "opioid prescribing",
+   "chronic pain"
+  ],
+  "conditions": [
+   "opioid-use-disorder"
+  ],
+  "specialty": "interprofessional",
+  "learners": "interprofessional learners",
+  "brief": "Three online modules end in patient case applications on safe opioid prescribing, opioid use disorder, and pain management. Learners apply CDC guideline advice to patient decisions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11241",
+  "include": false,
+  "exclude_reason": "Peer suicide prevention role-play, no patient"
+ },
+ {
+  "id": "11242",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Herpes zoster (shingles)"
+  ],
+  "presentations": [
+   "painful rash"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A patient has shingles and asks about treatment. Students recommend an antiviral and answer the patient questions about how it works and its side effects.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11244",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Low-acuity conditions in virtual urgent care"
+  ],
+  "presentations": [
+   "minor acute illness by video visit"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "physicians",
+  "brief": "Standardized patients present low-acuity problems to physicians in a virtual urgent care clinic. Physicians practice telemedicine visits and get feedback on communication and disease-specific skills.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11245",
+  "include": false,
+  "exclude_reason": "Resident mistreatment communication workshop"
+ },
+ {
+  "id": "11246",
+  "include": false,
+  "exclude_reason": "Faculty development on learning environment"
+ },
+ {
+  "id": "11248",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Opioid use disorder"
+  ],
+  "presentations": [
+   "opioid use"
+  ],
+  "conditions": [
+   "opioid-use-disorder"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A standardized patient with opioid use disorder is seen in a medicine clerkship OSCE. Students practice motivational interviewing, harm reduction talk, and nonstigmatizing language, then document the visit.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11249",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gender-affirming primary care for transgender and genderqueer patients"
+  ],
+  "presentations": [
+   "establishing primary care"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Several patient versions share one health history but differ in gender identity and sex assigned at birth. Students practice inclusive communication, discuss hormone therapy, and give preventive care advice.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11250",
+  "include": false,
+  "exclude_reason": "Ultrasound guided procedure task trainers"
+ },
+ {
+  "id": "11253",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Care of patients with disabilities"
+  ],
+  "presentations": [
+   "disability related health care barriers"
+  ],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "trainees and clinicians",
+  "brief": "Two case modules present a patient with a disability and a provider with a disability. Learners discuss ableism, accommodations, and barriers to care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11255",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Opioid use disorder"
+  ],
+  "presentations": [
+   "opioid use"
+  ],
+  "conditions": [
+   "opioid-use-disorder"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A patient with opioid use disorder is discussed in a large-group case session. Students apply physiology and pharmacology to diagnosis and treatment with medications for OUD.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11258",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gender-affirming care and hormone prescribing"
+  ],
+  "presentations": [
+   "request for gender-affirming hormone therapy"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "residents",
+  "brief": "A transgender patient seeks gender-affirming care in primary care. Residents practice history taking, affirming communication, and hormone prescribing with a standardized patient.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11259",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pelvic floor disorders"
+  ],
+  "presentations": [
+   "pelvic floor symptoms"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "Interactive virtual patients present women with urogynecologic problems. Students work through diagnosis and nonsurgical and surgical management options.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11263",
+  "include": false,
+  "exclude_reason": "EHR order entry workshop"
+ },
+ {
+  "id": "11265",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Informed consent for pediatric procedures"
+  ],
+  "presentations": [
+   "procedural consent"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "A parent is asked for informed consent before a pediatric procedure such as lumbar puncture or laceration repair. Residents practice the consent conversation in a recorded OSCE.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11266",
+  "include": false,
+  "exclude_reason": "Tube thoracostomy procedural mastery course"
+ },
+ {
+  "id": "11267",
+  "include": false,
+  "exclude_reason": "Rounds communication training program"
+ },
+ {
+  "id": "11269",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Cardiac arrest",
+   "Cardiac emergencies in the postanesthesia unit"
+  ],
+  "presentations": [
+   "cardiac emergency"
+  ],
+  "conditions": [
+   "cardiac-arrest",
+   "arrhythmia"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "Three ACLS scenarios involve adult patients in a postanesthesia care unit. Learners use rapid cycle practice to improve teamwork, leadership, defibrillator use, and treatment.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11271",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Ovarian hyperstimulation syndrome"
+  ],
+  "presentations": [
+   "shortness of breath",
+   "near syncope"
+  ],
+  "conditions": [],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A 28-year-old woman on infertility treatment arrives in the emergency department with shortness of breath and near fainting. Residents use bedside ultrasound to reach the diagnosis and start treatment.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11272",
+  "include": false,
+  "exclude_reason": "Ventilator equipment troubleshooting, no patient case"
+ },
+ {
+  "id": "11274",
+  "include": false,
+  "exclude_reason": "Script concordance assessment tool"
+ },
+ {
+  "id": "11275",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Reproductive health inequities"
+  ],
+  "presentations": [
+   "reproductive autonomy and access to care"
+  ],
+  "conditions": [
+   "contraception-family-planning"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "Four cases explore reproductive justice issues such as sterilization, maternal health, and access to family planning. Students discuss the key points of each case in small groups.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11276",
+  "include": false,
+  "exclude_reason": "Central line procedural task trainer"
+ },
+ {
+  "id": "11278",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Critically ill patient requiring resuscitation"
+  ],
+  "presentations": [
+   "critical illness"
+  ],
+  "conditions": [],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "Junior residents lead the resuscitation of a critically ill patient across four simulations. They practice crisis resource management, leadership, and team communication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11280",
+  "include": false,
+  "exclude_reason": "Workplace discrimination response curriculum"
+ },
+ {
+  "id": "11283",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Critical hypoglycemia"
+  ],
+  "presentations": [
+   "low blood sugar"
+  ],
+  "conditions": [
+   "diabetes"
+  ],
+  "specialty": "interprofessional",
+  "learners": "medical students",
+  "brief": "A patient has critical hypoglycemia and needs urgent care. First-year students work as an interprofessional team using an ISBARR huddle to communicate and act.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11286",
+  "include": false,
+  "exclude_reason": "Education research workshop"
+ },
+ {
+  "id": "11287",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Chlamydia and other sexually transmitted infections"
+  ],
+  "presentations": [
+   "sexual history",
+   "STI screening"
+  ],
+  "conditions": [
+   "sexually-transmitted-infection"
+  ],
+  "specialty": "internal medicine",
+  "learners": "residents",
+  "brief": "Cases involve sexually active patients at risk for STIs. Residents practice advanced sexual history taking, site-specific testing, and counseling including partner therapy.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11292",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Vaccine hesitancy"
+  ],
+  "presentations": [
+   "parent concern about vaccines"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "A parent is hesitant about childhood vaccines. Pediatric residents practice vaccine communication in role-play and are assessed with a standardized patient.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11293",
+  "include": false,
+  "exclude_reason": "Interprofessional SBAR communication training"
+ },
+ {
+  "id": "11295",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute-on-chronic lithium toxicity"
+  ],
+  "presentations": [
+   "altered mental status from lithium poisoning"
+  ],
+  "conditions": [
+   "poisoning-overdose"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A patient on chronic lithium therapy has acute-on-chronic lithium poisoning. Residents recognize the toxicity and manage it in the emergency department.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11298",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Patient microaggressions toward a health care team member"
+  ],
+  "presentations": [
+   "patient expressing bias during a visit"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "residents",
+  "brief": "Standardized patients express microaggressions toward a member of the care team. Residents practice bystander responses using the WAKE framework and debrief each scenario.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11300",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Coping with medical stress"
+  ],
+  "presentations": [
+   "stress and coping"
+  ],
+  "conditions": [
+   "anxiety"
+  ],
+  "specialty": "interprofessional",
+  "learners": "interprofessional learners",
+  "brief": "A hypothetical primary care patient faces a medical stressor. Small groups role-play the encounter to build a coping plan using the stress and coping model.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11302",
+  "include": false,
+  "exclude_reason": "Faculty development on telemedicine"
+ },
+ {
+  "id": "11303",
+  "include": false,
+  "exclude_reason": "Dental task model skills"
+ },
+ {
+  "id": "11306",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Perioperative anesthesia cases"
+  ],
+  "presentations": [
+   "anesthesia case discussion"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "Video-recorded anesthesia simulation scenarios drive faculty-led case discussions. Students in a virtual clerkship review the patient cases and discuss management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11308",
+  "include": false,
+  "exclude_reason": "Values clarification reflection workshop"
+ },
+ {
+  "id": "11309",
+  "include": false,
+  "exclude_reason": "Arthrocentesis procedural skills assessment"
+ },
+ {
+  "id": "11310",
+  "include": false,
+  "exclude_reason": "Quality improvement curriculum"
+ },
+ {
+  "id": "11314",
+  "include": false,
+  "exclude_reason": "Ethics discussion, no patient case"
+ },
+ {
+  "id": "11315",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Over-the-counter product use in young children"
+  ],
+  "presentations": [
+   "parent question about OTC medicine"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A parent calls about over-the-counter products for a young child. Students practice counseling in a simulated parent call OSCE after a video curriculum.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11318",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute bronchiolitis"
+  ],
+  "presentations": [
+   "infant respiratory distress"
+  ],
+  "conditions": [
+   "lower-respiratory-infection"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "An infant has bronchiolitis with worsening respiratory distress, shown on a high-fidelity simulator. Students assess the child and decide when to escalate respiratory support.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1132",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 16,
+  "diagnoses": [
+   "Cardiac, respiratory, gastrointestinal, and genitourinary presentations"
+  ],
+  "presentations": [
+   "undifferentiated symptoms"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Four modules with four standardized patient cases each cover common presenting symptoms. Student pairs take a focused history, ask for exam findings, and build a differential diagnosis.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11320",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric asthma"
+  ],
+  "presentations": [
+   "asthma symptoms needing medication step up"
+  ],
+  "conditions": [
+   "asthma"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "Cases involve children with asthma who need symptom-based treatment changes. Residents discuss the 2020 guideline updates on intermittent steroids and single maintenance and reliever therapy.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11322",
+  "include": false,
+  "exclude_reason": "Procedural skills simulation curriculum"
+ },
+ {
+  "id": "11323",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Miscarriage"
+  ],
+  "presentations": [
+   "pregnancy loss diagnosis"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A standardized patient learns of a miscarriage diagnosis, in person or by video. Students break the bad news using the SPIKES protocol and discuss treatment options.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11326",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "ADHD",
+   "Anxiety",
+   "Depression",
+   "Suicidality"
+  ],
+  "presentations": [
+   "behavioral and mental health concerns"
+  ],
+  "conditions": [
+   "depression",
+   "anxiety",
+   "self-harm-suicide"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "Children and teens present with common behavioral and mental health problems. Residents work through cases and role-play in a seminar followed by monthly case discussions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11327",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Intimate partner violence",
+   "Care of a transgender patient",
+   "Health care discrimination"
+  ],
+  "presentations": [
+   "urgent medical needs after trauma"
+  ],
+  "conditions": [
+   "interpersonal-violence"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "Three patients with urgent needs also carry trauma related to abuse, transgender status, or discrimination. Students take histories, examine patients, and apply trauma-informed care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11328",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Chronic low back pain with possible opioid misuse"
+  ],
+  "presentations": [
+   "chronic pain on opioids"
+  ],
+  "conditions": [
+   "low-back-pain",
+   "opioid-use-disorder"
+  ],
+  "specialty": "interprofessional",
+  "learners": "health professions students",
+  "brief": "A patient with chronic low back pain after a car accident keeps taking opioids without benefit and shows possible misuse behaviors. Interprofessional student teams interview the SP online and build a shared plan.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11329",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Jimson weed anticholinergic toxicity"
+  ],
+  "presentations": [
+   "agitation",
+   "hallucinations"
+  ],
+  "conditions": [
+   "poisoning-overdose"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "pediatric emergency fellows",
+  "brief": "A 15-year-old girl arrives in the emergency department with agitation and hallucinations. The team performs a primary survey, recognizes the anticholinergic toxidrome, and treats complications.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11330",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 6,
+  "diagnoses": [
+   "Emergency obstetric and gynecologic conditions"
+  ],
+  "presentations": [
+   "pregnancy or gynecologic emergency"
+  ],
+  "conditions": [],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "Case-based sessions cover emergency OB/GYN problems seen in the emergency department. Residents work through cases with review questions in a game format.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11331",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute radiation syndrome"
+  ],
+  "presentations": [
+   "hand pain with erythema and edema"
+  ],
+  "conditions": [
+   "poisoning-overdose"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A 47-year-old man has hand pain and skin changes from unrecognized radiation exposure. Residents diagnose and manage the hematopoietic and cutaneous forms of acute radiation syndrome.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11332",
+  "include": false,
+  "exclude_reason": "Population level climate content"
+ },
+ {
+  "id": "11334",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Complex clinical uncertainty"
+  ],
+  "presentations": [
+   "unfolding clinical challenge"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "An unfolding patient case presents several points of clinical uncertainty. Students classify the type of uncertainty and discuss how they would problem-solve each one.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11335",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Osteomyelitis in pediatric sickle cell disease"
+  ],
+  "presentations": [
+   "bone pain in a child with sickle cell disease"
+  ],
+  "conditions": [
+   "sickle-cell-disease"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents and fellows",
+  "brief": "A child with sickle cell disease has osteomyelitis and is at risk of biased care. Learners diagnose and treat the complication while practicing bias-aware communication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11336",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Second-trimester fetal demise needing dilation and evacuation",
+   "Postprocedural hemorrhage"
+  ],
+  "presentations": [
+   "second-trimester pregnancy loss"
+  ],
+  "conditions": [
+   "maternal-hemorrhage"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "residents",
+  "brief": "A 29-year-old woman at 18 weeks has fetal demise and needs a dilation and evacuation. Residents perform the procedure with a team and manage an unexpected hemorrhage.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11338",
+  "include": false,
+  "exclude_reason": "Bystander survey and workshop"
+ },
+ {
+  "id": "11339",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute pain in the emergency department"
+  ],
+  "presentations": [
+   "acute pain"
+  ],
+  "conditions": [],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "A patient with acute pain is followed from arrival to discharge. Students build an analgesic plan using a structured acute pain approach.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11340",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pediatric neurologic conditions in telehealth"
+  ],
+  "presentations": [
+   "neurologic symptoms by video visit"
+  ],
+  "conditions": [],
+  "specialty": "neurology",
+  "learners": "residents",
+  "brief": "Pediatric neurology cases are discussed with video demonstrations of telehealth exams. Residents practice remote neurologic assessment and decisions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11341",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Hypovolemic shock in a malnourished child",
+   "Child death in a resource-limited setting"
+  ],
+  "presentations": [
+   "child in shock"
+  ],
+  "conditions": [
+   "malnutrition",
+   "diarrheal-disease"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "A malnourished 5-year-old is in hypovolemic shock, deteriorates, and dies. Residents practice care in a low-resource setting and communication with the family, then debrief.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11343",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Toddler fracture with biased concern for abuse"
+  ],
+  "presentations": [
+   "toddler leg injury"
+  ],
+  "conditions": [
+   "interpersonal-violence"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "A toddler in an African American family has a classic toddler fracture, and a consultant pushes for a child welfare report. Learners identify that it is not abuse and address the implicit bias.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11344",
+  "include": false,
+  "exclude_reason": "Colposcopy and LEEP procedural skills"
+ },
+ {
+  "id": "11345",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Geriatric multimorbidity in a telemedicine visit"
+  ],
+  "presentations": [
+   "older adult telehealth visit"
+  ],
+  "conditions": [],
+  "specialty": "geriatrics",
+  "learners": "medical students",
+  "brief": "An older adult with multiple conditions is seen by video. Students practice a telemedicine encounter, adapting to technology and sensory or cognitive barriers and involving caregivers.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11348",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Hospital discharge transition of care"
+  ],
+  "presentations": [
+   "hospital discharge"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "residents",
+  "brief": "A trained simulated patient and a lay caregiver take part in a discharge encounter. First-year residents practice discharge planning and communication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11351",
+  "include": false,
+  "exclude_reason": "Faculty anti-racism lecture revision"
+ },
+ {
+  "id": "11354",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Bacterial meningitis with cerebral edema"
+  ],
+  "presentations": [
+   "fever and altered mental status after respiratory infection"
+  ],
+  "conditions": [
+   "meningitis"
+  ],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A 28-year-old man develops bacterial meningitis after an upper respiratory infection. Students recognize and manage it using a high-fidelity simulator and a standardized participant for the patient voice.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11355",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Need for involuntary psychiatric admission"
+  ],
+  "presentations": [
+   "psychiatric patient requiring involuntary commitment"
+  ],
+  "conditions": [
+   "schizophrenia-psychosis"
+  ],
+  "specialty": "psychiatry",
+  "learners": "residents",
+  "brief": "Patients need involuntary psychiatric admission and are portrayed by standardized patients. Residents practice explaining the plan using a structured protocol across three scenarios.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11356",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gender-affirming hormone therapy goals"
+  ],
+  "presentations": [
+   "seeking gender-affirming hormone therapy"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "A transgender or gender-diverse patient wants to discuss hormone therapy. Students assess the patient goals and practice inclusive communication with a standardized patient.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11357",
+  "include": false,
+  "exclude_reason": "Moral injury workshop, no patient case"
+ },
+ {
+  "id": "11359",
+  "include": false,
+  "exclude_reason": "Professionalism communication curriculum"
+ },
+ {
+  "id": "1136",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Injury from a bicycle collision",
+   "Intimate partner violence counseling"
+  ],
+  "presentations": [
+   "death or serious injury news after a bicycle collision"
+  ],
+  "conditions": [
+   "road-injury",
+   "interpersonal-violence"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "A patient injured in a bicycle collision receives bad news from the student in a standardized patient encounter. Students also learn how to counsel victims of intimate partner violence.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11360",
+  "include": false,
+  "exclude_reason": "Microaggression workshop for trainees"
+ },
+ {
+  "id": "11361",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Cardiac arrest",
+   "Multiple trauma patients",
+   "Delivering bad news"
+  ],
+  "presentations": [
+   "multiple simultaneous critical patients"
+  ],
+  "conditions": [
+   "cardiac-arrest",
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "Three scenarios run in sequence: a resuscitation, two trauma patients, and a bad news conversation. Senior residents practice task switching and are assessed with checklists.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11362",
+  "include": false,
+  "exclude_reason": "Cardiac exam curriculum, no defined case"
+ },
+ {
+  "id": "11364",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 4,
+  "diagnoses": [
+   "Social determinants of health needs in a non-English speaking patient"
+  ],
+  "presentations": [
+   "telehealth visit with an interpreter"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Patients who prefer Spanish, Tagalog, French, or Igbo are seen by video with an interpreter. Students practice interpreter use and address social needs.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11368",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Contraceptive counseling"
+  ],
+  "presentations": [
+   "contraception choice"
+  ],
+  "conditions": [
+   "contraception-family-planning"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A patient seeks contraceptive counseling. Clerkship students practice person-centered counseling with a standardized patient after an online module.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11371",
+  "include": false,
+  "exclude_reason": "Teaching skills workshop"
+ },
+ {
+  "id": "11373",
+  "include": false,
+  "exclude_reason": "Tabletop game on task prioritization"
+ },
+ {
+  "id": "11374",
+  "include": false,
+  "exclude_reason": "Correction notice only"
+ },
+ {
+  "id": "11375",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Reproductive endocrinology and infertility conditions"
+  ],
+  "presentations": [
+   "infertility"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "residents and medical students",
+  "brief": "Three interactive cases cover reproductive endocrinology and infertility. Facilitators lead learners through diagnosis and management, in person or virtually.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11376",
+  "include": false,
+  "exclude_reason": "Patient safety event review curriculum"
+ },
+ {
+  "id": "11378",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Upper gastrointestinal bleed with airway blood",
+   "Failed airway needing cricothyrotomy"
+  ],
+  "presentations": [
+   "hematemesis"
+  ],
+  "conditions": [
+   "gi-bleeding"
+  ],
+  "specialty": "other",
+  "learners": "anesthesiology residents",
+  "brief": "A 55-year-old man with alcohol use has hematemesis and sudden blood in the airway during endoscopy. Residents manage the difficult airway and perform a cricothyrotomy as a last resort.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11379",
+  "include": false,
+  "exclude_reason": "Clinical informatics activity"
+ },
+ {
+  "id": "11382",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Medical error disclosure"
+  ],
+  "presentations": [
+   "disclosure of a medical error"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A patient must be told about a medical error. Fourth-year students practice disclosure in an OSCE and then join a case-based debrief with role-play.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11383",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric polytrauma with burns, carbon monoxide and cyanide toxicity"
+  ],
+  "presentations": [
+   "child extracted from a van fire"
+  ],
+  "conditions": [
+   "trauma-general",
+   "burns",
+   "poisoning-overdose"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents and fellows",
+  "brief": "A child is pulled from a burning van after a crash. Learners manage the airway, burns, abdominal bleeding, and carbon monoxide and cyanide poisoning.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11384",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Pediatric procedural sedation complications",
+   "Shoulder dislocation",
+   "Forearm fracture"
+  ],
+  "presentations": [
+   "sedation for orthopedic reduction"
+  ],
+  "conditions": [],
+  "specialty": "emergency medicine",
+  "learners": "pediatric emergency fellows",
+  "brief": "Two children need sedation for a shoulder dislocation and a forearm fracture. Fellows set up, dose propofol or ketamine, and manage sedation complications.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11386",
+  "include": false,
+  "exclude_reason": "Milestone assessment orientation"
+ },
+ {
+  "id": "11388",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute agitation in an adolescent awaiting psychiatric placement"
+  ],
+  "presentations": [
+   "agitated and aggressive teen"
+  ],
+  "conditions": [
+   "self-harm-suicide"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "A teenager admitted for suicidal thoughts becomes acutely agitated. Residents try verbal de-escalation and choose a medication to reduce agitation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11389",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Tetanus"
+  ],
+  "presentations": [
+   "muscle rigidity after dog bite"
+  ],
+  "conditions": [],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "A 27-year-old man bitten by a dog develops muscle rigidity from tetanus. Students consider tetanus in the differential and manage its complications.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1139",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 12,
+  "diagnoses": [
+   "Cranial nerve deficits"
+  ],
+  "presentations": [
+   "cranial nerve testing"
+  ],
+  "conditions": [],
+  "specialty": "neurology",
+  "learners": "medical students",
+  "brief": "Virtual patients present deficits in each of the 12 cranial nerves. Students test nerve function and diagnose the deficit with immediate feedback.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11390",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Inflicted head and abdominal trauma in an infant",
+   "Gunshot wounds in a toddler"
+  ],
+  "presentations": [
+   "pediatric trauma"
+  ],
+  "conditions": [
+   "trauma-general",
+   "interpersonal-violence"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "multidisciplinary trauma teams",
+  "brief": "Two pediatric trauma resuscitations feature a 12-month-old with inflicted injuries and an 18-month-old with gunshot wounds. Teams practice communication and timely care, one case in traditional format and one with rapid cycle practice.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11391",
+  "include": false,
+  "exclude_reason": "Trauma-informed didactic session, no case"
+ },
+ {
+  "id": "11394",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Medical error disclosure"
+  ],
+  "presentations": [
+   "disclosure of a medical error"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students and residents",
+  "brief": "Standardized patients receive disclosure of a medical error, and a peer version covers disclosure to colleagues. Learners practice honesty, empathy, and apology using rapid cycle practice.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11397",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Dyslipidemia"
+  ],
+  "presentations": [
+   "abnormal lipids and dietary counseling"
+  ],
+  "conditions": [
+   "ischemic-heart-disease"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A patient with dyslipidemia is managed through a team-based learning encounter. Students review labs and risk factors, plan a diet, and assess inheritance patterns.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11398",
+  "include": false,
+  "exclude_reason": "Population level climate content"
+ },
+ {
+  "id": "11399",
+  "include": false,
+  "exclude_reason": "Anatomy case session, no patient encounter"
+ },
+ {
+  "id": "1140",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Somatoform disorder with body image concerns"
+  ],
+  "presentations": [
+   "body image concerns"
+  ],
+  "conditions": [],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "An outpatient presents with body image concerns. Students step through the history, mental status exam, and differential diagnosis with feedback questions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11400",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 5,
+  "diagnoses": [
+   "Depression",
+   "Anxiety",
+   "ADHD",
+   "Developmental delay",
+   "Autism"
+  ],
+  "presentations": [
+   "behavioral and mental health concerns"
+  ],
+  "conditions": [
+   "depression",
+   "anxiety"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "Five simulated cases follow children through an initial visit and several follow-ups. Residents practice diagnosing and managing common pediatric behavioral and mental health problems.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11401",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Vascular anomalies including hemangioma"
+  ],
+  "presentations": [
+   "vascular birthmark in a child"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "residents",
+  "brief": "Cases in vascular tumors and malformations are discussed by pediatric trainees. Residents work through diagnosis and referral in small and large groups.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11402",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Social determinants of health in specialty clerkships"
+  ],
+  "presentations": [
+   "social needs during a clinical visit"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "Role-play vignettes for each clerkship include a history and exam. Students practice eliciting social determinants of health from patients.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11405",
+  "include": false,
+  "exclude_reason": "Laparoscopic skills task trainer"
+ },
+ {
+  "id": "11406",
+  "include": false,
+  "exclude_reason": "Vascular surgical skills simulation"
+ },
+ {
+  "id": "11410",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Undifferentiated patient interview"
+  ],
+  "presentations": [
+   "subjective interview"
+  ],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "health professions students",
+  "brief": "Students from six professions each interview a simulated patient while others observe. They compare what each profession notices and asks.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11412",
+  "include": false,
+  "exclude_reason": "Race in algorithms didactic"
+ },
+ {
+  "id": "11413",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Normal pregnancy and pregnancy complications"
+  ],
+  "presentations": [
+   "prenatal care and labor"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A pregnancy case covers normal care, labor, and select complications. Clerkship students work through it in a flipped classroom small group.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11414",
+  "include": false,
+  "exclude_reason": "Empathy and arts curriculum"
+ },
+ {
+  "id": "11417",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Agitation"
+  ],
+  "presentations": [
+   "agitated patient"
+  ],
+  "conditions": [],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "An agitated patient is portrayed by a standardized patient in a psychiatry clerkship. Students practice verbal de-escalation and get peer and SP feedback.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1142",
+  "include": false,
+  "exclude_reason": "Review games for anatomy"
+ },
+ {
+  "id": "11424",
+  "include": false,
+  "exclude_reason": "Bias response workshop, no clinical case"
+ },
+ {
+  "id": "11428",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Health care needs of LGBTQ+ youth"
+  ],
+  "presentations": [
+   "LGBTQ+ adolescent health"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students and residents",
+  "brief": "LGBTQ+ youth cases are discussed in small groups and with a patient and caregiver panel. Learners practice patient-centered care for these young people.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11429",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Abusive pediatric burns"
+  ],
+  "presentations": [
+   "burn injury in a child"
+  ],
+  "conditions": [
+   "burns",
+   "interpersonal-violence"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "physicians",
+  "brief": "A child has a burn injury that may be from abuse. Physicians learn to tell abusive burns from accidental ones through an interactive case.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11430",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Septic shock",
+   "Cardiogenic shock"
+  ],
+  "presentations": [
+   "hypotension on a rapid response call"
+  ],
+  "conditions": [
+   "sepsis",
+   "heart-failure"
+  ],
+  "specialty": "internal medicine",
+  "learners": "interns",
+  "brief": "Two simulations feature an adult patient with hypotension, one with septic shock and one with cardiogenic shock. Interns use a decision framework and communication skills during a rapid response.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11431",
+  "include": false,
+  "exclude_reason": "Global partnership discussion, no patient"
+ },
+ {
+  "id": "11432",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Stunned myocardium from acute severe anemia"
+  ],
+  "presentations": [
+   "low blood pressure during hip replacement"
+  ],
+  "conditions": [
+   "anemia",
+   "ischemic-heart-disease"
+  ],
+  "specialty": "other",
+  "learners": "anesthesiology residents",
+  "brief": "A 73-year-old man having elective hip replacement loses blood and develops acute heart injury. Residents adjust the anesthetic plan and manage the cardiac complication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11433",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Chemical, biological, radiological, and nuclear exposure"
+  ],
+  "presentations": [
+   "CBRN casualty"
+  ],
+  "conditions": [
+   "poisoning-overdose"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "military medical students",
+  "brief": "A small-group case study follows patients exposed to CBRN agents. Students evaluate and treat using a worksheet and clinical guidelines.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11434",
+  "include": false,
+  "exclude_reason": "Ethics workshop, no patient case"
+ },
+ {
+  "id": "11435",
+  "include": false,
+  "exclude_reason": "Colleague microaggression bystander training"
+ },
+ {
+  "id": "11437",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Diagnostic reasoning across professions"
+  ],
+  "presentations": [
+   "undifferentiated presentation"
+  ],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "medical and pharmacy students",
+  "brief": "A case unfolds in two parts, with medical and pharmacy students holding different information. Students communicate to build a differential diagnosis together.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11438",
+  "include": false,
+  "exclude_reason": "Mentorship workshop for faculty"
+ },
+ {
+  "id": "11439",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Vaccine misinformation and hesitancy"
+  ],
+  "presentations": [
+   "patient doubts about COVID-19 vaccine"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A patient holds misinformation about vaccines. Students role-play conversations using ask-respond-tell-seek and motivational interviewing.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "1144",
+  "include": false,
+  "exclude_reason": "Eye movement computer tutorial"
+ },
+ {
+  "id": "11442",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Patient experience scenarios"
+  ],
+  "presentations": [
+   "patient satisfaction concerns"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "residents",
+  "brief": "Four case scenarios show how physicians shape patient experience. Residents discuss strategies to meet patients holistic needs.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11444",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Brain death"
+  ],
+  "presentations": [
+   "brain death assessment and family communication"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical trainees",
+  "brief": "A brain-dead patient on a mannequin and a spouse played by a confederate. The trainee explains the exam to the spouse, performs brain death testing, and communicates the findings.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11445",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric resuscitation with family present"
+  ],
+  "presentations": [
+   "child in resuscitation with family at bedside"
+  ],
+  "conditions": [
+   "cardiac-arrest"
+  ],
+  "specialty": "pediatrics",
+  "learners": "interprofessional team",
+  "brief": "Family members are present during a pediatric resuscitation, played by simulated participants. Team members practice the family presence facilitator role in in situ simulations.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11451",
+  "include": false,
+  "exclude_reason": "Medical error reflection curriculum"
+ },
+ {
+  "id": "11452",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pregnant trauma with tension pneumothorax and uterine rupture",
+   "Maternal cardiac arrest"
+  ],
+  "presentations": [
+   "trauma in pregnancy"
+  ],
+  "conditions": [
+   "trauma-general",
+   "cardiac-arrest"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A pregnant trauma patient has tension pneumothorax and uterine rupture and arrests. Residents resuscitate her and perform resuscitative hysterotomy on a task trainer.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11453",
+  "include": false,
+  "exclude_reason": "Faculty workshop on responding to racism"
+ },
+ {
+  "id": "11456",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Diabetes consultation",
+   "Gender-affirming endocrine care"
+  ],
+  "presentations": [
+   "endocrine visit in Spanish"
+  ],
+  "conditions": [
+   "diabetes"
+  ],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "Spanish-speaking patients are seen in standardized patient practice, including a diabetic consultation OSCE station. Students communicate in Spanish and integrate gender-affirming care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11457",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 6,
+  "diagnoses": [
+   "Musculoskeletal conditions"
+  ],
+  "presentations": [
+   "musculoskeletal complaints"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "Short online clinical cases cover common musculoskeletal presentations. Students answer questions on diagnosis and anatomy after each case.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11458",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric social determinants of health"
+  ],
+  "presentations": [
+   "child with social needs"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A pediatric case shows how housing, food, and other social needs affect a child. Students identify these factors and choose questions to ask the family.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11459",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Vaccine hesitancy"
+  ],
+  "presentations": [
+   "patient hesitant about vaccination"
+  ],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "medicine, nursing, pharmacy, and public health students",
+  "brief": "A patient is hesitant about vaccines because of misinformation. Interprofessional students practice a response with standardized patients in person and online.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11461",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "COVID-19 misinformation"
+  ],
+  "presentations": [
+   "patient with misinformation about COVID-19"
+  ],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "health professions students",
+  "brief": "A standardized patient holds misinformation about COVID-19. Interprofessional students use advanced communication techniques and work together on a response.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11462",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Sedation and anesthesia drug selection"
+  ],
+  "presentations": [
+   "patient needing sedation or anesthesia"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "A patient case guides students through sedating and anesthetic drug choices. Students integrate pharmacology with clinical reasoning.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11467",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Temporomandibular disorder"
+  ],
+  "presentations": [
+   "jaw pain"
+  ],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "health professionals",
+  "brief": "Digital simulation scenarios feature patients with temporomandibular disorders. Learners practice assessment, diagnosis, and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11468",
+  "include": false,
+  "exclude_reason": "Integrated behavioral health curriculum"
+ },
+ {
+  "id": "11469",
+  "include": false,
+  "exclude_reason": "Uterine aspiration procedural training"
+ },
+ {
+  "id": "11470",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Asthma",
+   "Chronic cough",
+   "Tracheostomy care",
+   "Obstructive sleep apnea"
+  ],
+  "presentations": [
+   "pediatric respiratory problems"
+  ],
+  "conditions": [
+   "asthma"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents and medical students",
+  "brief": "Four case-based online modules cover asthma, chronic cough, tracheostomy, and obstructive sleep apnea. Learners work through the cases with expert videos and questions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11471",
+  "include": false,
+  "exclude_reason": "Geriatric oncology didactic course"
+ },
+ {
+  "id": "11474",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Trauma-informed prenatal care after prior child welfare involvement"
+  ],
+  "presentations": [
+   "late prenatal care"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care",
+   "substance-use-alcohol"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "multidisciplinary trainees and providers",
+  "brief": "A multiparous woman with past substance use starts prenatal care late because she lost custody of a newborn earlier. Learners practice trauma-informed care with a standardized patient.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11475",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Care of refugee and migrant patients with trauma histories"
+  ],
+  "presentations": [
+   "patient with trauma history and mistrust"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "residents",
+  "brief": "Refugee and migrant patients with histories of trauma are portrayed in simulation. Residents practice trauma-informed care and uncover underlying causes of distress.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11478",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Lifestyle behavior change"
+  ],
+  "presentations": [
+   "lifestyle counseling"
+  ],
+  "conditions": [
+   "obesity"
+  ],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Case scenarios and role-plays present patients who need lifestyle changes. Students practice counseling for health behavior change.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11479",
+  "include": false,
+  "exclude_reason": "Intervisit care framework workshop"
+ },
+ {
+  "id": "1148",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Labor with limited English proficiency"
+  ],
+  "presentations": [
+   "laboring woman needing an interpreter"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "Students care for a laboring woman with limited English proficiency using a medical interpreter. An OSCE with standardized patients who speak other languages assesses interpretation skills.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11483",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric telemedicine encounter"
+  ],
+  "presentations": [
+   "pediatric acute illness by video visit"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A simulated parent and child are seen by video. Preclinical students practice telemedicine visits and get feedback from the SP and faculty.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11485",
+  "include": false,
+  "exclude_reason": "Cardiac ultrasound skills module"
+ },
+ {
+  "id": "11488",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 2,
+  "diagnoses": [
+   "Suicidality"
+  ],
+  "presentations": [
+   "suicidal thoughts"
+  ],
+  "conditions": [
+   "self-harm-suicide"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "Two standardized patient encounters involve patients with suicidal thoughts. Third-year students practice suicide assessment and management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11489",
+  "include": false,
+  "exclude_reason": "Dilation and evacuation model, procedural only"
+ },
+ {
+  "id": "11495",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute mental status change in an older adult"
+  ],
+  "presentations": [
+   "change in mental status"
+  ],
+  "conditions": [
+   "delirium"
+  ],
+  "specialty": "geriatrics",
+  "learners": "medical students",
+  "brief": "An older adult presents with a change in mental status in a clinical reasoning session. Students apply the 4Ms of mentation, medications, mobility, and what matters most.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "11496",
+  "include": false,
+  "exclude_reason": "Evidence based medicine search skills"
+ }
+]

@@ -1,0 +1,1284 @@
+{
+ "date": "2026-09-29",
+ "links": {
+  "https://www.theglobalhealthacademy.org": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/data/global-health-estimates": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://data.who.int/countries/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/blood-pressure": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/data": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/data/gho/data/themes/hiv-aids": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.paho.org/sites/default/files/2024-10/2024-oct-07-phe-epi-alert-dengue-final.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.cdc.gov/mmwr/volumes/74/wr/mm7405a1.htm": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://www.cdc.gov/nchs/fastats/suicide.htm": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://gco.iarc.who.int/today": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/news/item/10-07-2020-study-estimates-more-than-one-million-indians-died-from-snakebite-envenoming-over-past-two-decades": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/26833239/": {
+   "ok": true,
+   "how": "opened by script (HTTP 203)"
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/27796853/": {
+   "ok": true,
+   "how": "opened by script (HTTP 203)"
+  },
+  "https://www.who.int/westernpacific/newsroom/feature-stories/item/don-t-wait-for-symptoms---get-checked-for-hepatitis--say-liver-cancer-patient-and-experts-in-viet-nam-ahead-of-world-hepatitis-day": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.crossref.org": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://openalex.org": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://www.doi.org": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.cureus.com/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/resources/scenario-exchange/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.cdc.gov/tb/hcp/education/self-study-modules-on-tuberculosis.html": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://www.currytbcenter.ucsf.edu/products": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://globaltb.njms.rutgers.edu/educationalmaterials/productlist.php": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.hiv.uw.edu/podcast": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.hepatitisb.uw.edu/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.hepatitisc.uw.edu/page/challenges/expert-opinions/cases/1": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.uab.edu/medicine/gorgas/cases-blog": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.ajtmh.org/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://journals.plos.org/plosntds/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://link.springer.com/journal/12936": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://link.springer.com/journal/13256": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.panafrican-med-journal.com/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.sciencedirect.com/journal/idcases": {
+   "ok": true,
+   "how": "site blocks all automated access; confirmed through the publisher's catalog, DOAJ and the ISSN register"
+  },
+  "https://onlinelibrary.wiley.com/journal/20500904": {
+   "ok": true,
+   "how": "site blocks all automated access; confirmed through the publisher's catalog, DOAJ and the ISSN register"
+  },
+  "https://link.springer.com/journal/12879": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://openi.nlm.nih.gov/": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://jetem.org/category/simulation/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.saem.org/about-saem/academies-interest-groups-affiliates2/simulation": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/advancing-care-excellence": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://can-sim.ca/virtual-simulation-games-open-source/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://support.skillscommons.org/showcases/open-courseware/healthcare/augment-reality/": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://www.wistechopen.org/open-rn-virtual-simulations": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://scenariocloud.laerdal.com/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://mcc.ca/free-resources/free-nac-examination-resources/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.usmle.org/work-relaunch-usmle-step-2-cs-discontinued": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aspeducators.org/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://advancesinsimulation.biomedcentral.com/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://archive.johs.org.uk/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://mededpublish.org/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://demo.openlabyrinth.ca/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://virtualpatients.eu/referatory/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://aquifer.org/institutional-pricing": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.openpediatrics.org/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/publications/i/item/WHO-MSD-MER-17.6": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://equipcompetency.org/en-gb/resources": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://bmcmededuc.biomedcentral.com/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://journals.plos.org/plosmedicine/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/275635": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/43386": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://kenyapaediatric.org/etat-course/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/104772": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/259161": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/352677": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/76887": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://campus.paho.org/en/course/self-learning-course-clinical-diagnosis-and-management-dengue/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.cdc.gov/dengue/hcp/trainings/clinical-management.html": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://www.who.int/tools/essential-newborn-care-course": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aap.org/en/aap-global/helping-babies-survive/trainer-tools/course-materials/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jhpiego.org/areas-of-expertise/helping-mothers-survive/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/382922": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/274260": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://iris.who.int/handle/10665/339277": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.primarytraumacare.org/courses/ptc-foundation-course": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.maternity.dk/safe-delivery-app/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://globalhealthmedia.org/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://afem.africa/resources/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.who.int/publications/i/item/hearts-technical-package": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://screening.iarc.fr/atlascolpo.php": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://rhdaustralia.org.au/continuing-professional-development/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2015/05/26/massive-variceal-bleed/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2020/09/08/tb-pericarditis/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2017/10/24/newborn-resuscitation/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2017/04/11/newborn-sepsis-with-apneas/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2017/04/25/breech-delivery-nrp/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2016/11/22/postpartum-hemorrhage-and-nrp/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2015/06/09/eclampsia-with-apnea-secondary-to-magnesium-sulfate-administration/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2021/03/30/late-post-partum-pre-eclampsia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2016/08/02/acute-chest-syndrome/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2017/07/18/pediatric-dka/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2015/11/24/dka/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2015/08/18/dysrhythmia-secondary-to-hyperkalemia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2019/12/17/nightmares-case-5-pulmonary-edema/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2017/08/01/aortic-stenosis-with-a-fib-and-chf/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2021/12/07/nightmares-case-12-hypertensive-encephalopathy/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2020/09/22/copde-with-pneumothorax/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2017/02/28/pediatric-septic-shock/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2020/08/25/urologic-sepsis/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2015/09/29/intra-abdominal-sepsis/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2019/11/05/nightmares-case-2-pneumonia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2022/10/19/bronchiolitis/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2023/08/08/alcohol-and-opioid-use/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2023/11/14/acetaminophen-overdose-with-an-uncooperative-patient/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2015/05/12/tricyclic-antidepressant-overdose/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2017/09/26/mvc-with-tension-pneumothorax/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2020/12/01/pediatric-polytrauma/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2021/06/01/pediatric-traumatic-brain-injury/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2024/06/11/organophosphate-poisoning/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2015/03/31/subarachnoid-hemorrhage-with-increased-intracranial-pressure/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2016/02/02/ruptured-ectopic/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://emsimcases.com/2018/06/05/pregnant-cardiomyopathy/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8906565/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6054361/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5991930/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11116925/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12043380/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8525906/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5364092/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7384714/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7920395/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5491337/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5910007/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388803/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6443514/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5045325/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7872491/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4494542/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-5-diabetic-ketoacidosis/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-13-pneumonia-septic-shock/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-9-neonatal-delivery/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-7-multisystem-trauma/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.aliem.com/emrescupeds-em-resident-simulation-curriculum-pediatrics/case-14-status-asthmaticus/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/a-postpartum-complication": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/newborn-rescusitation": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/a-sick-neonate": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/respiratory-distress": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/diabetic-ketoacidosis-dka": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/suicide-risk-assessment": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/suicide-screen-nursing": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.emergencysimbox.com/severe-head-injury": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/scenario/copd-exacerbation-assessment-and-intervention/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/scenario/acute-depression/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/scenario/assessing-suicide-risk-responding/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/scenario/pediatric-sepsis-harper-peterson/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8817602/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5769511/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3396855/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC2843443/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6751804/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.uab.edu/medicine/gorgas/cases-blog/2025/2025-case9": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11055343/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299261/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748478/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11453112/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.uab.edu/medicine/gorgas/cases-blog/2026/2026-case11": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_4_Treatment_of_Latent_TB_Infection_and_TB_Disease.pdf": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://www.cdc.gov/tb/media/pdfs/Self_Study_Module_6_Managing_Tuberculosis_Patients_and_Improving_Adherence.pdf": {
+   "ok": true,
+   "how": "site blocks scripts; opened and read with a browser fetch"
+  },
+  "https://www.currytbcenter.ucsf.edu/product/guide/tuberculosis-radiology-practice-cases": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.hiv.uw.edu/podcast/episode/case-discussions/evaluation-headache-advanced-hiv": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.hiv.uw.edu/podcast/episode/case-discussions/evaluation-focal-neurological-symptoms-patient-advanced-hiv": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6192067/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6974974/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5070136/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4574791/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.uab.edu/medicine/gorgas/cases-blog/2023/2023-case4": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6206890/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8961966/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11376176/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8103489/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5134245/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11986221/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11358032/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13236375/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462815/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865698/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10868078/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5701456/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7993604/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12670876/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465594/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6161185/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5842965/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.uab.edu/medicine/gorgas/cases-blog/2022/2022-case4": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8435225/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885120/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13426365/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6607464/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10551101/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5927558/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13595733/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213685/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8733483/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430309/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6535836/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8935124/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3826346/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9046855/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077832/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11378922/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11163261/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC2994913/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247106/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/eclampsia_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/eclampsia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/cdm_eclampsia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/pres_eclampsia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/newborn-resuscitation/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/precipitous_birth/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/shoulder_dystocia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/peripartum_cardiomyopathy/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/spontaneous-abortion-hemorrhage/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/septic_abortion_dic/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/post-termination_hemorrhage/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/blunt_polytrauma_preg/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/ms-ptx/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/in-situ-trauma/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/acute-ischemic-stroke/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/cdm-acute-ischemic-stroke/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/acute_copd_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/adolescent_dka/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/dka_nsti/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/hypoglycemia_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/pres/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/telemedicine_scape/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/ob_pulm_edema/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/pulm_edema_reassessment/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/dt_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/ob_alcohol_withdrawal/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/altered-mental-status/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/opioid_od_ms/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/tca_overdose/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/beta-blocker-toxicity/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/agitated-psych/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/managing_conflict_psych_admit/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/waterhouse-freidrichson/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/sepsis_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/sepsis_afib_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/pediatric_sepsis_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/peds_tss/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/cdm_febrile_infant/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/neonatal_lp/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/acs/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/massive-upper-gastrointestinal-bleeding/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/status-asthmaticus/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/measles_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/febrile_seizure_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/rural_stemi/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/chest-pain_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/prioritization_acs_sepsis_penetrating/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/peds_sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/peds_gi_curr/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/peds_resp/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/developing-ems/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/cdm_nat/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/human-trafficking-sim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/humantraffickingsim/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/pcc_miscarriage/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/severe_hyperkalemia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/infant_tb/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://jetem.org/miliary_tb/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.saem.org/docs/default-source/simulation/chf/chf-exacerbation---case-summary.pdf?sfvrsn=a9080ffd_2": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.saem.org/docs/default-source/simulation/stemi-with-vt---case-summary.pdf?sfvrsn=17020ffd_2": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.saem.org/docs/default-source/simulation/peds-status-asthmaticus-with-autopeep---case-summary.pdf?sfvrsn=d1040ffd_2": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/henry-and-ertha-williams-5330c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/julia-morales-and-lucy-grey-0631c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/millie-larsen-a22fc65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-s/unfolding-cases/red-yoder-6121c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/ertha-williams-1d2bc65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/george-palo-f832c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-z/unfolding-cases-7798b55c-7836-6c70-9642-ff00005f0421/judy-and-karen-jones-0b34c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/butch-sampson-b128c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/eugene-shaw-c031c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/jenny-brown-5432c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-v/unfolding-cases-e5e9b65c-7836-6c70-9642-ff00005f0421/randy-adams-3328c65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-d/unfolding-cases/patrick-and-gloria-lake-4b1dc65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://www.nln.org/education/teaching-resources/professional-development-programsteaching-resourcesace-all/ace-d/unfolding-cases/mary-lou-and-rob-brady-c72ec65c-7836-6c70-9642-ff00005f0421": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dep_supporting_material.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/sui_supporting_material.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/sub_supporting_material.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cdn.who.int/media/docs/default-source/brain-health/mhgap-training-manuals/dem_supporting_material.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://mcc.ca/wp-content/uploads/NAC-Examination-sample-case-study-Mortensen.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://mcc.ca/wp-content/uploads/NAC-Examination-sample-case-study-Thomas.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/scenario/acute-stroke-assessment/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/scenario/neonatal-resuscitation-and-surfactant-administration/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://simulationcanada.ca/scenario/delirium/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://can-sim.ca/2025/02/13/post-partum-mental-health/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://can-sim.ca/2025/02/13/interprofessional-collaboration-delirium-dementia-and-decision-makingia/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://can-sim.ca/2026/04/15/deteriorating-patient-septic-shock/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://can-sim.ca/2021/12/01/care-of-the-older-adult-with-urosepsis-presimulation-preparation/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cvtc.h5p.com/content/1291461853824143238": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://h5p.org/node/757010": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cvtc.h5p.com/content/1290969436167864468": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cvtc.h5p.com/content/1291147520201847858": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cvtc.h5p.com/content/1290968736222220868": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cvtc.h5p.com/content/1290997239414872788": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cvtc.h5p.com/content/1291009481822683388": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://virtualpatients.eu/referatory/?vpId=evip:vp:1000529": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://virtualpatients.eu/referatory/?vpId=evip:vp:1000598": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002653": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5745919/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11391681/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-1---simulation-practice-cards---may-2024.pdf?sfvrsn=5e4acaee_3": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/core-materials/web-who-enc-2---simulation-practice-cards---may-2024.pdf?sfvrsn=24f5af0b_3": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://downloads.aap.org/AAP/PDF/OSCEs-AandB-HBB-2nd-Edition.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://downloads.aap.org/AAP/PDF/hbs_eceb_osces.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://api.jhpiego.org/wp-content/uploads/2026/06/Pre-Eclampsia-and-Eclampsia-Facilitator-Flip-Chart_ENGLISH_2026.09.17.pdf": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  },
+  "https://rhdaustralia.org.au/michaels-story/": {
+   "ok": true,
+   "how": "opened by script (HTTP 200)"
+  }
+ },
+ "checks": [
+  {
+   "value": "1,124 of 1,124",
+   "label": "MedEdPORTAL DOIs (Digital Object Identifiers: permanent links) open the right publication"
+  },
+  {
+   "value": "1,124",
+   "label": "MedEdPORTAL titles match the publisher's Crossref record"
+  },
+  {
+   "value": "110 of 110",
+   "label": "WHO (World Health Organization) burden figures match the live WHO data"
+  },
+  {
+   "value": "66",
+   "label": "other burden figures checked against their source documents (8 corrected)"
+  },
+  {
+   "value": "312 of 312",
+   "label": "source and case links open"
+  },
+  {
+   "value": "69 + 62",
+   "label": "journal and WHO cases checked by title in PubMed Central and WHO IRIS"
+  },
+  {
+   "value": "86 of 86",
+   "label": "cases read in full to confirm the case exists"
+  }
+ ],
+ "summary": "Every source below was checked on 29 September 2026. Scripts opened each link, compared titles with the official registries (Crossref, the DOI registry; PubMed Central, the US National Library of Medicine archive; WHO IRIS, the World Health Organization document library) and compared each burden figure with the live WHO data. Verification agents then read the source documents to confirm the figures and the cases."
+}

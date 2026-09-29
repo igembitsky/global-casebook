@@ -1,0 +1,2663 @@
+[
+ {
+  "id": "8235",
+  "include": false,
+  "exclude_reason": "Dental simulator orientation tutorial, no case"
+ },
+ {
+  "id": "8236",
+  "include": false,
+  "exclude_reason": "Imaging teaching file, no patient encounter"
+ },
+ {
+  "id": "8247",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pulseless electrical activity arrest after blunt trauma"
+  ],
+  "presentations": [
+   "altered mental status after motor vehicle accident"
+  ],
+  "conditions": [
+   "road-injury",
+   "cardiac-arrest"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents, medical students",
+  "brief": "A previously well 2-year-old arrives in the emergency department after a car crash and becomes unresponsive and pulseless. Learners recognize pulseless electrical activity and give sustained resuscitation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8251",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Ventricular fibrillation in a child with myocarditis and heart failure"
+  ],
+  "presentations": [
+   "unresponsive on the ward"
+  ],
+  "conditions": [
+   "cardiac-arrest",
+   "arrhythmia",
+   "heart-failure"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents, nurses",
+  "brief": "A 2-year-old with myocarditis and heart failure, recently moved out of intensive care, becomes pulseless on the ward. Learners recognize ventricular fibrillation and give CPR, defibrillation, and epinephrine.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8254",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Supraventricular tachycardia in an infant"
+  ],
+  "presentations": [
+   "fussiness",
+   "poor feeding"
+  ],
+  "conditions": [
+   "arrhythmia"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents, interprofessional",
+  "brief": "A 1-month-old is brought to the emergency department fussy, feeding poorly, and dusky with a heart rate of 228. Learners recognize supraventricular tachycardia and treat it with oxygen and adenosine.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8255",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Cranial nerve disorder causing blurry vision"
+  ],
+  "presentations": [
+   "blurry vision"
+  ],
+  "conditions": [],
+  "specialty": "neurology",
+  "learners": "medical students",
+  "brief": "A simulated patient comes to a clinic or emergency room with blurry vision. Students take a history and examine cranial nerve function to tell serious nerve disorders from benign causes.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8259",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Medical emergency in the dental office"
+  ],
+  "presentations": [
+   "medical emergency during a dental visit"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "dental and dental hygiene students",
+  "brief": "A patient with a medical emergency is simulated on a high-fidelity manikin in a dental office. Students recognize and manage the emergency and are debriefed.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8267",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Multiple trauma after single-car collision",
+   "Trauma in late pregnancy after intimate partner violence"
+  ],
+  "presentations": [
+   "injury after car collision",
+   "injury in pregnancy"
+  ],
+  "conditions": [
+   "trauma-general",
+   "road-injury",
+   "interpersonal-violence",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "surgery",
+  "learners": "residents, nurses, medical students, interprofessional",
+  "brief": "Trauma patients include a 70-year-old man hurt in a car crash and a 32-weeks-pregnant woman injured by her partner. The team practices crisis resource management, role clarity, and communication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8274",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Polypharmacy and medication problems in an older adult"
+  ],
+  "presentations": [
+   "medication review"
+  ],
+  "conditions": [],
+  "specialty": "geriatrics",
+  "learners": "medical students, pharmacy",
+  "brief": "An older simulated patient brings in their medications for review. Students take a comprehensive medication history and recommend fixes for the problems they find.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8285",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Right ventricular ST-elevation myocardial infarction"
+  ],
+  "presentations": [
+   "chest pain"
+  ],
+  "conditions": [
+   "ischemic-heart-disease"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students, residents",
+  "brief": "A patient with chest pain has a right ventricular STEMI, shown on a manikin. Learners work from presentation to disposition and avoid common management pitfalls.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8294",
+  "include": false,
+  "exclude_reason": "Physical exam maneuver handbook, no case"
+ },
+ {
+  "id": "8295",
+  "include": false,
+  "exclude_reason": "Biochemistry team-based learning, no patient case"
+ },
+ {
+  "id": "8299",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric opioid ingestion with respiratory failure"
+  ],
+  "presentations": [
+   "altered mental state after ingestion"
+  ],
+  "conditions": [
+   "poisoning-overdose"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents, interprofessional",
+  "brief": "A child has accidentally taken an adult's opioid medication and is in respiratory failure. Learners do a primary survey, check the pupils, get the ingestion history, and give naloxone.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8302",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Nonaccidental trauma (child abuse) in an infant"
+  ],
+  "presentations": [
+   "injured infant with inconsistent caretaker story"
+  ],
+  "conditions": [
+   "interpersonal-violence",
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "An infant with abuse injuries arrives with deceitful, belligerent caretakers played by actors. Learners manage neurologic and airway problems and practice legal reporting duties.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8303",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Severe hypothermia"
+  ],
+  "presentations": [
+   "cold exposure",
+   "altered mental status"
+  ],
+  "conditions": [
+   "hypothermia"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A critically hypothermic patient needs core rewarming. Learners work through medical and traumatic causes and adjust resuscitation for hypothermia.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8309",
+  "include": false,
+  "exclude_reason": "Nervous system tutorial, no patient case"
+ },
+ {
+  "id": "8320",
+  "include": false,
+  "exclude_reason": "Biochemistry team-based learning, no patient case"
+ },
+ {
+  "id": "8321",
+  "include": false,
+  "exclude_reason": "Handoff format training, no patient case"
+ },
+ {
+  "id": "8323",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 2,
+  "diagnoses": [
+   "Standard medical interview"
+  ],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "medical students",
+  "brief": "Small-group and one-on-one standardized patient cases teach first-year students the basic medical interview. Includes SP case outlines, SP training slides, checklist, and feedback tools.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8331",
+  "include": false,
+  "exclude_reason": "Handoff teaching video, no patient case"
+ },
+ {
+  "id": "8339",
+  "include": false,
+  "exclude_reason": "Infant lumbar puncture procedure video"
+ },
+ {
+  "id": "8350",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric anticholinergic toxidrome"
+  ],
+  "presentations": [
+   "altered mental status after ingestion"
+  ],
+  "conditions": [
+   "poisoning-overdose",
+   "seizure-epilepsy",
+   "arrhythmia"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents, interprofessional",
+  "brief": "A child has a life-threatening anticholinergic overdose with seizures and heart rhythm problems. Learners recognize the toxidrome, call for a full team, and give the antidote, repeating it as needed.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8363",
+  "include": false,
+  "exclude_reason": "Learner-made vignettes, no defined patient case"
+ },
+ {
+  "id": "8367",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 6,
+  "diagnoses": [
+   "Medically unexplained physical symptoms",
+   "Non-adherence",
+   "Advance directive discussion",
+   "Sexual history taking",
+   "Domestic violence"
+  ],
+  "presentations": [
+   "unexplained symptoms",
+   "non-adherence",
+   "sexual history",
+   "advance care planning"
+  ],
+  "conditions": [
+   "interpersonal-violence",
+   "end-of-life-palliative"
+  ],
+  "specialty": "family medicine",
+  "learners": "medical students, health professions students",
+  "brief": "Six standardized patient cases cover unexplained symptoms, a triadic interview, non-adherence, advance directives, sexual history, and domestic violence. Students practice advanced communication and get feedback.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8368",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Type 2 diabetes with need for weight loss"
+  ],
+  "presentations": [
+   "blood sugar control",
+   "weight loss counseling"
+  ],
+  "conditions": [
+   "diabetes",
+   "obesity"
+  ],
+  "specialty": "family medicine",
+  "learners": "physician assistant students, medical students, health professions learners",
+  "brief": "A video shows a woman with poor blood sugar control being counseled on lifestyle change. Learners study culturally responsive, patient-centered counseling using the 6As, with a facilitator guide.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8372",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Septic shock from urinary tract infection"
+  ],
+  "presentations": [
+   "altered mental status"
+  ],
+  "conditions": [
+   "sepsis",
+   "urinary-tract-infection"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "interns, residents",
+  "brief": "A 75-year-old nursing home resident arrives with altered mental status, hypotension, and impending respiratory failure from urosepsis. Learners must find the history in her paperwork, secure the airway, and treat septic shock.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8383",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Oculomotor nerve palsy"
+  ],
+  "presentations": [
+   "double vision"
+  ],
+  "conditions": [],
+  "specialty": "neurology",
+  "learners": "medical students",
+  "brief": "A simulated patient comes to a clinic or emergency room with double vision. Students take a history and examine eye movements to identify a possibly life-threatening nerve palsy.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8384",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Methamphetamine use disorder",
+   "Chest pain in a middle-aged man using methamphetamine"
+  ],
+  "presentations": [
+   "chest pain",
+   "substance use"
+  ],
+  "conditions": [
+   "stimulant-use-disorder",
+   "ischemic-heart-disease"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "Two problem-based learning cases present patients with methamphetamine-related problems, including a middle-aged man with chest pain. Students work through diagnosis and treatment over multiple sessions.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8387",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 5,
+  "diagnoses": [
+   "Acute ataxia in children"
+  ],
+  "presentations": [
+   "acute ataxia"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students, residents, fellows",
+  "brief": "A series of cases about children with sudden loss of coordination. Learners practice the targeted history and exam, and some cases include role-play with the family.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8391",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Neonatal septic shock"
+  ],
+  "presentations": [
+   "fever in a neonate"
+  ],
+  "conditions": [
+   "sepsis",
+   "neonatal-sepsis"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students, interns",
+  "brief": "A febrile neonate is in septic shock and needs an intraosseous line. Learners recognize shock, get access, give fluids, and start antibiotics.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8396",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Chronic pain with request for opioids"
+  ],
+  "presentations": [
+   "chronic pain",
+   "request for opioid medication"
+  ],
+  "conditions": [
+   "opioid-use-disorder"
+  ],
+  "specialty": "family medicine",
+  "learners": "faculty preceptors",
+  "brief": "An unfolding case of a patient seeking opioids for chronic pain is used in a workshop for preceptors. Participants discuss and role-play how to build trust and handle bias.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8399",
+  "include": false,
+  "exclude_reason": "Radiology lines and tubes module, no case"
+ },
+ {
+  "id": "8407",
+  "include": false,
+  "exclude_reason": "Central line procedure tutorial"
+ },
+ {
+  "id": "8408",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Red man syndrome from rapid vancomycin infusion"
+  ],
+  "presentations": [
+   "flushing during infusion"
+  ],
+  "conditions": [
+   "adverse-drug-reaction"
+  ],
+  "specialty": "interprofessional",
+  "learners": "medical students, nursing students, residents",
+  "brief": "A patient develops red man syndrome from a fast vancomycin infusion. The team recognizes it, prioritizes treatment, and communicates using crew resource management.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8419",
+  "include": false,
+  "exclude_reason": "Faculty teaching handout, no patient case"
+ },
+ {
+  "id": "8423",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Kawasaki disease"
+  ],
+  "presentations": [
+   "fever",
+   "irritability",
+   "poor oral intake"
+  ],
+  "conditions": [
+   "kawasaki-disease"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A 2-year-old boy has fever, irritability, and poor intake, and the exam shows all major Kawasaki criteria. Learners work up the child and start treatment.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8424",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute hemolytic transfusion reaction"
+  ],
+  "presentations": [
+   "low blood pressure and dark urine during surgery"
+  ],
+  "conditions": [
+   "transfusion-reaction"
+  ],
+  "specialty": "other",
+  "learners": "residents, anesthesia learners",
+  "brief": "An anesthetized surgical patient develops low blood pressure and changed urine color. Learners link this to a transfusion reaction, manage it, and communicate with the operating room and blood bank.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8430",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "no",
+  "n_cases": 2,
+  "diagnoses": [
+   "Ectopic pregnancy"
+  ],
+  "presentations": [
+   "abdominal pain with positive pregnancy test"
+  ],
+  "conditions": [
+   "ectopic-pregnancy",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "residents, medical students",
+  "brief": "Two computerized cases start with reproductive-age women in the emergency department with abdominal pain and a positive pregnancy test. Learners choose evaluation and management steps and get scored feedback.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8436",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Thyroid storm from undiagnosed Graves disease"
+  ],
+  "presentations": [
+   "gastroenteritis symptoms"
+  ],
+  "conditions": [
+   "thyroid-disease"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A 31-year-old woman with undiagnosed Graves disease develops thyroid storm after viral gastroenteritis. Learners recognize and treat it, with instructor guide and slides provided.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8437",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "physical therapy, medical, nursing, pharmacy, physician assistant students",
+  "brief": "Interprofessional student teams interview and examine a standardized patient for a medical mystery and then counsel the patient. Teams share what they learned about each profession's role.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8438",
+  "include": false,
+  "exclude_reason": "Billing and coding training, no case"
+ },
+ {
+  "id": "8450",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Chest pain in a woman"
+  ],
+  "presentations": [
+   "chest pain"
+  ],
+  "conditions": [
+   "ischemic-heart-disease"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A chest pain teaching case for third-year students that builds data collection and hypothesis testing. It also covers women's chest pain and bias about alcohol, smoking, and diet.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8471",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Sociocultural women's health encounter"
+  ],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A one-on-one standardized patient encounter in the OB/GYN clerkship. Students take a history that includes personal, cultural, and social beliefs and negotiate a care plan.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8472",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "yes",
+  "n_cases": 5,
+  "diagnoses": [
+   "Pediatric respiratory infections"
+  ],
+  "presentations": [
+   "apnea and cyanosis",
+   "wheezing",
+   "stridor",
+   "cough",
+   "sore throat"
+  ],
+  "conditions": [
+   "lower-respiratory-infection",
+   "asthma"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents, medical students",
+  "brief": "Five pediatric respiratory cases are played by one participant as the patient or parent while others work up the case. Each moves from phone call to clinic, emergency room, and inpatient ward.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8474",
+  "include": false,
+  "exclude_reason": "Dental crown preparation procedure video"
+ },
+ {
+  "id": "8476",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute asthma exacerbation requiring ventilation"
+  ],
+  "presentations": [
+   "respiratory distress"
+  ],
+  "conditions": [
+   "asthma"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, medical students",
+  "brief": "A patient has a severe acute asthma exacerbation. Learners manage the initial attack, intubation, and postintubation ventilator settings.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8480",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Disclosure of an adverse event"
+  ],
+  "presentations": [
+   "poor outcome disclosure"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "residents",
+  "brief": "Three OSCE stations have residents disclose a poor outcome to a standardized patient, some paired with a counseling station. They are graded against patient safety disclosure guidelines.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8486",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Health needs of a woman with a history of incarceration"
+  ],
+  "presentations": [
+   "care after incarceration"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "The case of Ms. Anderson, a woman with a history of incarceration, is discussed over two sessions. Students learn her health risks, barriers to care, and how to ask about incarceration.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8490",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Neutropenic fever with septic shock and PEA arrest"
+  ],
+  "presentations": [
+   "fever after bone marrow transplant"
+  ],
+  "conditions": [
+   "sepsis",
+   "cancer-other",
+   "cardiac-arrest"
+  ],
+  "specialty": "internal medicine",
+  "learners": "residents, medical students",
+  "brief": "A patient after a bone marrow transplant for leukemia develops neutropenic fever and rapid sepsis. Learners start management, treat septic shock, and handle a pulseless electrical activity arrest.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8494",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 5,
+  "diagnoses": [
+   "Reproductive endocrinology and infertility problems"
+  ],
+  "presentations": [
+   "infertility"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "residents",
+  "brief": "Sequential resident-guided cases cover core reproductive endocrinology and infertility problems. Each is a 30-minute discussion of diagnosis, workup, and treatment with questions and readings.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8499",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Wide complex tachycardia"
+  ],
+  "presentations": [
+   "palpitations"
+  ],
+  "conditions": [
+   "arrhythmia"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, medical students",
+  "brief": "A 49-year-old man arrives in the emergency department with a fast rhythm that can be stable or unstable. Learners apply the treatment algorithm and avoid common pitfalls.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8505",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Duodenal atresia with hypovolemic shock"
+  ],
+  "presentations": [
+   "shock in a neonate"
+  ],
+  "conditions": [
+   "congenital-anomalies"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, medical students",
+  "brief": "A neonate with duodenal atresia presents in hypovolemic shock. Learners recognize and resuscitate the infant in a high-fidelity simulation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8507",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric end-of-life and palliative care discussion"
+  ],
+  "presentations": [
+   "family meeting about end of life"
+  ],
+  "conditions": [
+   "end-of-life-palliative"
+  ],
+  "specialty": "palliative care",
+  "learners": "pediatric residents",
+  "brief": "Pediatric residents lead a simulated family meeting with standardized family members. They practice delivering bad news and offering palliative care options.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8509",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Respiratory arrest",
+   "Cardiac arrest",
+   "Shock",
+   "Altered mental status"
+  ],
+  "presentations": [
+   "respiratory distress",
+   "cardiac arrest",
+   "hypotension",
+   "altered mental status"
+  ],
+  "conditions": [
+   "cardiac-arrest"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Four in-hospital emergency scenarios prepare students for the first minutes before help arrives. They cover airway support, defibrillation, IV access with fluids, and glucose for altered mental status.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8557",
+  "include": false,
+  "exclude_reason": "Dental crown preparation procedure video"
+ },
+ {
+  "id": "8562",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Forceps-assisted vaginal delivery"
+  ],
+  "presentations": [
+   "operative vaginal delivery"
+  ],
+  "conditions": [],
+  "specialty": "obstetrics & gynecology",
+  "learners": "residents",
+  "brief": "A three-station OSCE has residents obtain informed consent for forceps delivery, perform the delivery on a simulator, and document it. The consent station is a patient discussion.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8584",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 6,
+  "diagnoses": [
+   "Medically complex dental patients"
+  ],
+  "presentations": [
+   "medical history in a dental patient"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "dental students",
+  "brief": "Small-group cases about dental management of medically complex patients with intentional ambiguity. Students identify learning needs and present the condition to the class.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8587",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Type 2 diabetes, hypertension, dyslipidemia, chronic kidney disease"
+  ],
+  "presentations": [
+   "fatigue"
+  ],
+  "conditions": [
+   "diabetes",
+   "hypertension",
+   "chronic-kidney-disease"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 57-year-old woman with fatigue is worked up in a team-based exercise. Students reason through chronic disease management of diabetes, hypertension, dyslipidemia, and kidney disease.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8588",
+  "include": false,
+  "exclude_reason": "Literature search assessment tool"
+ },
+ {
+  "id": "8597",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Emotional distress in a young soldier (depression, substance use, grief, suicide risk)"
+  ],
+  "presentations": [
+   "emotional distress"
+  ],
+  "conditions": [
+   "depression",
+   "substance-use-alcohol",
+   "self-harm-suicide"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "A young soldier has recently had significant emotional distress. Students do a psychiatric interview, present the case, and reason about depression, substance use, grief, and suicide.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "8603",
+  "include": false,
+  "exclude_reason": "Faculty role-play facilitation workshop"
+ },
+ {
+  "id": "8606",
+  "include": false,
+  "exclude_reason": "Chair development cases, not patient cases"
+ },
+ {
+  "id": "9001",
+  "include": false,
+  "exclude_reason": "Surgery podcast series, no patient case"
+ },
+ {
+  "id": "9002",
+  "include": false,
+  "exclude_reason": "Surgery podcast series, no patient case"
+ },
+ {
+  "id": "9005",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Substance use needing screening and brief intervention"
+  ],
+  "presentations": [
+   "substance use history"
+  ],
+  "conditions": [
+   "substance-use-alcohol"
+  ],
+  "specialty": "internal medicine",
+  "learners": "residents (internal medicine, family medicine)",
+  "brief": "Three 20-minute standardized patient clinic visits focus on substance use history and a treatment plan. Residents practice screening, brief intervention, and referral to treatment.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9007",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Schizophrenia"
+  ],
+  "presentations": [
+   "psychotic symptoms"
+  ],
+  "conditions": [
+   "schizophrenia-psychosis"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "Paul or Paula Byers has psychotic symptoms such as blunted affect, paranoid thoughts, hallucinations, and aggressive ideation. Trainees practice the psychiatric interview and case formulation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9011",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Multiple complex chronic conditions"
+  ],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "interprofessional",
+  "learners": "dentistry, medicine, nursing, pharmacy, physical therapy students",
+  "brief": "Paul Harris is a standardized patient with several complex chronic conditions. Interprofessional student teams interview him and build one integrated care plan in a 4-hour exercise.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9013",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Traumatic brain injury with subdural hemorrhage on warfarin"
+  ],
+  "presentations": [
+   "head injury"
+  ],
+  "conditions": [
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "An elderly man on warfarin arrives with a closed head injury and a normal GCS, then deteriorates. CT shows a subdural hemorrhage and learners must manage anticoagulation reversal and care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9015",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 2,
+  "diagnoses": [
+   "End-of-life decision discussion",
+   "Disclosure of an iatrogenic complication"
+  ],
+  "presentations": [
+   "family meeting",
+   "bad news"
+  ],
+  "conditions": [
+   "end-of-life-palliative"
+  ],
+  "specialty": "surgery",
+  "learners": "residents, critical care fellows",
+  "brief": "Two 20-minute encounters with simulated family members, one about end-of-life decisions and one about disclosing a complication. Trainees are rated on communication and professionalism.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9017",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gout"
+  ],
+  "presentations": [
+   "joint pain"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A team-based session on gout uses clinical scenarios and volunteer patients alongside nucleotide metabolism. Students analyze cases and discuss the disease.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9019",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Postpartum depression"
+  ],
+  "presentations": [
+   "low mood",
+   "low energy"
+  ],
+  "conditions": [
+   "depression"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "Anne Mercer is a new mother with depressed mood, low energy, and some passive thoughts of death. Trainees practice the psychiatric interview and case formulation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9020",
+  "include": false,
+  "exclude_reason": "Airway skills OSCE stations, no patient case"
+ },
+ {
+  "id": "9021",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Contraceptive counseling for long-acting reversible methods"
+  ],
+  "presentations": [
+   "contraception counseling"
+  ],
+  "conditions": [
+   "contraception-family-planning"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students, residents",
+  "brief": "A patient with limited health literacy seeks contraception. Learners counsel on long-acting methods and use the medical eligibility criteria.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9024",
+  "include": false,
+  "exclude_reason": "Nontechnical skills evaluation tools"
+ },
+ {
+  "id": "9025",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 2,
+  "diagnoses": [
+   "Chronic pain requiring history, exam, and spine injection"
+  ],
+  "presentations": [
+   "pain"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "pain medicine fellows",
+  "brief": "Two pain medicine OSCE cases, each with an actor patient for history and physical and a phantom spine for an injection. Fellows form a differential, workup, and treatment plan.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9026",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute mania (bipolar disorder)"
+  ],
+  "presentations": [
+   "elevated mood"
+  ],
+  "conditions": [
+   "bipolar-disorder"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "John or Joan Marriot is in an acute manic state. Trainees practice the psychiatric interview and case formulation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9027",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "First-trimester septic abortion"
+  ],
+  "presentations": [
+   "low abdominal pain in a teenager"
+  ],
+  "conditions": [
+   "sepsis",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, acute care learners",
+  "brief": "An underage patient with low abdominal pain and her parents are evaluated for a pregnancy complication. Learners communicate with the family, find the gynecologic cause, and treat septic abortion.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9029",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Myocardial ischemia after spinal anesthesia in a heart transplant patient"
+  ],
+  "presentations": [
+   "low blood pressure during surgery"
+  ],
+  "conditions": [
+   "ischemic-heart-disease"
+  ],
+  "specialty": "other",
+  "learners": "anesthesia learners",
+  "brief": "An 80-year-old man with a heart transplant gets a spinal for skin cancer surgery and develops refractory hypotension and myocardial ischemia. Learners manage the complication in a preload-dependent heart.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9030",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Ruptured splenic artery aneurysm"
+  ],
+  "presentations": [
+   "abdominal pain",
+   "hypotension"
+  ],
+  "conditions": [
+   "acute-abdomen"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A patient has abdominal pain and low blood pressure from a rare ruptured splenic artery aneurysm. Real images and labs guide the diagnosis and resuscitation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9039",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute sinusitis"
+  ],
+  "presentations": [
+   "cold that will not go away",
+   "facial headache"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students, residents",
+  "brief": "Mr. Rosales has a two-week cold that improved, then worsened with thick yellow discharge and a headache that is worse bending over. Learners take the history and examine him, followed by a note and debrief.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9045",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Severe headache with word-finding trouble and a fall"
+  ],
+  "presentations": [
+   "severe headache"
+  ],
+  "conditions": [
+   "headache-migraine",
+   "stroke"
+  ],
+  "specialty": "neurology",
+  "learners": "medical students, residents",
+  "brief": "Pat Andares, 59, has a severe headache since yesterday, fell this morning, is agitated, and has effortful speech. Learners take the history, examine, and write a note.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9046",
+  "include": false,
+  "exclude_reason": "Physical exam training video, no case"
+ },
+ {
+  "id": "9047",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "House fire victim"
+  ],
+  "presentations": [
+   "smoke and fire exposure"
+  ],
+  "conditions": [
+   "burns"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, medical students",
+  "brief": "A patient is brought in after a house fire, based on a real case. Learners assess and treat, with a 15-minute case followed by debriefing.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9048",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Abnormal heart sounds found at annual exam"
+  ],
+  "presentations": [
+   "annual physical",
+   "abnormal heart sounds"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students, residents",
+  "brief": "Alex Corason, 61, comes for a scheduled annual physical. Learners take a history and do a cardiac exam to detect abnormal heart sounds.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9049",
+  "include": false,
+  "exclude_reason": "Dental interviewing web module, no case"
+ },
+ {
+  "id": "9051",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 8,
+  "diagnoses": [
+   "Common perioperative anesthesia complications"
+  ],
+  "presentations": [
+   "intraoperative crisis"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "first-year anesthesia residents",
+  "brief": "Eight simulation scenarios teach new residents to recognize and respond to common anesthesia complications. Small groups diagnose, treat, and call for help in a 2-hour workshop.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9052",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Hearing loss found at a work physical"
+  ],
+  "presentations": [
+   "work physical",
+   "missing the doorbell"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Dana Jones has a work physical before starting as a substitute teacher and recently missed the doorbell. Learners take a history and do a hearing exam.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9054",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Neurogenic shock from spinal cord injury"
+  ],
+  "presentations": [
+   "major trauma"
+  ],
+  "conditions": [
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A major trauma victim has a spinal cord injury and neurogenic shock, run on a high-fidelity manikin. Three or four residents share airway, exam, and team leader roles.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9059",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Depression managed with collaborative care"
+  ],
+  "presentations": [
+   "depression"
+  ],
+  "conditions": [
+   "depression"
+  ],
+  "specialty": "interprofessional",
+  "learners": "internal medicine residents, pharmacy residents, psychology and chaplaincy students",
+  "brief": "A team-based learning session uses an adapted real primary care patient with depression. Interprofessional learners discuss collaborative care.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9060",
+  "include": false,
+  "exclude_reason": "Feedback skills workshop, no patient case"
+ },
+ {
+  "id": "9064",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Operating room airway fire in a patient with ARDS"
+  ],
+  "presentations": [
+   "desaturation under anesthesia"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "anesthesia learners",
+  "brief": "A patient with acute respiratory distress syndrome desaturates and the team must weigh higher oxygen against fire risk. Learners recognize and manage an airway fire during tracheostomy.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9067",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Counseling about eating fish, benefits and risks"
+  ],
+  "presentations": [
+   "diet counseling"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students, residents",
+  "brief": "Three simulated patient cases let trainees counsel on the benefits and risks of eating fish. Materials also include a lecture and quiz.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9075",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Unplanned pregnancy options counseling"
+  ],
+  "presentations": [
+   "unplanned pregnancy"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A patient learns of an unplanned pregnancy and needs nondirective options counseling with ethical challenges. Students practice communication and are assessed.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9076",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Acute undifferentiated inpatient complaints"
+  ],
+  "presentations": [
+   "acute complaint on call"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students (acting interns)",
+  "brief": "Three cases of hospitalized adults with acute undifferentiated complaints are run as on-call calls. Acting interns assess, order tests, and manage alone for about 10 minutes until backup arrives.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9077",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Conscientious refusal in reproductive health"
+  ],
+  "presentations": [
+   "request for a morally objectionable intervention"
+  ],
+  "conditions": [
+   "contraception-family-planning"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A three-part workshop uses reproductive health scenarios, ending in a helping-trios role-play. Students handle ethical conflict with patients seeking interventions they object to.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9078",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute migratory joint pain with knee swelling"
+  ],
+  "presentations": [
+   "knee pain"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students, residents",
+  "brief": "Sam Rodilla has new right knee pain and swelling after brief wrist pain that resolved. Learners take a history, examine, write a note, and debrief.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9081",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Operating room airway fire",
+   "Massive hemorrhage",
+   "Dislodged airway",
+   "Intraoperative myocardial infarction"
+  ],
+  "presentations": [
+   "intraoperative emergency"
+  ],
+  "conditions": [
+   "ischemic-heart-disease",
+   "trauma-general"
+  ],
+  "specialty": "surgery",
+  "learners": "surgeons, anesthesiologists, nurses",
+  "brief": "An operating team faces four life-threatening events in a simulated theater. The scenarios are an airway fire, sudden massive hemorrhage, an airway that cannot be reintubated, and a myocardial infarction.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9082",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Newborn hepatitis B vaccine refusal",
+   "Delayed strep treatment concern",
+   "Radiation concern about VCUG after urinary tract infection",
+   "Otitis media antibiotic expectation"
+  ],
+  "presentations": [
+   "parent email"
+  ],
+  "conditions": [
+   "urinary-tract-infection"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "Four simulated parent emails express concern, anger, or confusion about a child's care. Students practice email communication, and the cases also assess their medical knowledge.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9083",
+  "include": false,
+  "exclude_reason": "Kidney disease team-based learning, no case"
+ },
+ {
+  "id": "9084",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gunshot wound with tension pneumothorax"
+  ],
+  "presentations": [
+   "gunshot wound to the chest and abdomen"
+  ],
+  "conditions": [
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents",
+  "brief": "A man in his late 20s is shot in the left upper abdomen and lower chest and becomes hypotensive in the emergency department. Learners intubate, resuscitate, and treat a tension pneumothorax with needle decompression and a chest tube.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9087",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 15,
+  "diagnoses": [
+   "Systems-based practice interactions"
+  ],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "residents",
+  "brief": "Fifteen OSSIE scenarios use standardized professionals in varied settings to test residents' systems-based practice. They include scenarios, training materials, and scoring forms.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9089",
+  "include": false,
+  "exclude_reason": "Communication module, no defined patient case"
+ },
+ {
+  "id": "9095",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Malignant hyperthermia"
+  ],
+  "presentations": [
+   "intraoperative metabolic crisis"
+  ],
+  "conditions": [
+   "malignant-hyperthermia"
+  ],
+  "specialty": "other",
+  "learners": "anesthesia residents, medical students",
+  "brief": "A patient under anesthesia develops a malignant hyperthermia crisis on a high-fidelity manikin. Learners diagnose it and treat during and after surgery.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9103",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Immune thrombocytopenic purpura"
+  ],
+  "presentations": [
+   "petechiae and bruising"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A 20-minute video shows a physician and student taking a history and examining a standardized patient with petechiae and bruising. Students form and revise a differential before labs and treatment are revealed.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9105",
+  "include": false,
+  "exclude_reason": "Professionalism guide, no patient case"
+ },
+ {
+  "id": "9107",
+  "include": false,
+  "exclude_reason": "Slit lamp exam technique video"
+ },
+ {
+  "id": "9108",
+  "include": false,
+  "exclude_reason": "Dental provisional crown procedure video"
+ },
+ {
+  "id": "9109",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Emergency cesarean birth under general anesthesia"
+  ],
+  "presentations": [
+   "emergency cesarean"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "interdisciplinary obstetric team",
+  "brief": "Videos show a pregnant woman needing an emergency cesarean under general anesthesia. The team reviews teamwork and communication in the crisis.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9110",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Substance use disorders"
+  ],
+  "presentations": [
+   "substance use screening"
+  ],
+  "conditions": [
+   "substance-use-alcohol"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students, residents",
+  "brief": "An online module with role-plays on screening and intervention for patients with substance use. Learners also discuss their own patient experiences.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9112",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "no",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pediatric acute lymphoblastic leukemia"
+  ],
+  "presentations": [
+   "limp",
+   "rash",
+   "fever"
+  ],
+  "conditions": [
+   "cancer-other"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "An online module walks through three children who may have leukemia: David's limp, Amy's rash, and Kevin's fever. Students interpret blood counts and practice breaking bad news.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9113",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Shoulder pain after an old sports injury"
+  ],
+  "presentations": [
+   "left shoulder pain"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students, residents",
+  "brief": "Patrick Strong works at a garden center and has pain moving his left shoulder, with an old basketball injury. Learners take a history and examine the shoulder.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9114",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute low back pain with leg radiation"
+  ],
+  "presentations": [
+   "low back pain"
+  ],
+  "conditions": [
+   "low-back-pain"
+  ],
+  "specialty": "family medicine",
+  "learners": "medical students, residents",
+  "brief": "Yolanda Bender, 45, has severe low back pain radiating to the right leg after helping move an office. Learners take a history and examine her.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9117",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric cholinergic toxidrome"
+  ],
+  "presentations": [
+   "altered mental status after ingestion"
+  ],
+  "conditions": [
+   "poisoning-overdose"
+  ],
+  "specialty": "pediatrics",
+  "learners": "residents, interprofessional",
+  "brief": "A child has cholinergic poisoning. The package has pre-simulation preparation, a scenario, debriefing guide, and team performance tools.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9118",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute cholecystitis"
+  ],
+  "presentations": [
+   "acute abdominal pain"
+  ],
+  "conditions": [
+   "acute-abdomen"
+  ],
+  "specialty": "family medicine",
+  "learners": "medical students, residents",
+  "brief": "Victor Billar comes to a walk-in clinic with severe steady right upper abdominal pain after a fatty meal, radiating to the right shoulder. Learners take a history and examine him.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9119",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Respiratory physiology problems"
+  ],
+  "presentations": [
+   "respiratory symptoms"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "first-year medical students",
+  "brief": "A series of manikin simulations reinforces respiratory physiology through clinical cases. A slide show introduces each case and summarizes the physiology afterward.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9120",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "no",
+  "n_cases": 4,
+  "diagnoses": [
+   "Fever and neutropenia",
+   "Tumor lysis syndrome",
+   "Chemotherapy-related nausea and vomiting",
+   "Acute chest syndrome"
+  ],
+  "presentations": [
+   "fever",
+   "nausea and vomiting"
+  ],
+  "conditions": [
+   "sickle-cell-disease",
+   "cancer-other"
+  ],
+  "specialty": "pediatrics",
+  "learners": "fellows, residents, medical students",
+  "brief": "An online case-based lecture covers four common pediatric hematology-oncology inpatient problems. Learners work through fever with neutropenia, tumor lysis, nausea and vomiting, and acute chest syndrome.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9125",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Status asthmaticus",
+   "Unstable ventricular tachycardia",
+   "Acute congestive heart failure"
+  ],
+  "presentations": [
+   "respiratory distress",
+   "palpitations",
+   "dyspnea"
+  ],
+  "conditions": [
+   "asthma",
+   "arrhythmia",
+   "heart-failure"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students, residents",
+  "brief": "Three simulations teach the ABC approach to a critically ill patient with status asthmaticus, unstable ventricular tachycardia, and acute heart failure. Learners follow the stabilization steps.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9126",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Patient with hidden contextual concerns"
+  ],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "first-year medical students",
+  "brief": "The standardized patient drops clues about treatment beliefs, a stressful environment, and fear of what symptoms mean. Students must follow up on clues, then review the video with the SP.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9128",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Labour and intrapartum management"
+  ],
+  "presentations": [
+   "labour"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "medical students",
+  "brief": "A simulation workshop lets clerkship students diagnose labour and make intrapartum decisions. It aims to lower anxiety and build skills at the start of the rotation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9131",
+  "include": false,
+  "exclude_reason": "Clinical breast exam self-learning module"
+ },
+ {
+  "id": "9132",
+  "include": true,
+  "format": "virtual-patient",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Bipolar disorder"
+  ],
+  "presentations": [
+   "mood episode"
+  ],
+  "conditions": [
+   "bipolar-disorder"
+  ],
+  "specialty": "psychiatry",
+  "learners": "medical students",
+  "brief": "A self-directed computer case teaches bipolar disorder for students at remote sites. It is part of a free national database of psychiatry teaching cases.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9133",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 4,
+  "diagnoses": [
+   "Cross-cultural gaps in patient care"
+  ],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students, residents",
+  "brief": "Four standardized patient cases train patient-centered, cross-cultural interviewing in the pediatrics clerkship. Students practice spotting and bridging cultural gaps and get feedback.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9137",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Adolescent medicine problems"
+  ],
+  "presentations": [],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "pediatric residents",
+  "brief": "Three detailed adolescent cases from real clinical cases, with an SP training guide and scoring checklists. Residents practice interviewing and communication.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9138",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pediatric acute respiratory distress"
+  ],
+  "presentations": [
+   "respiratory distress"
+  ],
+  "conditions": [
+   "asthma",
+   "lower-respiratory-infection"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A high-fidelity simulation shows the major causes and treatments of acute respiratory distress in a child. Students then assess and treat a simulated patient.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9140",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Abdominal pain in a young woman"
+  ],
+  "presentations": [
+   "abdominal pain"
+  ],
+  "conditions": [
+   "acute-abdomen"
+  ],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "A young woman with abdominal pain is worked up in a team-based exercise. Second-year students practice diagnosis and management reasoning.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9143",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "no",
+  "n_cases": 1,
+  "diagnoses": [
+   "Parkinson disease"
+  ],
+  "presentations": [
+   "tremor and movement problems"
+  ],
+  "conditions": [
+   "parkinson-disease"
+  ],
+  "specialty": "neurology",
+  "learners": "medical students, residents",
+  "brief": "A short slide-based case shows the differential diagnosis and treatment of Parkinson disease. It is used for lecture, small groups, or individual review.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9145",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Acute medical deterioration on the ward"
+  ],
+  "presentations": [
+   "ward emergency"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "residents, nurses, respiratory technicians",
+  "brief": "Simulation cases teach a rapid response team leadership and communication in acute medical problems. The team is a floor nurse, ICU nurse, respiratory technician, and senior resident.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9155",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Total anomalous pulmonary venous connection with atrial septal defect"
+  ],
+  "presentations": [
+   "critically ill infant"
+  ],
+  "conditions": [
+   "congenital-anomalies"
+  ],
+  "specialty": "pediatrics",
+  "learners": "emergency medicine and pediatric residents, fellows",
+  "brief": "A 28-day-old boy is critically ill with an undetected congenital heart defect and pulmonary overcirculation. Learners interpret data and stabilize the infant.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9158",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Cardiac tamponade"
+  ],
+  "presentations": [
+   "pediatric collapse"
+  ],
+  "conditions": [
+   "cardiac-tamponade"
+  ],
+  "specialty": "pediatrics",
+  "learners": "pediatric residents, fellows",
+  "brief": "A child named CJ has cardiac tamponade in a high-fidelity scenario. The package includes an instructor guide, script, and key points.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9160",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Fever in a 5-day-old infant"
+  ],
+  "presentations": [
+   "fever"
+  ],
+  "conditions": [
+   "neonatal-sepsis",
+   "pediatric-fever"
+  ],
+  "specialty": "pediatrics",
+  "learners": "second-year medical students",
+  "brief": "A 5-day-old with fever is worked up in a 3-hour workshop. Students apply clinical reasoning to a newborn with possible serious infection.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9167",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Pneumothorax",
+   "Pneumonia"
+  ],
+  "presentations": [
+   "respiratory distress"
+  ],
+  "conditions": [
+   "lower-respiratory-infection",
+   "pneumothorax"
+  ],
+  "specialty": "internal medicine",
+  "learners": "preclinical medical students",
+  "brief": "Two simulation cases, one pneumothorax and one pneumonia, help students apply respiratory pathophysiology to clinical diagnosis and management. Faculty debrief each case.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9168",
+  "include": false,
+  "exclude_reason": "OSCE about colleague behavior, no patient"
+ },
+ {
+  "id": "9170",
+  "include": false,
+  "exclude_reason": "Ultrasound phantom gel construction"
+ },
+ {
+  "id": "9179",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Community acquired pneumonia"
+  ],
+  "presentations": [
+   "cough",
+   "fever"
+  ],
+  "conditions": [
+   "lower-respiratory-infection"
+  ],
+  "specialty": "internal medicine",
+  "learners": "third-year medical students",
+  "brief": "In a team-based session, students manage patients with community acquired pneumonia. They choose empiric antibiotics and write a prescription.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9180",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Acute illness in a hospitalized older adult"
+  ],
+  "presentations": [
+   "hospital admission of an older adult"
+  ],
+  "conditions": [],
+  "specialty": "geriatrics",
+  "learners": "residents, medical students",
+  "brief": "A standardized geriatric case is given with history, exam, and labs. Learners write admission orders that avoid iatrogenic harm, scored against geriatric competencies.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9183",
+  "include": true,
+  "format": "role-play",
+  "sp_ready": "partial",
+  "n_cases": 2,
+  "diagnoses": [
+   "Social issues in medicine use"
+  ],
+  "presentations": [
+   "medicine use problems"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "preclinical medical students",
+  "brief": "Small groups study case scenarios about social issues in using medicines and then act out two related situations in role-plays. A facilitator guide is included.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9185",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 4,
+  "diagnoses": [
+   "Preventive care by age, sex, and background"
+  ],
+  "presentations": [
+   "preventive care visit"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students",
+  "brief": "Four standardized patient cases test preventive care based on USPSTF guidelines across gender, age, and background. Learners must find and apply the guidelines.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9186",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "no",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pediatric procedural sedation"
+  ],
+  "presentations": [
+   "sedation for a procedure"
+  ],
+  "conditions": [],
+  "specialty": "emergency medicine",
+  "learners": "emergency medicine residents",
+  "brief": "An expert panel comments on pediatric sedation cases and how practice differs across settings. It is a discussion format with included cases.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9187",
+  "include": false,
+  "exclude_reason": "Cadaver knee injection skills lab"
+ },
+ {
+  "id": "9190",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Transition to adult care for a teen with chronic illness"
+  ],
+  "presentations": [
+   "moving to adult medicine"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "physicians, trainees",
+  "brief": "A five-page case follows a teenager with a chronic illness moving to adult care, with parent and patient resistance. Each page shows a barrier and then a model way to handle it.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9192",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Well child health supervision visit"
+  ],
+  "presentations": [
+   "health supervision for a child 6 to 24 months"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A parent and young child come for a health supervision visit. The student takes a complete history including the parent's concerns in 15 to 20 minutes.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9198",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Septic shock"
+  ],
+  "presentations": [
+   "fever",
+   "hypotension",
+   "altered mental status"
+  ],
+  "conditions": [
+   "sepsis"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "critical care and emergency providers",
+  "brief": "A 72-year-old woman has fever, low blood pressure, and altered mental status from septic shock. Learners manage hemodynamics and breathing and search for and treat the cause.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9200",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pediatric emergencies in the outpatient office"
+  ],
+  "presentations": [
+   "acutely ill child in the office"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "pediatric residents",
+  "brief": "Team-training sessions teach residents to stabilize acutely ill children in an outpatient office with the staff and equipment on site. It also includes emergency preparedness workshops.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9202",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gunshot wound to the chest with massive hemothorax"
+  ],
+  "presentations": [
+   "gunshot wound to right chest"
+  ],
+  "conditions": [
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, medical students, nurses",
+  "brief": "A 23-year-old intubated man with a gunshot wound to the right chest becomes hypotensive on arrival. The team resuscitates, treats hemothorax, and consults surgery, with in-situ teamwork coaching.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9203",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Adolescent health interview"
+  ],
+  "presentations": [
+   "adolescent visit"
+  ],
+  "conditions": [],
+  "specialty": "pediatrics",
+  "learners": "medical students",
+  "brief": "A video of a standardized patient adolescent interview is paired with discussion. Students learn how to build trust and assess maturity, independence, and risk taking.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9207",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 4,
+  "diagnoses": [
+   "Massive bleeding during cesarean",
+   "Massive bleeding after liver transplant",
+   "Massive gastrointestinal bleeding",
+   "Acute hemolytic transfusion reaction"
+  ],
+  "presentations": [
+   "massive bleeding",
+   "transfusion reaction"
+  ],
+  "conditions": [
+   "maternal-hemorrhage",
+   "gi-bleeding",
+   "transfusion-reaction"
+  ],
+  "specialty": "interprofessional",
+  "learners": "varied learners",
+  "brief": "Four scenarios in ward, operating room, and ICU teach massive transfusion and acute hemolytic transfusion reaction. Cases include a cesarean bleed, post-transplant bleeding, GI bleeding, and a transfusion reaction.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9211",
+  "include": false,
+  "exclude_reason": "Genetics team-based learning, no patient encounter"
+ },
+ {
+  "id": "9213",
+  "include": false,
+  "exclude_reason": "Literature searching exercise, no clinical encounter"
+ },
+ {
+  "id": "9214",
+  "include": false,
+  "exclude_reason": "Skin biopsy procedure workshop"
+ },
+ {
+  "id": "9215",
+  "include": false,
+  "exclude_reason": "Dental seminar series, learner-presented cases"
+ },
+ {
+  "id": "9218",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "LGBTI-inclusive sexual history"
+  ],
+  "presentations": [
+   "sexual history"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "medical students, residents",
+  "brief": "A standardized patient case teaches an LGBTI-inclusive sexual history. Learners practice going beyond a single question about sexual partners.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9226",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Disclosure of a medical error"
+  ],
+  "presentations": [
+   "medical error disclosure"
+  ],
+  "conditions": [],
+  "specialty": "family medicine",
+  "learners": "family medicine residents",
+  "brief": "A standardized patient station assesses how residents disclose a medical error. Includes the case scenario and examiner checklist.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9230",
+  "include": false,
+  "exclude_reason": "Immunization team-based learning, no case"
+ },
+ {
+  "id": "9234",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Abnormal intrapartum fetal heart rate patterns"
+  ],
+  "presentations": [
+   "labor with fetal heart rate changes"
+  ],
+  "conditions": [
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "obstetrics & gynecology",
+  "learners": "new OB-GYN residents",
+  "brief": "Residents practice interpreting and managing fetal heart rate patterns on a high-fidelity pregnancy simulator. A didactic session precedes the hands-on cases.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9235",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Penetrating trauma in pregnancy"
+  ],
+  "presentations": [
+   "gunshot wound in a pregnant patient"
+  ],
+  "conditions": [
+   "trauma-general",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, learners",
+  "brief": "A young pregnant woman with a gunshot wound arrives at a trauma center or community emergency department. Learners manage her care in a high-fidelity simulation.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9236",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 1,
+  "diagnoses": [
+   "Postpartum sepsis"
+  ],
+  "presentations": [
+   "decompensating postpartum patient"
+  ],
+  "conditions": [
+   "sepsis",
+   "pregnancy-prenatal-care"
+  ],
+  "specialty": "interprofessional",
+  "learners": "medical, nursing, therapy, physician assistant students",
+  "brief": "A postpartum patient is decompensating from sepsis. Interprofessional student teams use TeamSTEPPS teamwork and communication skills to manage her.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9237",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Pediatric asthma with medication nonadherence by an older caregiver"
+  ],
+  "presentations": [
+   "breathing problems in a 4-year-old"
+  ],
+  "conditions": [
+   "asthma"
+  ],
+  "specialty": "pediatrics",
+  "learners": "pediatric learners",
+  "brief": "A 4-year-old with asthma is brought by an older caregiver who no longer gives his medicines correctly. The learner finds the problem and teaches proper use while adapting to the caregiver's hearing, vision, and memory issues.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9239",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "yes",
+  "n_cases": 3,
+  "diagnoses": [
+   "Anaphylaxis",
+   "Asthma exacerbation"
+  ],
+  "presentations": [
+   "allergic emergency in the office"
+  ],
+  "conditions": [
+   "anaphylaxis",
+   "asthma"
+  ],
+  "specialty": "pediatrics",
+  "learners": "medical students, nurses, residents, physicians",
+  "brief": "Three hybrid scenarios pair standardized patients with high-fidelity mannequins for allergic emergencies in an office. Each has a script and a flow diagram for real-time changes.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9240",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Emergent complications of interventional pain procedures"
+  ],
+  "presentations": [
+   "procedural complication"
+  ],
+  "conditions": [],
+  "specialty": "other",
+  "learners": "interventional pain physicians, pain fellows",
+  "brief": "Simulations of catastrophic complications during specialized pain procedures. Teams practice timely, team-based responses with feedback.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9242",
+  "include": false,
+  "exclude_reason": "Fluoride varnish technique video"
+ },
+ {
+  "id": "9246",
+  "include": true,
+  "format": "sp-case",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Gradual hearing loss"
+  ],
+  "presentations": [
+   "hearing loss"
+  ],
+  "conditions": [],
+  "specialty": "internal medicine",
+  "learners": "medical students",
+  "brief": "Bill Thompson is an older man with gradually worsening hearing loss. Students gather information and write a progress note in a timed setting.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9250",
+  "include": true,
+  "format": "osce-station",
+  "sp_ready": "yes",
+  "n_cases": 1,
+  "diagnoses": [
+   "Severe headache in a young woman"
+  ],
+  "presentations": [
+   "severe headache"
+  ],
+  "conditions": [
+   "headache-migraine"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students, residents",
+  "brief": "A 22-year-old woman comes to the emergency department with a severe headache. Examinees take a history, form a differential, order and read tests, and defend a diagnosis.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9254",
+  "include": false,
+  "exclude_reason": "Workshop on tasks after a death, no case"
+ },
+ {
+  "id": "9261",
+  "include": true,
+  "format": "case-based-session",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Trauma primary survey"
+  ],
+  "presentations": [
+   "injured patient"
+  ],
+  "conditions": [
+   "trauma-general"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "medical students",
+  "brief": "Students practice the primary survey and finding life-threatening injuries in a series of trauma cases. A video module and hands-on skills come first.",
+  "exclude_reason": ""
+ },
+ {
+  "id": "9262",
+  "include": true,
+  "format": "simulation-scenario",
+  "sp_ready": "partial",
+  "n_cases": 3,
+  "diagnoses": [
+   "Pulmonary embolism",
+   "Two noncritical emergency department patients"
+  ],
+  "presentations": [
+   "shortness of breath",
+   "sign-out of multiple patients"
+  ],
+  "conditions": [
+   "pulmonary-embolism"
+  ],
+  "specialty": "emergency medicine",
+  "learners": "residents, senior medical students",
+  "brief": "Learners receive sign-out on three emergency department patients, one with pulmonary embolism and two lower acuity. They continue care and are debriefed on handoffs and management.",
+  "exclude_reason": ""
+ }
+]
